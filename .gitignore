@@ -1,0 +1,9 @@
+.DS_Store
+*~
+#*#
+*.o
+*.hi
+_*/
+site
+bootstrap
+*.pdf

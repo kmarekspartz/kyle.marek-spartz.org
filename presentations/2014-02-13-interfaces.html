@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Kyle Marek-Spartz" />
+  <meta name="author" content="kyle.marek.spartz@gmail.com" />
+  <meta name="author" content="http://kyle.marek-spartz.org" />
+  <meta name="date" content="2014-02-13" />
+  <title>Interfaces</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; }
+code > span.dt { color: #902000; }
+code > span.dv { color: #40a070; }
+code > span.bn { color: #40a070; }
+code > span.fl { color: #40a070; }
+code > span.ch { color: #4070a0; }
+code > span.st { color: #4070a0; }
+code > span.co { color: #60a0b0; font-style: italic; }
+code > span.ot { color: #007020; }
+code > span.al { color: #ff0000; font-weight: bold; }
+code > span.fu { color: #06287e; }
+code > span.er { color: #ff0000; font-weight: bold; }
+  </style>
+  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+    href="http://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" />
+  <script src="http://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js"
+    charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div class="slide titlepage">
+  <h1 class="title">Interfaces</h1>
+  <p class="author">
+Kyle Marek-Spartz<br/><script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x6b;&#x79;&#108;&#x65;&#46;&#x6d;&#x61;&#114;&#x65;&#x6b;&#46;&#x73;&#112;&#x61;&#114;&#116;&#122;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#x6b;&#x79;&#108;&#x65;&#46;&#x6d;&#x61;&#114;&#x65;&#x6b;&#46;&#x73;&#112;&#x61;&#114;&#116;&#122;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript><br/><a href="http://kyle.marek-spartz.org">http://kyle.marek-spartz.org</a>
+  </p>
+  <p class="date">February 13, 2014</p>
+</div>
+<div id="interfaces" class="slide section level1">
+<h1>Interfaces</h1>
+<ul class="incremental">
+<li>Interfaces verify that a class implements certain methods.</li>
+<li>In some languages this is done statically, e.g. Java.</li>
+</ul>
+</div>
+<div id="interfaces-in-java" class="slide section level1">
+<h1>Interfaces in Java</h1>
+<pre class="sourceCode Java"><code class="sourceCode java"><span class="kw">public</span> <span class="kw">interface</span> CountFishInterface {
+    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">one</span>();
+    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">two</span>();
+}
+
+<span class="kw">public</span> <span class="kw">class</span> OurFish <span class="kw">implements</span> CountFishInterface {
+    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">one</span>() { <span class="kw">... </span>}
+    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">two</span>() { <span class="kw">... </span>}
+}</code></pre>
+<ul class="incremental">
+<li><code>javac</code> should complain if the interface is not satisfied.</li>
+</ul>
+</div>
+<div id="interfaces-in-python" class="slide section level1">
+<h1>Interfaces in Python</h1>
+<ul class="incremental">
+<li>In Python, this verification can't be done statically, due to the ability to add methods at runtime.</li>
+<li><a href="">http://www.python.org/dev/peps/pep-0245/</a></li>
+<li><a href="">https://pypi.python.org/pypi/zope.interface/4.1.0</a></li>
+<li><a href="">http://ref.readthedocs.org/en/latest/understanding_python/interfaces/index.html</a></li>
+<li><a href="">http://nedbatchelder.com/text/pythonic-interfaces.html</a></li>
+<li><a href="">http://dirtsimple.org/2004/12/python-interfaces-are-not-java.html</a></li>
+</ul>
+</div>
+<div id="notimplementederror" class="slide section level1">
+<h1><code>NotImplementedError</code></h1>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="kw">class</span> CountFishInterface(<span class="dt">object</span>):
+    <span class="kw">def</span> one(<span class="ot">self</span>, *args, **kwargs):
+        <span class="kw">raise</span> <span class="ot">NotImplementedError</span>
+    <span class="kw">def</span> two(<span class="ot">self</span>, *args, **kwargs):
+        <span class="kw">raise</span> <span class="ot">NotImplementedError</span></code></pre>
+</div>
+<div id="notimplementederror-cont." class="slide section level1">
+<h1><code>NotImplementedError</code>, cont.</h1>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="kw">class</span> OurFish(CountFishInterface):
+    <span class="kw">def</span> one(<span class="ot">self</span>):
+        <span class="kw">return</span> <span class="dv">1</span>
+    <span class="kw">def</span> two(<span class="ot">self</span>):
+        <span class="kw">return</span> <span class="dv">2</span></code></pre>
+<ul class="incremental">
+<li>Classes that are expected to implement these methods can inherit from the interface.</li>
+<li>If a method is called that is expected to be there but isn't, it would raise <code>NotImplementedError</code>.</li>
+</ul>
+</div>
+<div id="a-sidenote-on-composition-over-inheritance" class="slide section level1">
+<h1>A sidenote on composition over inheritance</h1>
+<ul class="incremental">
+<li>Multiple inheritance both enables this ability, but it also makes adds a small difficulty:
+<ul class="incremental">
+<li>If the methods specified in the interface are provided for using mixins or parent classes, then choosing the order of the inheritance is important.</li>
+<li>Interfaces should appear in an appropriate place in the inheritance specification, i.e. near the end.</li>
+<li>For help with this, see the documentation on <a href="http://docs.python.org/3/tutorial/classes.html#multiple-inheritance">multiple inheritance</a>.</li>
+</ul></li>
+</ul>
+</div>
+<div id="testing-against-an-interface" class="slide section level1">
+<h1>Testing against an interface</h1>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="kw">class</span> OurFishImplementsCountFishInterface(TestCase):
+    <span class="kw">def</span> setUp(<span class="ot">self</span>):
+        <span class="ot">self</span>.obj = OurFish()
+    <span class="kw">def</span> test_one(<span class="ot">self</span>):
+        <span class="kw">try</span>:
+            <span class="ot">self</span>.obj.one()
+        <span class="kw">except</span> <span class="ot">NotImplementedError</span>:
+            <span class="ot">self</span>.fail(
+                <span class="st">&#39;OurFish does not implement one&#39;</span>
+            )
+    ...</code></pre>
+</div>
+<div id="testing-against-an-interface-cont." class="slide section level1">
+<h1>Testing against an interface, cont.</h1>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="kw">class</span> AbstractTestCountFishInterface(<span class="dt">object</span>):
+    <span class="kw">def</span> test_one(<span class="ot">self</span>):
+        <span class="kw">try</span>:
+            <span class="ot">self</span>.obj.one()
+        <span class="kw">except</span> <span class="ot">NotImplementedError</span>:
+            <span class="ot">self</span>.fail(
+                <span class="dt">str</span>(<span class="dt">type</span>(<span class="ot">self</span>.obj)) + <span class="st">&#39;does not implement one&#39;</span>
+            )
+    ...
+
+<span class="kw">class</span> TestOurFish(AbstractTestCountFishInterface, ..., TestCase):
+    <span class="kw">def</span> setUp(<span class="ot">self</span>):
+        <span class="ot">self</span>.obj = OurFish()</code></pre>
+</div>
+<div id="attributeerror" class="slide section level1">
+<h1><code>AttributeError</code></h1>
+<ul class="incremental">
+<li>Calls to methods on classes that don't provide them would normally raise an <code>AttributeError</code>, so why bother?</li>
+<li>Documenting the interface in the code is useful.</li>
+<li>If we generate these Interfaces automatically, we can also generate test cases automatically.</li>
+</ul>
+</div>
+<div id="defining-classes-at-run-time" class="slide section level1">
+<h1>Defining classes at run time</h1>
+<p>This:</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="kw">class</span> A(B, C):
+    an_attribute = <span class="dv">1</span>
+    <span class="kw">def</span> a_method():
+        <span class="kw">return</span> <span class="dv">2</span></code></pre>
+<p>is approximately equivalent to:</p>
+<pre class="sourceCode python"><code class="sourceCode python">A = <span class="dt">type</span>(<span class="st">&#39;A&#39;</span>, (B, C), {
+    <span class="st">&#39;an_attribute&#39;</span>: <span class="dv">1</span>,
+    <span class="co">&#39;a_method&#39;</span>: <span class="kw">lambda</span>: <span class="dv">2</span>
+})</code></pre>
+</div>
+<div id="defining-interfaces-at-run-time" class="slide section level1">
+<h1>Defining interfaces at run time</h1>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="kw">def</span> Interface(interface_name, method_names):
+    <span class="kw">def</span> interface_helper(*args, **kwargs):
+        <span class="kw">raise</span> <span class="ot">NotImplementedError</span>
+    methods = {
+        method_name: interface_helper
+        <span class="kw">for</span> method_name
+        in method_names
+    }
+    <span class="kw">return</span> <span class="dt">type</span>(interface_name, (<span class="dt">object</span>,), methods)</code></pre>
+</div>
+<div id="defining-interface-tests-at-run-time" class="slide section level1">
+<h1>Defining interface tests at run time</h1>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="kw">def</span> AbstractInterfaceTest(test_name, method_names):
+    <span class="kw">def</span> abstract_interface_test_helper(method_name):
+        <span class="kw">def</span> test_method(<span class="ot">self</span>):
+            <span class="kw">try</span>:
+                <span class="dt">getattr</span>(<span class="ot">self</span>.obj, method_name)()
+            <span class="kw">except</span> <span class="ot">NotImplementedError</span>:
+                <span class="ot">self</span>.fail(
+                    <span class="dt">type</span>(<span class="ot">self</span>.obj).<span class="ot">__name__</span> +
+                    <span class="st">&#39; does not implement &#39;</span> +
+                    method_name
+                )
+        <span class="kw">return</span> test_method
+    methods = {
+        <span class="st">&#39;test_&#39;</span> + method_name: abstract_interface_test_helper(method_name)
+        <span class="kw">for</span> method_name
+        in method_names
+    }
+    <span class="kw">return</span> <span class="dt">type</span>(test_name, (<span class="dt">object</span>,), methods)</code></pre>
+</div>
+<div id="defining-multiple-interfaces-and-abstract-tests-at-run-time" class="slide section level1">
+<h1>Defining multiple interfaces (and abstract tests) at run time</h1>
+<pre class="sourceCode python"><code class="sourceCode python">interfaces = {
+    <span class="st">&#39;CountFish&#39;</span>: [<span class="st">&#39;one&#39;</span>, <span class="st">&#39;two&#39;</span>],
+    <span class="co">&#39;ColorFish&#39;</span>: [<span class="st">&#39;red&#39;</span>, <span class="st">&#39;blue&#39;</span>]
+}
+
+<span class="kw">for</span> interface_name, methods in interfaces.iteritems():
+    interface_name += <span class="st">&#39;Interface&#39;</span>
+    <span class="dt">globals</span>()[interface_name] = Interface(interface_name, methods)
+    test_name = <span class="st">&#39;AbstractTest&#39;</span> + interface_name
+    <span class="dt">globals</span>()[test_name] = AbstractInterfaceTest(test_name, methods)</code></pre>
+</div>
+<div id="to-do" class="slide section level1">
+<h1>To do:</h1>
+<ul class="incremental">
+<li>Accounting for classmethods</li>
+<li>Specifying the signature of the methods</li>
+</ul>
+</div>
+<div id="interface-mixins" class="slide section level1">
+<h1><code>interface-mixins</code></h1>
+<ul class="incremental">
+<li><a href="">https://pypi.python.org/pypi/interface-mixins</a></li>
+<li><a href="">https://github.com/zeckalpha/interface-mixins</a></li>
+<li><a href="">http://kyle.marek-spartz.org</a></li>
+</ul>
+</div>
+</body>
+</html>
