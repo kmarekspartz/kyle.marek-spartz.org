@@ -165,7 +165,7 @@ writerOptions = defaultHakyllWriterOptions
 config :: Configuration
 config = defaultConfiguration 
     { ignoreFile    = ignoreFile'
-    , deployCommand = "pushd _site && widely push && popd"
+    , deployCommand = "pushd presentations && ./build.sh && popd && ./build_cv.sh && ./build_sitemap.sh && pushd _site && widely push && popd"
     }
   where
     ignoreFile' path
