@@ -1,7 +1,9 @@
 http://kyle.marek-spartz.org/
 http://kyle.marek-spartz.org/about.html
+http://kyle.marek-spartz.org/blog.html
 http://kyle.marek-spartz.org/colophon.html
 http://kyle.marek-spartz.org/index.html
+http://kyle.marek-spartz.org/posts/tags/index.html
 http://kyle.marek-spartz.org/publications/WON2012_Marek-Spartz_Chesley_Sande_Gmane.pdf
 http://kyle.marek-spartz.org/publications/2014-epilepsy-poster.pdf
 http://kyle.marek-spartz.org/presentations/2013-12-05-graph_databases.html
