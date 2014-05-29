@@ -34,7 +34,7 @@ description:
 
 ## Publications, Presentations, Posters, and Panels
 
-- Martha Abramson, [Claire Halpert](http://www.tc.umn.edu/~halpert/), **Kyle Marek-Spartz**, Dylan Skerbitz, (Moderator: **Benjamin Eischens**). Marketing Your Linguistics Degree (*forum*). [Minnesota Undergraduate Linguistics Symposium](http://linguistics.mn). April 2014.
+- Martha Abramson, [Claire Halpert](http://www.tc.umn.edu/~halpert/), **Kyle Marek-Spartz**, Dylan Skerbitz, (Moderator: Benjamin Eischens). Marketing Your Linguistics Degree (*forum*). [Minnesota Undergraduate Linguistics Symposium](http://linguistics.mn). April 2014.
 - [Serguei Pakhomov](http://www.tc.umn.edu/~pakh0002/homepage/), **Kyle Marek-Spartz**, [Robert Bill](http://www.bmhi.umn.edu/ihi/research/nlpie/people/bill/), [Benjamin Knoll](http://www.bmhi.umn.edu/ihi/research/nlpie/people/knoll/), [Thomas Christie](http://nitp.umn.edu/trainees.html), [Angela Birnbaum](http://www.pharmacy.umn.edu/faculty/birnbaum_angela/), [Ilo Leppik](http://www.pharmacy.umn.edu/faculty/leppik_ilo/), [Susan Marino](http://www.pharmacy.umn.edu/faculty/marino_susan/). Computerized Language and Speech Analysis to Measure Effects of Anti-Epileptic Drugs on Cognition (*poster*). [3rd International Congress on Epilepsy, Brain and Mind](http://www.epilepsy-brain-mind2014.eu/). April 2014. [[pdf](http://kyle.marek-spartz.org/publications/2014-epilepsy-poster.pdf)]
 - Ettien Koffi, Blake Howald, [Jeremy Loebach](http://wp.stolaf.edu/psych/jeremy-loebach/), [Julia Strand](https://apps.carleton.edu/curricular/psyc/jstrand/), Cati Fortin, Serguei Pakhomov, (Moderator: **Kyle Marek-Spartz**). Being a Linguist (*panel*). Minnesota Undergraduate Linguistics Symposium. April 2013.
 - **Kyle Marek-Spartz**, [Paula Chesley](http://www.tc.umn.edu/~ches0045/), [Hannah Sande](https://sites.google.com/a/umn.edu/hannah_sande/). Construction of the Gmane corpus for examining the diffusion of lexical innovations (*workshop paper*). [Words and Networks: Language Use in Socio-Technical Networks](http://people.lis.illinois.edu/~jdiesner/calls/WON_2012.html) (WON 2012) Workshop at 2012 ACM Web Science Conference. June 2012. [[pdf](http://kyle.marek-spartz.org/publications/WON2012_Marek-Spartz_Chesley_Sande_Gmane.pdf)]
@@ -56,9 +56,16 @@ description:
 
 ## Organizations, Service, and Involvement
 
-- Amateur Radio – General class, KDØGTK, and [ARRL](http://www.arrl.org/) member
-- Minnesota Undergraduate Linguistics Symposium – Planning Committee, 2012-2013
-- University of Minnesota:
+- Amateur Radio:
+    - General class license, KDØGTK
+    - [ARRL](http://www.arrl.org/) member
+- User groups:
+    - [HaskellMN](http://www.haskell.mn)
+    - [PyMNtos](http://python.mn)
+- Minnesota Undergraduate Linguistics Symposium:
+    - Advisor, 2014
+    - Planning Committee, 2012-2013
+- University of Minnesota – Twin Cities:
     - Institute of Linguistics – Colloquium Co-Coordinator 2012-2013
     - Society Of Undergraduate Linguists (SOUL) – Secretary, 2011-2013
     - [Marching Band](https://music.umn.edu/ensembles/marching) and [Pep Band](https://music.umn.edu/ensembles/marchingathletic) – Tenor Saxophone, 2009-2012
