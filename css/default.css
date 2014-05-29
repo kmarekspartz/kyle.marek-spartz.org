@@ -1,3 +1,7 @@
+iframe {
+    border: none;
+}
+
 footer {
     font-size: 12px;
 }
