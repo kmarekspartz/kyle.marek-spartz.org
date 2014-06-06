@@ -63,7 +63,7 @@ description:
     - [HaskellMN](http://www.haskell.mn)
     - [PyMNtos](http://python.mn)
 - Minnesota Undergraduate Linguistics Symposium:
-    - Advisor, 2014
+    - Adviser, 2014
     - Planning Committee, 2012-2013
 - University of Minnesota – Twin Cities:
     - Institute of Linguistics – Colloquium Co-Coordinator 2012-2013
