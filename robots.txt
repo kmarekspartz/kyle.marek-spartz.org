@@ -1,3 +1,4 @@
 User-agent: *
 Crawl-delay: 10
 Disallow: /winona-field-day
+Disallow: /construction-and-painting
