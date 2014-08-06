@@ -44,7 +44,7 @@ from foo import x
 ~~~
 
 I wouldn't recommend these sorts of tricks as the import order affects
-what is in scope, e.g. if Data.Text and Data.ByteString both defined
+what is in scope, e.g. if `Data.Text` and `Data.ByteString` both defined
 `baz`, which would be `X.baz`? Ideally import order should not matter
 as it is an implementation detail that should be hidden by a module. A
 language (or
