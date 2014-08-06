@@ -31,15 +31,15 @@ module language.
 
 
 ~~~ Python
-# foo/x.py
+# foo/x.py:
 from data.text import *
 from data.byte_string import *
 from control.lens import *
 
-# foo/__init__.py
+# foo/__init__.py:
 import foo.x as x
 
-# bar.py
+# bar.py:
 from foo import x
 ~~~
 

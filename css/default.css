@@ -54,6 +54,12 @@ article * img {
     max-width: 540px;
 }
 
+.info {
+    max-width: 540px;
+    padding-top: 4px;
+    font-size: small;
+}
+
 @media (min-width: 800px) {
     .logo {
         top: 100px;
@@ -91,7 +97,7 @@ article * img {
     hr {
         width: 100%;
     }
-    #disqus_thread {
+    #disqus_thread, .info {
         display: none;
     }
     #disqus_thread, article, article * img {
