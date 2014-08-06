@@ -22,6 +22,7 @@ staticContent = "favicon.ico"
            .||. "sitemap.txt"
            .||. "presentations/*"
            .||. "publications/*"
+           .||. "files/*"
            .||. "*.pdf"
            .||. fromRegex "\\.widely.*"
 
@@ -34,9 +35,9 @@ idR compiler = do
 
 
 main :: IO ()
-main = hakyllWith config $ do    
+main = hakyllWith config $ do
     tags <- buildTags "posts/*" $ fromCapture "posts/tags/*.html"
-    
+
     match staticContent $ idR copyFileCompiler
 
     match "css/*" $ idR compressCssCompiler
@@ -142,14 +143,14 @@ postsCtx tags posts =
 
 
 tagCtx :: Tags -> [Item String] -> String -> Context String
-tagCtx tags posts tag = 
+tagCtx tags posts tag =
     constField "title" ("Posts tagged \"" ++ tag ++ "\"") <>
     listField "posts" (postCtx tags) (return posts)       <>
     defaultContext
 
 
 tagsCtx :: Tags -> Context String
-tagsCtx tags = 
+tagsCtx tags =
     constField "title" "Tags"               <>
     field "tags" (\_ -> renderTagList tags) <>
     defaultContext
@@ -158,12 +159,12 @@ tagsCtx tags =
 writerOptions :: WriterOptions
 writerOptions = defaultHakyllWriterOptions
     { writerHTMLMathMethod = MathJax "http://cdn.mathjax.org/mathjax/latest/MathJax.js"
-    , writerHtml5          = True 
+    , writerHtml5          = True
     }
 
 
 config :: Configuration
-config = defaultConfiguration 
+config = defaultConfiguration
     { ignoreFile    = ignoreFile'
     , deployCommand = "pushd presentations && ./build.sh && popd && ./build_cv.sh && ./build_sitemap.sh && pushd _site && widely push && popd"
     }

@@ -1,6 +1,6 @@
 ---
 title: RESTful Email
-tags: ideas
+tags: ideas, email
 ---
 
 There are a few different options for Email REST APIs, but none of them, as far 
