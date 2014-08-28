@@ -9,9 +9,12 @@ description:
     the linguistics of programming languages.
 ---
 
-## ***Kyle Marek-Spartz***
+# ***Kyle Marek-Spartz***
 
 <kyle@marek-spartz.org>
+
+<http://kyle.marek-spartz.org>
+
 
 ## Experience
 
