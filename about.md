@@ -21,7 +21,7 @@ description:
 - [Celador](http://www.celador.mn) – Co-Founder, 2013-Present
 - [University of Minnesota](http://www.umn.edu/):
     - Research:
-		- [College of Pharmacy](http://www.pharmacy.umn.edu/): [Speech Informatics Lab](http://rxinformatics.umn.edu/), 2012-Present
+		- [College of Pharmacy](http://www.pharmacy.umn.edu/): [Speech Informatics Lab](http://rxinformatics.umn.edu/), 2012-2014
 		    - Research Assistant (SALSA)
 		- [Department of Computer Science and Engineering](http://www.cs.umn.edu/index.php): [GroupLens](http://www.grouplens.org/), 2012-2013
 		    - Research Assistant (Inter-language Wikipedia)
@@ -37,10 +37,11 @@ description:
 
 ## Publications, Presentations, Posters, and Panels
 
+- **Kyle Marek-Spartz**, [Benjamin Knoll](http://www.bmhi.umn.edu/ihi/research/nlpie/people/knoll/), [Robert Bill](http://www.bmhi.umn.edu/ihi/research/nlpie/people/bill/), [Thomas Christie](https://tom-christie.github.io/), [Serguei Pakhomov](http://www.tc.umn.edu/~pakh0002/homepage/). System for Automated Speech and Language Analysis (SALSA) (*demonstration paper* [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-paper.pdf)], *poster* [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-poster.pdf)]). [Interspeech](http://www.interspeech2014.org). September 2014.
 - Martha Abramson, [Claire Halpert](http://www.tc.umn.edu/~halpert/), **Kyle Marek-Spartz**, Dylan Skerbitz, (Moderator: Benjamin Eischens). Marketing Your Linguistics Degree (*forum*). [Minnesota Undergraduate Linguistics Symposium](http://linguistics.mn). April 2014.
-- [Serguei Pakhomov](http://www.tc.umn.edu/~pakh0002/homepage/), **Kyle Marek-Spartz**, [Robert Bill](http://www.bmhi.umn.edu/ihi/research/nlpie/people/bill/), [Benjamin Knoll](http://www.bmhi.umn.edu/ihi/research/nlpie/people/knoll/), [Thomas Christie](https://tom-christie.github.io/), [Angela Birnbaum](http://www.pharmacy.umn.edu/faculty/birnbaum_angela/), [Ilo Leppik](http://www.pharmacy.umn.edu/faculty/leppik_ilo/), [Susan Marino](http://www.pharmacy.umn.edu/faculty/marino_susan/). Computerized Language and Speech Analysis to Measure Effects of Anti-Epileptic Drugs on Cognition (*poster*). [3rd International Congress on Epilepsy, Brain and Mind](http://www.epilepsy-brain-mind2014.eu/). April 2014. [[pdf](http://kyle.marek-spartz.org/publications/2014-epilepsy-poster.pdf)]
+- Serguei Pakhomov, **Kyle Marek-Spartz**, Robert Bill, Benjamin Knoll, Thomas Christie, [Angela Birnbaum](http://www.pharmacy.umn.edu/faculty/birnbaum_angela/), [Ilo Leppik](http://www.pharmacy.umn.edu/faculty/leppik_ilo/), [Susan Marino](http://www.pharmacy.umn.edu/faculty/marino_susan/). Computerized Language and Speech Analysis to Measure Effects of Anti-Epileptic Drugs on Cognition (*poster* [[pdf](http://kyle.marek-spartz.org/publications/2014-epilepsy-poster.pdf)]). [3rd International Congress on Epilepsy, Brain and Mind](http://www.epilepsy-brain-mind2014.eu/). April 2014.
 - Ettien Koffi, Blake Howald, [Jeremy Loebach](http://wp.stolaf.edu/psych/jeremy-loebach/), [Julia Strand](https://apps.carleton.edu/curricular/psyc/jstrand/), Cati Fortin, Serguei Pakhomov, (Moderator: **Kyle Marek-Spartz**). Being a Linguist (*panel*). Minnesota Undergraduate Linguistics Symposium. April 2013.
-- **Kyle Marek-Spartz**, [Paula Chesley](http://www.tc.umn.edu/~ches0045/), [Hannah Sande](https://sites.google.com/a/umn.edu/hannah_sande/). Construction of the Gmane corpus for examining the diffusion of lexical innovations (*workshop paper*). [Words and Networks: Language Use in Socio-Technical Networks](http://people.lis.illinois.edu/~jdiesner/calls/WON_2012.html) (WON 2012) Workshop at 2012 ACM Web Science Conference. June 2012. [[pdf](http://kyle.marek-spartz.org/publications/WON2012_Marek-Spartz_Chesley_Sande_Gmane.pdf)]
+- **Kyle Marek-Spartz**, [Paula Chesley](http://www.tc.umn.edu/~ches0045/), [Hannah Sande](https://sites.google.com/a/umn.edu/hannah_sande/). Construction of the Gmane corpus for examining the diffusion of lexical innovations (*workshop paper*,  [[pdf](http://kyle.marek-spartz.org/publications/WON2012_Marek-Spartz_Chesley_Sande_Gmane.pdf)]). [Words and Networks: Language Use in Socio-Technical Networks](http://people.lis.illinois.edu/~jdiesner/calls/WON_2012.html) (WON 2012) Workshop at 2012 ACM Web Science Conference. June 2012.
 - **Kyle Marek-Spartz**. Cortical theoretic approach for language acquisition (*presentation*). University of Minnesota: [Institute of Linguistics](http://linguistics.umn.edu/) – [Society Of Undergraduate Linguists](http://www.soulumn.org) (SOUL) Colloquium. April 2012.
 - **Kyle Marek-Spartz**. Language change in social networks (*presentation*). University of Minnesota: Institute of Linguistics – SOUL Colloquium. April 2012.
 
@@ -76,10 +77,12 @@ description:
 
 ## Travel Abroad
 
+- Singapore, 2014
+    - [Interspeech](http://www.interspeech2014.org)
 - Canada, 2013
 - England, France, Switzerland, Liechtenstein, Austria, Italy, Germany, 2008
     - [Minnesota Ambassadors of Music](http://www.voyageursinternational.com)
 - Canada, 2006
-- Costa Rica, Ecuador (Galapagos), 2004
+- Ecuador (Galapagos), 2004
 - Germany, Luxembourg, 2002
 - Mexico, 2001
