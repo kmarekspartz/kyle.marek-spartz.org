@@ -55,6 +55,8 @@ main = hakyllWith config $ do
     create ["posts/tags/index.html"] $ idR $ tagsCompiler tags
 
     create ["blog.html"] $ idR $ postsCompiler tags
+    
+    create ["index.html"] $ idR $ homeCompiler tags
 
     create ["atom.xml"] $ idR $ feedCompiler tags
 
@@ -83,6 +85,12 @@ tagCompiler tags tag pattern = do
 tagsCompiler :: Tags -> Compiler (Item String)
 tagsCompiler tags =
     defaultTemplateWith "templates/tags.html" $ tagsCtx tags
+
+
+homeCompiler :: Tags -> Compiler (Item String)
+homeCompiler tags =
+    defaultTemplateWith "templates/index.html" $ homeCtx tags
+
 
 
 postsCompiler :: Tags -> Compiler (Item String)
@@ -152,6 +160,13 @@ tagCtx tags posts tag =
 tagsCtx :: Tags -> Context String
 tagsCtx tags =
     constField "title" "Tags"               <>
+    field "tags" (\_ -> renderTagList tags) <>
+    defaultContext
+
+
+homeCtx :: Tags -> Context String
+homeCtx tags =
+    constField "title" "Home"               <>
     field "tags" (\_ -> renderTagList tags) <>
     defaultContext
 

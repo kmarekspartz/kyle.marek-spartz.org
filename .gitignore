@@ -9,3 +9,5 @@ bootstrap
 *.pdf
 sitemap.txt
 presentations/*.html
+.cabal-sandbox
+cabal.sandbox.config

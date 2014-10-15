@@ -1,12 +1,6 @@
 ---
 title: About
 prebody: My CV is also available as a <a href="/Kyle_Marek-Spartz_CV.pdf">PDF</a>.
-description: 
-    I work in the Speech Informatics Lab at the University of
-    Minnesota – College of Pharmacy, where we are researching
-    Alzheimer's prediction using speech recognition. I also
-    work on projects for Celador, and I enjoy reading about
-    the linguistics of programming languages.
 ---
 
 # ***Kyle Marek-Spartz***
@@ -18,6 +12,7 @@ description:
 
 ## Experience
 
+- [GovDelivery](http://www.govdelivery.com/) – Software Engineer, 2014-Present
 - [Celador](http://www.celador.mn) – Co-Founder, 2013-Present
 - [University of Minnesota](http://www.umn.edu/):
     - Research:
