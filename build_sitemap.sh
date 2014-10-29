@@ -1,4 +1,4 @@
-./site rebuild
+.cabal-sandbox/bin/site rebuild
 
 pushd _site
 
@@ -6,4 +6,4 @@ pushd _site
 
 popd
 
-./site build
+.cabal-sandbox/bin/site build
