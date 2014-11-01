@@ -1,6 +1,6 @@
 ---
 title: Props Now On PyPI
-tags: python, haskell, props
+tags: python, haskell, props, open-source
 ---
 
 Props ([PyPI](https://pypi.python.org/pypi/props/), [GitHub](https://github.com/zeckalpha/props)) provides property-based testing for Python à la [QuickCheck](http://en.wikipedia.org/wiki/QuickCheck).
@@ -8,9 +8,9 @@ Props ([PyPI](https://pypi.python.org/pypi/props/), [GitHub](https://github.com/
 There are other QuickCheck-like libraries for Python:
 
 - [factcheck](https://github.com/npryce/python-factcheck)
-- [hypothesis](http://www.drmaciver.com/2013/03/quickcheck-style-testing-in-python-with-hypothesis/) 
+- [hypothesis](http://www.drmaciver.com/2013/03/quickcheck-style-testing-in-python-with-hypothesis/)
 - [paycheck](https://github.com/markchadwick/paycheck)
-- [pytest-quickcheck](https://pypi.python.org/pypi/pytest-quickcheck/) 
+- [pytest-quickcheck](https://pypi.python.org/pypi/pytest-quickcheck/)
 - [qc.py](http://dan.bravender.us/2009/6/21/Simple_Quickcheck_implementation_for_Python.html)
 
 However, I'm not sure how to add instances of Arbitrary (in the Haskell sense) for any of them! That's where Props comes in.
@@ -21,7 +21,7 @@ In Haskell's QuickCheck, Arbitrary is a typeclass:
 class Arbitrary a where
     arbitrary :: Gen a
 ~~~
-    
+
 Typeclasses are like interfaces, but for types instead of classes. The way to read this definition is "Any class `a` which implements the `Arbitrary` interface must provide a method `arbitrary` which returns a `Gen a`." Think of `Gen a` as a container which can be turned into random instances of `a`.[^1] To create new instance of `Arbitrary`[^2]:
 
 ~~~ Haskell

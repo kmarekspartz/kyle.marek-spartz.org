@@ -1,6 +1,6 @@
 ---
 title: This Site Now Open Source
-tags: meta, haskell, hakyll, web-dev, widely
+tags: meta, haskell, hakyll, web-dev, widely, open-source
 description: The source for this website is now publicly available.
 ---
 

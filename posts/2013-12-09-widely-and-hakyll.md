@@ -1,9 +1,9 @@
 ---
 title: Widely and Hakyll
-tags: hakyll, widely, haskell, meta
+tags: hakyll, widely, haskell, meta, open-source
 ---
 
-I've been using [widely](http://www.celador.mn/widely) and [Hakyll](http://jaspervdj.be/hakyll/) together for a little while now for a few different sites. 
+I've been using [widely](http://www.celador.mn/widely) and [Hakyll](http://jaspervdj.be/hakyll/) together for a little while now for a few different sites.
 
 The quickest setup is to `cd` into `_site` and `widely sites:create <SITENAME>`. However this setup involves a lot of `cd`-ing for deployment. In order to minimize `cd`-ing, I added a `deployCommand` to my Hakyll configuration as follows:
 
@@ -16,7 +16,7 @@ config = defaultConfiguration
 This makes building and deploying:
 
     ./site build && ./site deploy
-    
+
 However, widely creates a `.widely` file in its source directory, which in this case is Hakyll's `_site`, and I wouldn't store `_site` in a version control repository for the site. Ideally, the `.widely` file would be stored in the root of the repository. We can put the `.widely` there and have Hakyll move the `.widely` into `_site`.
 
 To do this, I initially added `".widely*"` to the list of file identifiers going into the `idRoute` and the `copyFileCompiler`. This doesn't work, and for a few reasons.

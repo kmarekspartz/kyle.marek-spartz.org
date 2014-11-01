@@ -1,6 +1,6 @@
 ---
 title: WX now Open Source
-tags: python, web-dev, databases, wx, pymntos
+tags: python, web-dev, databases, wx, pymntos, open-source
 description: Announcing WX, a web app for weather stations
 ---
 

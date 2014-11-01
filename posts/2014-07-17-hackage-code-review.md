@@ -1,6 +1,6 @@
 ---
 title: Hackage Code Review
-tags: haskell, teaching, haskell-mn, web-ring
+tags: haskell, teaching, haskell-mn, web-ring, open-source
 description: Danny Gratzer has been reviewing packages on Hackage.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: datetime-interval now on PyPI
-tags: python, datetime-interval, props
+tags: python, datetime-interval, props, open-source
 description: Announcing datetime-interval, a Python package.
 ---
 

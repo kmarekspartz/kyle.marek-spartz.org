@@ -1,6 +1,6 @@
 ---
 title: Uploading to PyPI
-tags: python, teaching, tools, web-ring
+tags: python, teaching, tools, web-ring, open-source
 description: Tom Christie gave a guide on uploading to PyPI
 ---
 
