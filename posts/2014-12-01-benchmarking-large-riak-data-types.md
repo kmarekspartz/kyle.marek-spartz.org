@@ -101,3 +101,7 @@ though similar behavior has been seen in both.
 [`basho_bench`](https://github.com/basho/basho_bench) could be used to test
 without using the Ruby client. Additionally, I'd like to test the
 [data types](https://github.com/basho/riak_dt) directly.
+
+**Update:** For some missing graphs, and more information about my environment,
+please see my
+[next post](/posts/2014-12-02-benchmarking-large-riak-data-types-continued.html).
