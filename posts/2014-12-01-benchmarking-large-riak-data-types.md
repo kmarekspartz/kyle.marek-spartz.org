@@ -105,3 +105,7 @@ without using the Ruby client. Additionally, I'd like to test the
 **Update:** For some missing graphs, and more information about my environment,
 please see my
 [next post](/posts/2014-12-02-benchmarking-large-riak-data-types-continued.html).
+
+**Update #2:** [Russell Brown](https://github.com/russelldb) may have fixed this
+in a feature branch. I ran the benchmark against the potential fix with
+[good results](/posts/2014-12-03-benchmarking-large-riak-data-types-a-potential-fix.html).

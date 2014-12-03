@@ -40,3 +40,6 @@ Some graphs I didn't include were a comparison of byte size and number of items,
 of [`riak_dt`](https://github.com/basho/riak_dt) which may have a fix for some
 of this. I'm running the benchmark against a locally-compiled Riak right now,
 and then I'll build it with his potential fix and compare the benchmark results.
+
+**Update:** I ran the benchmark against the potential fix with
+[good results](/posts/2014-12-03-benchmarking-large-riak-data-types-a-potential-fix.html).
