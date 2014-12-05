@@ -2,9 +2,10 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Main where
 
-import Data.Monoid      ((<>))
-import Data.List        (isPrefixOf, isSuffixOf)
-import System.FilePath  (takeFileName)
+import Control.Applicative ((<$>))
+import Data.Monoid         ((<>))
+import Data.List           (isPrefixOf, isSuffixOf)
+import System.FilePath     (takeFileName)
 
 import Text.Pandoc.Options ( WriterOptions
                            , writerHTMLMathMethod
@@ -40,7 +41,7 @@ main = hakyllWith config $ do
 
     match staticContent $ idR copyFileCompiler
 
-    match "css/*" $ idR compressCssCompiler
+    -- match "css/*" $ idR compressCssCompiler
 
     match "posts/*" $ do
         route $ setExtension "html"
@@ -55,7 +56,7 @@ main = hakyllWith config $ do
     create ["posts/tags/index.html"] $ idR $ tagsCompiler tags
 
     create ["blog.html"] $ idR $ postsCompiler tags
-    
+
     create ["index.html"] $ idR $ homeCompiler tags
 
     create ["atom.xml"] $ idR $ feedCompiler tags
@@ -64,6 +65,7 @@ main = hakyllWith config $ do
 
     match "templates/*" $ compile templateCompiler
 
+    match "css/combined.css" $ compile cssTemplateCompiler
 
 -------------------------------------------------------------------------------
 
@@ -75,6 +77,9 @@ defaultTemplateWith template ctx =
         >>= loadAndApplyTemplate "templates/default.html" ctx
         >>= relativizeUrls
 
+cssTemplateCompiler :: Compiler (Item Template)
+cssTemplateCompiler = cached "Hakyll.Web.Template.cssTemplateCompiler" $
+    fmap (readTemplate . compressCss) <$> getResourceString
 
 tagCompiler :: Tags -> String -> Pattern -> Compiler (Item String)
 tagCompiler tags tag pattern = do
@@ -181,7 +186,7 @@ writerOptions = defaultHakyllWriterOptions
 config :: Configuration
 config = defaultConfiguration
     { ignoreFile    = ignoreFile'
-    , deployCommand = "pushd presentations && ./build.sh && popd && ./build_cv.sh && ./build_sitemap.sh && pushd _site && widely push && popd"
+    , deployCommand = "./build_css.sh && pushd presentations && ./build.sh && popd && ./build_cv.sh && ./build_sitemap.sh && pushd _site && widely push && popd"
     }
   where
     ignoreFile' path

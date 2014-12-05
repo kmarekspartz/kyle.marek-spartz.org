@@ -12,3 +12,4 @@ presentations/*.html
 .cabal-sandbox
 cabal.sandbox.config
 dist
+css/combined.css
