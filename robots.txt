@@ -3,3 +3,8 @@ Crawl-delay: 10
 Disallow: /winona-field-day
 Disallow: /construction-and-painting
 Disallow: /yellow-cake-1
+Disallow: /presentations/2014-09-10-salsa.html
+Disallow: /some-photos-from-launch-day
+Disallow: /pages/project-24
+Disallow: /pages/about-me-jfnwy
+Disallow: /balloon-class-makes-the-mn-daily
