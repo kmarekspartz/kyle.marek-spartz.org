@@ -5,7 +5,7 @@
     <title>$title$ - kms</title>
     <meta name="author" content="$if(author)$$author$$else$Kyle Marek-Spartz$endif$">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="$if(description)$$description$$else$$title$ – kms$endif$">
+    $if(description)$<meta name="description" content="$description$">$endif$
     <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
     <style>$partial("css/combined.css")$</style>
 </head>

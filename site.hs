@@ -157,7 +157,7 @@ postsCtx tags posts =
 
 tagCtx :: Tags -> [Item String] -> String -> Context String
 tagCtx tags posts tag =
-    constField "title" ("Posts tagged \"" ++ tag ++ "\"") <>
+    constField "title" ("Posts tagged &quot;" ++ tag ++ "&quot;") <>
     listField "posts" (postCtx tags) (return posts)       <>
     defaultContext
 
