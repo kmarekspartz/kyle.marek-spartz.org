@@ -2,10 +2,15 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Main where
 
-import Control.Applicative ((<$>))
+import Control.Applicative ((<$>), Alternative (..))
+import Data.Maybe          (fromMaybe)
 import Data.Monoid         ((<>))
-import Data.List           (isPrefixOf, isSuffixOf)
+import Data.List           (isPrefixOf, isSuffixOf, sortBy, intercalate)
+import Data.Time.Format    (parseTime)
+import Data.Time.Clock     (UTCTime)
 import System.FilePath     (takeFileName)
+import System.Locale       (defaultTimeLocale)
+
 
 import Text.Pandoc.Options ( WriterOptions
                            , writerHTMLMathMethod
@@ -35,6 +40,8 @@ idR compiler = do
     compile compiler
 
 
+postsGlob = "posts/*"
+
 main :: IO ()
 main = hakyllWith config $ do
     tags <- buildTags "posts/*" $ fromCapture "posts/tags/*.html"
@@ -43,7 +50,7 @@ main = hakyllWith config $ do
 
     -- match "css/*" $ idR compressCssCompiler
 
-    match "posts/*" $ do
+    match postsGlob $ do
         route $ setExtension "html"
         compile $ postCompiler tags
 
@@ -144,8 +151,60 @@ postCtx :: Tags -> Context String
 postCtx tags =
     dateField "date" "%B %e, %Y" <>
     tagsField "tags" tags        <>
+    field "nextPost" nextPostUrl <>
+    field "prevPost" prevPostUrl <>
     defaultContext
 
+--------------------------------------------------------------------------------
+-- Next and previous posts:
+-- https://github.com/rgoulter/my-hakyll-blog/commit/a4dd0513553a77f3b819a392078e59f461d884f9
+
+prevPostUrl :: Item String -> Compiler String
+prevPostUrl post = do
+  posts <- getMatches postsGlob
+  let ident = itemIdentifier post
+      sortedPosts = sortIdentifiersByDate posts
+      ident' = itemBefore sortedPosts ident
+  case ident' of
+    Just i -> (fmap (maybe empty toUrl) . getRoute) i
+    Nothing -> empty
+
+
+nextPostUrl :: Item String -> Compiler String
+nextPostUrl post = do
+  posts <- getMatches postsGlob
+  let ident = itemIdentifier post
+      sortedPosts = sortIdentifiersByDate posts
+      ident' = itemAfter sortedPosts ident
+  case ident' of
+    Just i -> (fmap (maybe empty toUrl) . getRoute) i
+    Nothing -> empty
+
+
+itemAfter :: Eq a => [a] -> a -> Maybe a
+itemAfter xs x =
+  lookup x $ zip xs (tail xs)
+
+
+itemBefore :: Eq a => [a] -> a -> Maybe a
+itemBefore xs x =
+  lookup x $ zip (tail xs) xs
+
+
+urlOfPost :: Item String -> Compiler String
+urlOfPost =
+  fmap (maybe empty toUrl) . getRoute . itemIdentifier
+
+sortIdentifiersByDate :: [Identifier] -> [Identifier]
+sortIdentifiersByDate =
+    sortBy (flip byDate)
+  where
+    byDate id1 id2 =
+      let fn1 = takeFileName $ toFilePath id1
+          fn2 = takeFileName $ toFilePath id2
+          parseTime' fn = parseTime defaultTimeLocale "%Y-%m-%d" $ intercalate "-" $ take 3 $ splitAll "-" fn
+      in compare (parseTime' fn1 :: Maybe UTCTime) (parseTime' fn2 :: Maybe UTCTime)
+--------------------------------------------------------------------------------
 
 postsCtx :: Tags -> [Item String] -> Context String
 postsCtx tags posts =
