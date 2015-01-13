@@ -10,6 +10,10 @@
     <style>$partial("css/combined.css")$</style>
 </head>
 <body>
+$if(fourohfour)$
+<header><h1><i>$title$</i></h1></header>
+<article>$body$</article>
+$else$
 <header>
     <h1>
         <img class="logo" src="/images/kyle.jpg" alt="A picture of Kyle in Central Park at the Conservatory Water">
@@ -48,7 +52,7 @@ $if(mathjax)$<script type="text/x-mathjax-config">
   });
 </script>
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-$endif$<script>
+$endif$$endif$<script>
 var cb = function() {
   var l = document.createElement('link'); l.rel = 'stylesheet'; l.type = 'text/css';
   l.href = 'http://fonts.googleapis.com/css?family=EB+Garamond|Inconsolata|Source+Sans+Pro:300,300italic';
