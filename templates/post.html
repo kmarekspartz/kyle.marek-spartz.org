@@ -6,9 +6,9 @@ $if(tags)$<div class="info">
     <a href="/posts/tags/index.html">Tags</a>: $tags$
 </div>$endif$
 $body$
-<div class="info">$if(nextPost)$
-  <a href="$nextPost$" style="float:left;">← previous post</a>$endif$$if(prevPost)$
-  <a href="$prevPost$" style="float:right; text-align: right;">next post →</a>$endif$
+<div class="info">$if(prevPost)$
+  <a href="$prevPost$" rel="previous" style="float:left;">← previous post</a>$endif$$if(nextPost)$
+  <a href="$nextPost$" rel="next" style="float:right; text-align: right;">next post →</a>$endif$
 </div>
 <div id="disqus_thread"></div>
 <script type="text/javascript">

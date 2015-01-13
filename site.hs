@@ -197,7 +197,7 @@ urlOfPost =
 
 sortIdentifiersByDate :: [Identifier] -> [Identifier]
 sortIdentifiersByDate =
-    sortBy (flip byDate)
+    sortBy byDate
   where
     byDate id1 id2 =
       let fn1 = takeFileName $ toFilePath id1
