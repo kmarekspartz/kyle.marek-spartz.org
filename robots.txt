@@ -8,3 +8,10 @@ Disallow: /some-photos-from-launch-day
 Disallow: /pages/project-24
 Disallow: /pages/about-me-jfnwy
 Disallow: /balloon-class-makes-the-mn-daily
+Disallow: /posts/2014-12-01-benchmarking-large-data-types.html
+Disallow: /posts/index.html
+Disallow: /posts/README.html
+Disallow: /posts/about.html
+Disallow: /posts/blog.html
+Disallow: /posts/atom.xml
+Disallow: /posts/posts/*

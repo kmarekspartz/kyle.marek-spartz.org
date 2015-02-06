@@ -12,7 +12,7 @@ As I mentioned in my
 [feature branch](https://github.com/basho/riak_dt/compare/bug/rdb/faster-merge-orswot)
 of [`riak_dt`](https://github.com/basho/riak_dt) which may have a fix for some
 of this. Today, I ran
-[my benchmark](/posts/2014-12-01-benchmarking-riak-data-types.html) against a
+[my benchmark](/posts/2014-12-01-benchmarking-large-riak-data-types.html) against a
 locally-compiled Riak, and then I built it with the potential fix.
 
 

@@ -18,6 +18,3 @@ echo $ROOT_URL"posts/tags/"
 for tag in posts/tags/*.html; do
     echo $ROOT_URL$tag
 done
-
-echo $ROOT_URL"posts/"
-echo $ROOT_URL"posts/index.html"

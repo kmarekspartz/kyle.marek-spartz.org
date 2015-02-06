@@ -12,6 +12,7 @@ Unlike most blog posts, this is a living document. I expect it to change. When I
 
 - <input type="checkbox"/> What do I want to get done today?
 - <input type="checkbox"/> Groom next items in Things.
+- <input type="checkbox"/> Groom due today items in Outlook.
 - <input type="checkbox"/> Review new emails, keeping actionable ones.
 
 
@@ -21,9 +22,9 @@ Unlike most blog posts, this is a living document. I expect it to change. When I
 - <input type="checkbox"/> What didn't go well last week?
 - <input type="checkbox"/> What do I want to get done this week?
 - <input type="checkbox"/> Groom someday items in Things.
+- <input type="checkbox"/> Groom unscheduled items in Outlook.
 - <input type="checkbox"/> Do I have appointments to make?
 - <input type="checkbox"/> Review old emails in Inbox.
-- <input type="checkbox"/> Groom todo items in Outlook.
 
 
 ### Monthly Review
