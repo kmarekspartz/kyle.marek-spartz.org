@@ -11,7 +11,7 @@ Unlike most blog posts, this is a living document. I expect it to change. When I
 ### Daily Review
 
 - <input type="checkbox"/> What do I want to get done today?
-- <input type="checkbox"/> Groom next items in Things.
+- <input type="checkbox"/> Groom today and next items in Things.
 - <input type="checkbox"/> Groom due today items in Outlook.
 - <input type="checkbox"/> Review new emails, keeping actionable ones.
 
