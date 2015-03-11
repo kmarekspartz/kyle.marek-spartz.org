@@ -1,4 +1,6 @@
-find . -name "*.md" -exec aspell -c '{}' \;
+for f in $(git ls-files | grep '.md$'); do
+  aspell -c $f
+done
 
 .cabal-sandbox/bin/site check -i
 

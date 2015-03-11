@@ -11,9 +11,10 @@ Unlike most blog posts, this is a living document. I expect it to change. When I
 ### Daily Review
 
 - <input type="checkbox"/> What do I want to get done today?
-- <input type="checkbox"/> Groom today and next items in Things.
-- <input type="checkbox"/> Groom due today items in Outlook.
-- <input type="checkbox"/> Review new emails, keeping actionable ones.
+- <input type="checkbox"/> Check calendar.
+- <input type="checkbox"/> Review and archive all emails in inboxes, creating next actions as needed.
+- <input type="checkbox"/> Review next actions in Things, moving to today as needed.
+- <input type="checkbox"/> Review due today actions in Outlook.
 
 
 ### Weekly Review
@@ -21,17 +22,15 @@ Unlike most blog posts, this is a living document. I expect it to change. When I
 - <input type="checkbox"/> What went well last week?
 - <input type="checkbox"/> What didn't go well last week?
 - <input type="checkbox"/> What do I want to get done this week?
-- <input type="checkbox"/> Groom someday items in Things.
-- <input type="checkbox"/> Groom unscheduled items in Outlook.
+- <input type="checkbox"/> Review someday actions in Things, moving to next as needed.
+- <input type="checkbox"/> Review unscheduled actions in Outlook, scheduling as needed.
 - <input type="checkbox"/> Do I have appointments to make?
-- <input type="checkbox"/> Review old emails in Inbox.
 
 
 ### Monthly Review
 
 - <input type="checkbox"/> What went well last month?
 - <input type="checkbox"/> What didn't go well last month?
-- <input type="checkbox"/> Groom todo items in Outlook.
 - <input type="checkbox"/> What do I want to get done this month?
 - <input type="checkbox"/> What events are this month?
 - <input type="checkbox"/> What projects are my focus this month?
@@ -44,3 +43,9 @@ Unlike most blog posts, this is a living document. I expect it to change. When I
 - <input type="checkbox"/> What do I want to get done this year?
 - <input type="checkbox"/> Where do I want to be next year, and how do I get there?
 - <input type="checkbox"/> What are my priorities for the next year?
+
+
+### Updates:
+
+1. Added "What went well" and "didn't" checkpoints. Added backlog reviews.
+2. Added calendar check. Changed email process from keeping actionable to creating actions.
