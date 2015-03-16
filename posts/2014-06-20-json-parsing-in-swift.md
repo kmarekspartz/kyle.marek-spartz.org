@@ -55,10 +55,10 @@ for item in json["blogs"]?["blog"] {
     println(“Blog Needs Password: \(needspassword)”)
     println(“Blog URL: \(url)”)
 }
-~~~ 
+~~~
 
-That's a lot easier, once a proper JSON library is implemented, anyway. [Swiftz](https://github.com/maxpow4h/swiftz/blob/master/swiftz/JSON.swift) has the start of one, similar in style to what I'm proposing here.
+That's a lot easier, once a proper JSON library is implemented, anyway. [Swiftz](https://github.com/typelift/Swiftz/) has the start of one, similar in style to what I'm proposing here.
 
 
 
-[^1]: Or close to it anyway. I'm simplifying here. See [Swiftz](https://github.com/maxpow4h/swiftz/blob/master/swiftz/JSON.swift) for a more complete JSON library.
+[^1]: Or close to it anyway. I'm simplifying here. See [Swiftz](https://github.com/typelift/Swiftz/) for a more complete JSON library.

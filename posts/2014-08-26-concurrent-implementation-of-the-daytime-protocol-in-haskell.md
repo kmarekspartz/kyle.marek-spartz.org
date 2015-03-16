@@ -12,7 +12,7 @@ The server given in the book implements an informally specified doubling
 protocol, where each submitted line gets parsed as an Integer and
 returns the double of the input.
 
-Back in May, [Andrew Clarkson](https://github.com/andrewclarkson) gave a
+Back in May, [Andrew Clarkson](https://github.com/bitborn) gave a
 talk at the PyMNtos meeting about [Asynchronous
 IO](https://docs.python.org/3.4/library/asyncio.html) in Python. As an
 example, he included an asynchronous version of a
@@ -151,7 +151,7 @@ thrown away). The service closes the connection after sending the
 quote."*
 
 A non-server of this would just be a simple version of
-[`date`](https://en.wikipedia.org/wiki/Date_%28Unix%29)
+[`date`](http://unixhelp.ed.ac.uk/CGI/man-cgi?date)
 
 ``` {.sourceCode .literate .haskell}
 main1 :: IO ()

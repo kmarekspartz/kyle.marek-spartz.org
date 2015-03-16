@@ -4,7 +4,7 @@ tags: swift, programming-languages
 description: Some thoughts on Swift
 ---
 
-[Apple](https://www.apple.com) surprised the world at this year's [WWDC](https://developer.apple.com/wwdc/): They have been secretly working on a new programming language, [Swift](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/LandingPage/index.html), designed to minimize their reliance on Objective-C.
+[Apple](https://www.apple.com) surprised the world at this year's [WWDC](https://developer.apple.com/wwdc/): They have been secretly working on a new programming language, [Swift](https://developer.apple.com/swift/), designed to minimize their reliance on Objective-C.
 
 They called it Objective-C minus the C. Considering that Objective-C augments the semantics of C with the syntax of Smalltalk, this would imply that we would be left with the syntax Smalltalk. I don't think that Swift's syntax is like Smalltalk at all. Instead, one could say that Swift has the semantics of Smalltalk (or [Strongtalk](https://en.wikipedia.org/wiki/Strongtalk)) with the syntax of C.
 

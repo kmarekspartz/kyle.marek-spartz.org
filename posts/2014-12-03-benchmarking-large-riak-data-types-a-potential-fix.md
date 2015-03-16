@@ -9,7 +9,7 @@ description: Russell Brown has a potential fix for the Data Type growth
 As I mentioned in my
 [last post](/posts/2014-12-02-benchmarking-large-riak-data-types-continued.html),
 [Russell Brown](https://github.com/russelldb) is working on a
-[feature branch](https://github.com/basho/riak_dt/compare/bug/rdb/faster-merge-orswot)
+feature branch
 of [`riak_dt`](https://github.com/basho/riak_dt) which may have a fix for some
 of this. Today, I ran
 [my benchmark](/posts/2014-12-01-benchmarking-large-riak-data-types.html) against a
