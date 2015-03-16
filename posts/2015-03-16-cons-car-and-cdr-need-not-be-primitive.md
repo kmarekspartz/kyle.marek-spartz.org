@@ -1,5 +1,5 @@
 ---
-title: `cons`, `car`, and `cdr` need not be primitive
+title: cons, car, and cdr need not be primitive
 tags: haskell-mn, programming-languages, lisp
 description: An exercise from SICP
 ---
@@ -69,5 +69,5 @@ var cdr = function (pair) {
 };
 ```
 
-**See also:** [SICP Exercise
+*See also:* [SICP Exercise
 2.4](https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-14.html#%_thm_2.4)
