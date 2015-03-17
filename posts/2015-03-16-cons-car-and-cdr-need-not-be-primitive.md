@@ -64,7 +64,7 @@ var car = function (pair) {
 
 var cdr = function (pair) {
   return pair(
-    function (head, tail) { return head; }
+    function (head, tail) { return tail; }
   );
 };
 ```
