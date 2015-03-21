@@ -77,6 +77,9 @@ article * img {
         max-width: 100px;
         max-height: 100px;
     }
+    body {
+        padding: auto;
+    }
 }
 
 #disqus_thread {
@@ -85,11 +88,13 @@ article * img {
 
 @media (max-width: 640px) {
     body {
+        width: 100%;
         padding: 0px;
     }
     body header, body article, body footer {
         padding-left: auto;
         padding-right: auto;
+        margin-right: 30px;
     }
     body header * {
         padding-left: auto;
@@ -101,7 +106,7 @@ article * img {
     #disqus_thread, .info {
         display: none;
     }
-    #disqus_thread, article, article * img {
-        max-width: 300px;
+    article, article * img {
+        max-width: 100%;
     }
 }

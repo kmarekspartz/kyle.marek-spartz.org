@@ -74,8 +74,13 @@ else window.addEventListener('load', cb);
   ga('send', 'pageview');
 </script>
 <script>
-var logo = document.getElementsByClassName('logo')[0];
-logo.src = logo.src.replace(/\.jpg/, '-hq.jpg');
+(function (oldOnload) {
+  window.onload = function (e) {
+    oldOnload && oldOnload(e);
+    var logo = document.getElementsByClassName('logo')[0];
+    logo.src = logo.src.replace(/\.jpg/, '-hq.jpg');
+  };
+})(window.onload);
 </script>
 </body>
 </html>
