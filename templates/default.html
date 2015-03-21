@@ -73,5 +73,9 @@ else window.addEventListener('load', cb);
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
 </script>
+<script>
+var logo = document.getElementsByClassName('logo')[0];
+logo.src = logo.src.replace(/\.jpg/, '-hq.jpg');
+</script>
 </body>
 </html>
