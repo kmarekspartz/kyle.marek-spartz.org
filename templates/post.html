@@ -1,3 +1,4 @@
+$partial("templates/prev-next.html")$
 <div class="info">
     Posted on $date$$if(author)$
     by $author$$endif$
@@ -6,7 +7,4 @@ $if(tags)$<div class="info">
     <a href="/posts/tags/index.html">Tags</a>: $tags$
 </div>$endif$
 $body$
-<div class="info">$if(prevPost)$
-  <a href="$prevPost$" rel="previous" style="float:left;">← previous post</a>$endif$$if(nextPost)$
-  <a href="$nextPost$" rel="next" style="float:right; text-align: right;">next post →</a>$endif$
-</div>
+$partial("templates/prev-next.html")$

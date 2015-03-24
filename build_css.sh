@@ -1,1 +1,1 @@
-cat css/syntax.css css/markdown.css css/default.css > css/combined.css
+cat css/syntax.css css/default.css > css/combined.css
