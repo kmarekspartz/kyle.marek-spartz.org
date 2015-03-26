@@ -60,14 +60,12 @@ prebody: My CV is also available as a <a href="/Kyle_Marek-Spartz_CV.pdf">PDF</a
     - [ARRL](http://www.arrl.org/) member
 - User groups:
     - [HaskellMN](http://www.haskell.mn)
-    - [PyMNtos](http://python.mn)
 - Minnesota Undergraduate Linguistics Symposium:
     - Adviser, 2014
     - Planning Committee, 2012-2013
 - University of Minnesota – Twin Cities:
     - Institute of Linguistics – Colloquium Co-Coordinator 2012-2013
     - Society Of Undergraduate Linguists (SOUL) – Secretary, 2011-2013
-    - [Marching Band](https://music.umn.edu/ensembles/marching) and [Pep Band](https://music.umn.edu/ensembles/marchingathletic) – Tenor Saxophone, 2009-2012
 
 
 ## Travel Abroad
