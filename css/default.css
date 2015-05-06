@@ -9,18 +9,10 @@ body {
   border: 0;
 
   font-size: 200%;
-
-  font-family: 'EB Garamond', 'Garamond', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-weight: 300;
-}
-
-nav, header, article, footer, img, figure {
-  padding-left: auto;
-  padding-right: auto;
 }
 
 header, article, footer {
@@ -53,6 +45,12 @@ hr {
 
 article, article * img {
   max-width: 100%;
+}
+
+blockquote {
+  border-left: 1px solid;
+  margin-left: 20px;
+  padding-left: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -102,11 +100,13 @@ iframe {
 }
 
 body {
+  font-family: 'EB Garamond', 'Garamond', serif;
   color: #2d2d2d;
   background-color: #fffcf8;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   color: #2c425b;
 }
 
@@ -122,6 +122,10 @@ hr {
   background-color: #c9aa78;
   color: #c9aa78;
   border-color: #c9aa78;
+}
+
+blockquote {
+  border-color: #2c425b;
 }
 
 .logo {

@@ -25,18 +25,18 @@ $else$
     <a href="/about.html">About</a>
     <a href="/README.html">Colophon</a>
   </nav>
-  <hr>
   $if(title)$<h2>$title$</h2>$endif$
 </header>
 <article>$if(prebody)$$prebody$$endif$
 $body$
 </article>
 <footer>
-    <hr>
-    ©<script>document.write(new Date().getFullYear().toString())</script>
+  <hr>
+  <p>©<script>document.write(new Date().getFullYear().toString())</script>
     <a href="/about.html">
-        $if(author)$$author$$else$Kyle Marek-Spartz$endif$
+      $if(author)$$author$$else$Kyle Marek-Spartz$endif$
     </a>
+  </p>
 </footer>
 $if(mathjax)$<script type="text/x-mathjax-config">
   MathJax.Hub.Config({
