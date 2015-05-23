@@ -1,0 +1,48 @@
+nav a {
+  margin-right: 15px;
+}
+
+iframe {
+  border: none;
+}
+
+body {
+  font-family: 'EB Garamond', 'Garamond', serif;
+  color: #2d2d2d;
+  background-color: #fffcf8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  color: #2c425b;
+}
+
+a:link, a:visited, a:active {
+  color: #81a182;
+}
+
+a:hover {
+  color: #b1d1b2;
+}
+
+hr {
+  background-color: #c9aa78;
+  color: #c9aa78;
+  border-color: #c9aa78;
+}
+
+blockquote {
+  border-color: #2c425b;
+}
+
+.logo {
+  height: 100px;
+}
+
+.info {
+  font-size: 90%;
+}
+
+.sourceCode, code {
+  font-family: 'Inconsolata', sans-serif;
+}
