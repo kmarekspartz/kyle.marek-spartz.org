@@ -10,39 +10,39 @@ Unlike most blog posts, this is a living document. I expect it to change. When I
 
 ### Daily Review
 
-<label><input type="checkbox"/> What do I want to get done today?</label><br/>
-<label><input type="checkbox"/> Check calendar.</label><br/>
-<label><input type="checkbox"/> Review and archive all emails in inboxes, creating next actions as needed.</label><br/>
-<label><input type="checkbox"/> Review next actions in Things, moving to today as needed.</label><br/>
-<label><input type="checkbox"/> Review due today actions in Outlook.</label><br/>
+<label><input type="checkbox"/> What do I want to get done today?</label><br>
+<label><input type="checkbox"/> Check calendar.</label><br>
+<label><input type="checkbox"/> Review and archive all emails in inboxes, creating next actions as needed.</label><br>
+<label><input type="checkbox"/> Review next actions in Things, moving to today as needed.</label><br>
+<label><input type="checkbox"/> Review due today actions in Outlook.</label><br>
 
 
 ### Weekly Review
 
-<label><input type="checkbox"/> What went well last week?</label><br/>
-<label><input type="checkbox"/> What didn't go well last week?</label><br/>
-<label><input type="checkbox"/> What do I want to get done this week?</label><br/>
-<label><input type="checkbox"/> Review someday actions in Things, moving to next as needed.</label><br/>
-<label><input type="checkbox"/> Review unscheduled actions in Outlook, scheduling as needed.</label><br/>
-<label><input type="checkbox"/> Do I have appointments to make?</label><br/>
+<label><input type="checkbox"/> What went well last week?</label><br>
+<label><input type="checkbox"/> What didn't go well last week?</label><br>
+<label><input type="checkbox"/> What do I want to get done this week?</label><br>
+<label><input type="checkbox"/> Review someday actions in Things, moving to next as needed.</label><br>
+<label><input type="checkbox"/> Review unscheduled actions in Outlook, scheduling as needed.</label><br>
+<label><input type="checkbox"/> Do I have appointments to make?</label><br>
 
 
 ### Monthly Review
 
-<label><input type="checkbox"/> What went well last month?</label><br/>
-<label><input type="checkbox"/> What didn't go well last month?</label><br/>
-<label><input type="checkbox"/> What do I want to get done this month?</label><br/>
-<label><input type="checkbox"/> What events are this month?</label><br/>
-<label><input type="checkbox"/> What projects are my focus this month?</label><br/>
+<label><input type="checkbox"/> What went well last month?</label><br>
+<label><input type="checkbox"/> What didn't go well last month?</label><br>
+<label><input type="checkbox"/> What do I want to get done this month?</label><br>
+<label><input type="checkbox"/> What events are this month?</label><br>
+<label><input type="checkbox"/> What projects are my focus this month?</label><br>
 
 
 ### Annual Review
 
-<label><input type="checkbox"/> What went well last year?</label><br/>
-<label><input type="checkbox"/> What didn't go well last year?</label><br/>
-<label><input type="checkbox"/> What do I want to get done this year?</label><br/>
-<label><input type="checkbox"/> Where do I want to be next year, and how do I get there?</label><br/>
-<label><input type="checkbox"/> What are my priorities for the next year?</label><br/>
+<label><input type="checkbox"/> What went well last year?</label><br>
+<label><input type="checkbox"/> What didn't go well last year?</label><br>
+<label><input type="checkbox"/> What do I want to get done this year?</label><br>
+<label><input type="checkbox"/> Where do I want to be next year, and how do I get there?</label><br>
+<label><input type="checkbox"/> What are my priorities for the next year?</label><br>
 
 
 ### Updates:
