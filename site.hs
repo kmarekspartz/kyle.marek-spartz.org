@@ -6,11 +6,9 @@ import Control.Applicative ((<$>), Alternative (..))
 import Data.Maybe          (fromMaybe)
 import Data.Monoid         ((<>))
 import Data.List           (isPrefixOf, isSuffixOf, sortBy, intercalate)
-import Data.Time.Format    (parseTime)
+import Data.Time.Format    (parseTime, defaultTimeLocale)
 import Data.Time.Clock     (UTCTime)
 import System.FilePath     (takeFileName)
-import System.Locale       (defaultTimeLocale)
-
 
 import Text.Pandoc.Options ( WriterOptions
                            , writerHTMLMathMethod

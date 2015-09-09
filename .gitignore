@@ -13,3 +13,4 @@ presentations/*.html
 cabal.sandbox.config
 dist
 css/combined.css
+.stack-work

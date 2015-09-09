@@ -1,4 +1,4 @@
-.cabal-sandbox/bin/site rebuild
+stack exec site rebuild
 
 pushd _site
 
@@ -6,4 +6,4 @@ pushd _site
 
 popd
 
-.cabal-sandbox/bin/site build
+stack exec site build
