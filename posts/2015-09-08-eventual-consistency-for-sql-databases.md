@@ -8,10 +8,10 @@ description: Using a log-structured schema, we can merge SQL databases to achiev
 typically thought of as a property of certain NoSQL databases.  However, SQL
 databases can achieve eventual consistency with adequate planning.
 
-It can be particularly useful for horizontally scaling web services, as each
-node does not need the full, up to date picture. Another use case is
-synchronizing mobile applications with intermittent network connectivity. In
-both cases, partitioning or
+Eventual consistency is particularly useful for horizontally scaling web
+services, as each node does not need the full, up to date picture. Another use
+case is synchronizing mobile applications with intermittent network
+connectivity. In both cases, partitioning or
 [sharding](https://en.wikipedia.org/wiki/Shard_%28database_architecture%29)
 allows each user or client to maintain a consistent view.
 
@@ -56,21 +56,21 @@ UPDATE some_table SET a = 3;
 Depending on the order of these operations, the resulting database would be in
 different states.
 
-DELETEs also cause problems. Given two databases, where one has ran a deletion
-and one has not, merging them would re-insert the deleted row in the
-database with the deletion:
+`DELETE`s also cause problems. Given two databases, where one has ran a deletion
+and one has not, merging them would re-insert the deleted row in the database
+with the deletion:
 
 ~~~ SQL
 DELETE FROM some_table WHERE some_column = 4;
 ~~~
 
-We can limit DML to SELECTs and INSERTs to avoid using other synchronization
+We can limit DML to `SELECT`s and `INSERT`s to avoid using other synchronization
 methods. Avoiding updates and deletes provides
 [immutability](https://en.wikipedia.org/wiki/Immutable_object), which guarantees
 a row will not change or disappear from our databases.
 
-By staying INSERT-only, we treat our database as a [persistent data
-structure](https://en.wikipedia.org/wiki/Persistent_data_structure), or a
+By staying `INSERT`-only, we treat our database as a [persistent data
+structure](https://en.wikipedia.org/wiki/Persistent_data_structure), or an
 append-only commit log.
 
 Immutability and persistence helps with eventual consistency, but they are not
@@ -100,7 +100,7 @@ WHERE NOT EXISTS (
 
 How can we delete an item from our database without using SQL `DELETE`?
 [Tombstones](https://en.wikipedia.org/wiki/Tombstone_%28data_store%29) provide
-our answer. Instead of DELETEing the row, we can create a marker in another
+our answer. Instead of `DELETE`ing the row, we can create a marker in another
 table that says an object is deleted.
 
 ~~~ SQL
@@ -122,7 +122,7 @@ WHERE id NOT IN (
 If we want to support deletion and re-adding of the same value, we cannot use a
 unique constraint for idempotence since the unique constraint would prevent the
 addition of the new row. Instead, either de-duplicate at query time using
-DISTINCT or prevent duplicates from getting inserted without using a unique
+`DISTINCT` or prevent duplicates from getting inserted without using a unique
 constraint:
 
 ~~~ SQL
