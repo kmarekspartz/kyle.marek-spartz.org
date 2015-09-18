@@ -19,7 +19,7 @@ A data structure is considered eventually consistent if two instances can reach
 a consistent state given the same unordered set of state changes. Two databases
 are eventually consistent if all actions taken in one propagate to the other.
 
-Strong eventual consistency can be acheived if state changes are
+Strong eventual consistency can be achieved if state changes are
 [commutative](https://en.wikipedia.org/wiki/Commutative_property),
 [associative](https://en.wikipedia.org/wiki/Associative_property), and
 [idempotent](https://en.wikipedia.org/wiki/Idempotence).
