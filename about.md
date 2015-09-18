@@ -5,10 +5,9 @@ prebody: My CV is also available as a <a href="/Kyle_Marek-Spartz_CV.pdf">PDF</a
 
 # ***Kyle Marek-Spartz***
 
-<kyle@marek-spartz.org>
-
-<http://kyle.marek-spartz.org>
-
+- <kyle@marek-spartz.org>
+- <http://kyle.marek-spartz.org>
+- [+1 507 205-4102](tel:+1-507-205-4102)
 
 ## Experience
 
@@ -16,18 +15,18 @@ prebody: My CV is also available as a <a href="/Kyle_Marek-Spartz_CV.pdf">PDF</a
 - [Celador](http://www.celador.mn) – Co-Founder, 2013-Present
 - [University of Minnesota](http://www.umn.edu/):
     - Research:
-		- [College of Pharmacy](http://www.pharmacy.umn.edu/): [Speech Informatics Lab](http://rxinformatics.umn.edu/), 2012-2014
-		    - Research Assistant (SALSA)
-		- [Department of Computer Science and Engineering](http://www.cs.umn.edu/index.php): [GroupLens](http://www.grouplens.org/), 2012-2013
-		    - Research Assistant (Inter-language Wikipedia)
-		- [Undergraduate Research Opportunity Program](http://www.urop.umn.edu/) (UROP), 2011-2012
-			- Propagation of language change through social networks
-		- [NASA Minnesota Space Grant](http://www.aem.umn.edu/msgc/), 2010-2011
-		    - RockSat-C Suborbital Rocket Payload – Team Lead, 2011
-		    - High Altitude Ballooning Team – Research Assistant, 2010-2011
-	- Teaching:
-		- CSci 1001, Overview of Computer Science – Teaching Assistant, Spring 2012
-		- AEM 1901, Weather Balloon Seminar – Teaching Assistant, Fall 2010
+    - [College of Pharmacy](http://www.pharmacy.umn.edu/): [Speech Informatics Lab](http://rxinformatics.umn.edu/), 2012-2014
+        - Research Assistant (SALSA)
+    - [Department of Computer Science and Engineering](http://www.cs.umn.edu/index.php): [GroupLens](http://www.grouplens.org/), 2012-2013
+        - Research Assistant (Inter-language Wikipedia)
+    - [Undergraduate Research Opportunity Program](http://www.urop.umn.edu/) (UROP), 2011-2012
+      - Propagation of language change through social networks
+    - [NASA Minnesota Space Grant](http://www.aem.umn.edu/msgc/), 2010-2011
+        - RockSat-C Suborbital Rocket Payload – Team Lead, 2011
+        - High Altitude Ballooning Team – Research Assistant, 2010-2011
+  - Teaching:
+    - CSci 1001, Overview of Computer Science – Teaching Assistant, Spring 2012
+    - AEM 1901, Weather Balloon Seminar – Teaching Assistant, Fall 2010
 
 
 ## Publications, Presentations, Posters, and Panels
