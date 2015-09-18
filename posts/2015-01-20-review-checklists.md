@@ -15,6 +15,7 @@ Unlike most blog posts, this is a living document. I expect it to change. When I
 <label><input type="checkbox"/> Review and archive all emails in inboxes, creating next actions as needed.</label><br>
 <label><input type="checkbox"/> Review next actions in Things, moving to today as needed.</label><br>
 <label><input type="checkbox"/> Review due today actions in Outlook.</label><br>
+<label><input type="checkbox"/> Choose one important thing to get done first tomorrow.</label><br>
 
 
 ### Weekly Review
@@ -34,6 +35,7 @@ Unlike most blog posts, this is a living document. I expect it to change. When I
 <label><input type="checkbox"/> What do I want to get done this month?</label><br>
 <label><input type="checkbox"/> What events are this month?</label><br>
 <label><input type="checkbox"/> What projects are my focus this month?</label><br>
+<label><input type="checkbox"/> Are all recurring items being [minded](https://www.beeminder.com/)?</label><br>
 
 
 ### Annual Review
