@@ -6,7 +6,7 @@ import Control.Applicative ((<$>), Alternative (..))
 import Data.Maybe          (fromMaybe)
 import Data.Monoid         ((<>))
 import Data.List           (isPrefixOf, isSuffixOf, sortBy, intercalate)
-import Data.Time.Format    (parseTime, defaultTimeLocale)
+import Data.Time.Format    (parseTimeM, defaultTimeLocale)
 import Data.Time.Clock     (UTCTime)
 import System.FilePath     (takeFileName)
 
@@ -201,7 +201,7 @@ sortIdentifiersByDate =
     byDate id1 id2 =
       let fn1 = takeFileName $ toFilePath id1
           fn2 = takeFileName $ toFilePath id2
-          parseTime' fn = parseTime defaultTimeLocale "%Y-%m-%d" $ intercalate "-" $ take 3 $ splitAll "-" fn
+          parseTime' fn = parseTimeM True defaultTimeLocale "%Y-%m-%d" $ intercalate "-" $ take 3 $ splitAll "-" fn
       in compare (parseTime' fn1 :: Maybe UTCTime) (parseTime' fn2 :: Maybe UTCTime)
 --------------------------------------------------------------------------------
 
