@@ -39,11 +39,11 @@ idR compiler = do
     compile compiler
 
 
-postsGlob = "posts/*"
+postsGlob = "posts/*.md"
 
 main :: IO ()
 main = hakyllWith config $ do
-    tags <- buildTags "posts/*" $ fromCapture "posts/tags/*.html"
+    tags <- buildTags postsGlob $ fromCapture "posts/tags/*.html"
 
     match staticContent $ idR copyFileCompiler
 
@@ -106,7 +106,7 @@ homeCompiler tags =
 
 postsCompiler :: Tags -> Compiler (Item String)
 postsCompiler tags = do
-    posts <- recentFirst =<< loadAll "posts/*"
+    posts <- recentFirst =<< loadAll postsGlob
     defaultTemplateWith "templates/blog.html" $ postsCtx tags posts
 
 
@@ -130,7 +130,7 @@ feedCompilerHelper :: (Compiler [Item String] -> Compiler [Item String]) -> Tags
 feedCompilerHelper f tags = do
     let ctx = feedCtx tags
     posts <- f . recentFirst =<<  -- Any reason to just take the most recent 10?
-        loadAllSnapshots "posts/*" "content"
+        loadAllSnapshots postsGlob "content"
     renderAtom myFeedConfiguration ctx posts
 
 
