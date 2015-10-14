@@ -144,14 +144,13 @@ CREATE TABLE FollowDeletions (
 I've turned most properties into many-to-many relationships, and added deletion
 tables for the join tables. This is because many-to-many relationships are
 easier to merge than one-to-one. With a many-to-many, you can use `UNION` as
-your merge strategy. With one-to-one, there's not an easy way to
-deterministically choose a winner. This will result in temporary
-inconsistencies, but if you have each user interact with a particular host or
-shard, you can minimize those inconsistencies. In a mobile environment, the user
-is interacting with their phone, and we can guarantee that their phone is in a
-consistent state at any given time. In a server environment, we can route that
-user's interactions to a particular host, failing over to an in sync replica if
-that host is down.
+your merge strategy. With one-to-one, there's not a deterministic way to choose
+a winner. This will result in temporary inconsistencies, but if you have each
+user interact with a particular host or shard, you can minimize those
+inconsistencies. In a mobile environment, the user is interacting with their
+phone, and we can guarantee that their phone is in a consistent state at any
+given time. In a server environment, we can route that user's interactions to a
+particular host, failing over to an in sync replica if that host is down.
 
 One thing that doesn't work well with a many-to-many relationship is passwords.
 I left it as one-to-one, but passwords aren't needed anymore, particularly when
