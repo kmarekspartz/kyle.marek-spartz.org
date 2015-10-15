@@ -51,7 +51,7 @@ However, since we're avoiding `UPDATE`, this will not work. Instead, let's
 normalize this mutation out of our database.[^1]
 
 [^1]: I'm going to assume offline migrations for simplicity, but these
-migrations can achieved in a zero-downtime environment, too. You would create
+migrations can be achieved in a zero-downtime environment, too. You would create
 both places for the data reside, deploy a version of the application to read
 from both, deploy a version of the application to write to both, run a backfill
 migration (like in the example), then deploy a version which only reads and
