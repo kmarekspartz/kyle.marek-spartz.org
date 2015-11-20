@@ -31,6 +31,7 @@ prebody: My CV is also available as a <a href="/Kyle_Marek-Spartz_CV.pdf">PDF</a
 
 ## Publications, Presentations, Posters, and Panels
 
+- [Tim Hunter](http://www.tc.umn.edu/~timh/), [Paul Tilleson](http://linguistics.umn.edu/people/profile.php?UID=till0090), [Muhammad Abdurrahman](https://twitter.com/muhammadscript), **Kyle Marek-Spartz**. University of Minnesota Undergraduate Linguistics Organization (Lingo) Career Panel (*panel*). November 2015.
 - **Kyle Marek-Spartz**, [Benjamin Knoll](http://www.bmhi.umn.edu/ihi/research/nlpie/people/knoll/), [Robert Bill](http://www.bmhi.umn.edu/ihi/research/nlpie/people/bill/), [Thomas Christie](https://tom-christie.github.io/), [Serguei Pakhomov](http://www.tc.umn.edu/~pakh0002/homepage/). System for Automated Speech and Language Analysis (SALSA) (*demonstration paper* [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-paper.pdf)], *poster* [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-poster.pdf)]). [Interspeech](http://www.interspeech2014.org). September 2014.
 - Martha Abramson, [Claire Halpert](http://www.tc.umn.edu/~halpert/), **Kyle Marek-Spartz**, Dylan Skerbitz, (Moderator: Benjamin Eischens). Marketing Your Linguistics Degree (*forum*). [Minnesota Undergraduate Linguistics Symposium](http://linguistics.mn). April 2014.
 - Serguei Pakhomov, **Kyle Marek-Spartz**, Robert Bill, Benjamin Knoll, Thomas Christie, [Angela Birnbaum](http://www.pharmacy.umn.edu/faculty/birnbaum_angela/), [Ilo Leppik](http://www.pharmacy.umn.edu/faculty/leppik_ilo/), [Susan Marino](http://www.pharmacy.umn.edu/faculty/marino_susan/). Computerized Language and Speech Analysis to Measure Effects of Anti-Epileptic Drugs on Cognition (*poster* [[pdf](http://kyle.marek-spartz.org/publications/2014-epilepsy-poster.pdf)]). 3rd International Congress on Epilepsy, Brain and Mind. April 2014.
@@ -47,6 +48,7 @@ prebody: My CV is also available as a <a href="/Kyle_Marek-Spartz_CV.pdf">PDF</a
 
 ## Honors
 
+- [Leadership Saint Paul](http://www.saintpaulchamber.com/blog/leadership-saint-paul-class-of-2016-announced), [Saint Paul Chamber of Commerce Foundation](http://www.saintpaulchamber.com/foundation.html), 2016
 - [Phi Beta Kappa](https://www.pbk.org) (ΦBK), 2013
 - [National Merit Scholar](http://www.nationalmerit.org/), 2009-2013
 - University of Minnesota [MobileApp Challenge](https://sites.google.com/a/umn.edu/university-of-minnesota-mobile-app-challenge/home) – Finalist, 2011-2012
@@ -65,16 +67,3 @@ prebody: My CV is also available as a <a href="/Kyle_Marek-Spartz_CV.pdf">PDF</a
 - University of Minnesota – Twin Cities:
     - Institute of Linguistics – Colloquium Co-Coordinator 2012-2013
     - Society Of Undergraduate Linguists (SOUL) – Secretary, 2011-2013
-
-
-## Travel Abroad
-
-- Singapore, 2014
-    - [Interspeech](http://www.interspeech2014.org)
-- Canada, 2013
-- England, France, Switzerland, Liechtenstein, Austria, Italy, Germany, 2008
-    - [Minnesota Ambassadors of Music](http://www.voyageursinternational.com)
-- Canada, 2006
-- Ecuador (Galapagos), 2004
-- Germany, Luxembourg, 2002
-- Mexico, 2001
