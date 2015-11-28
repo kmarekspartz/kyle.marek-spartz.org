@@ -26,9 +26,8 @@ $else$
     <a href="/about.html">About</a>
     <a href="/README.html">Colophon</a>
   </nav>
-  $if(title)$<h2>$title$</h2>$endif$
 </header>
-<article>$if(prebody)$$prebody$$endif$
+<article>$if(title)$<h2>$title$</h2>$endif$$if(prebody)$$prebody$$endif$
 $body$
 </article>
 <footer>
