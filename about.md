@@ -1,6 +1,7 @@
 ---
 title: About
 prebody: My CV is also available as a <a href="/Kyle_Marek-Spartz_CV.pdf">PDF</a>.
+description: Kyle Marek-Spartz's CV
 ---
 
 # ***Kyle Marek-Spartz***

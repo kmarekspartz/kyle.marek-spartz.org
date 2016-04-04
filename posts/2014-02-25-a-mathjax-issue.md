@@ -2,6 +2,7 @@
 title: A MathJax Issue
 mathjax: true
 tags: meta
+description: Test page for a MathJax issue
 ---
 
 I'm having a small issue with [MathJax](http://www.mathjax.org/). I wanted to

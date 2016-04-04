@@ -1,6 +1,7 @@
 ---
 title: More pictures from HF in the Park
 tags: ham-radio
+description: Pictures from the fox hunt
 ---
 
 Thanks to Matthew, N2PSR, here are some more pictures from [this weekend's HF in the Park](/posts/2014-05-12-hf-in-the-park.html)

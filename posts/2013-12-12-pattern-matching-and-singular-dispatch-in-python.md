@@ -1,6 +1,7 @@
 ---
 title: "Pattern Matching" and Singular Dispatch in Python
 tags: python
+description: Implementing pattern matching and singular dispatch in Python
 ---
 
 [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching) and [singular dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch) are useful tools not readily usable in Python. There is [PEP 443](http://www.python.org/dev/peps/pep-0443/), but I'm not a fan for how verbose that is.
@@ -10,7 +11,7 @@ We can use dictionaries to do basic pattern matching. Here's an absolute value f
 ~~~~ python
 def abs(x):
     abs_dict = {
-        True: lambda x: x, 
+        True: lambda x: x,
         False: lambda x: -x
     }
     return abs_dict[x >= 0](x)
@@ -20,13 +21,13 @@ We can use any expression to dispatch the `abs_dict`. This allows for more compl
 
 ~~~~ python
 def more(x):
-    more_dict = { 
-        int: lambda x: x + 1, 
-        str: lambda x: x + 's' 
+    more_dict = {
+        int: lambda x: x + 1,
+        str: lambda x: x + 's'
     }
     return more_dict[type(x)](x)
-    
-more(1) == 2 
+
+more(1) == 2
 more('noun') == 'nouns'
 ~~~~
 
@@ -34,12 +35,12 @@ This used singular dispatch to choose which implementation to use. I’ve been u
 
 
 ~~~~ python
-from collections import OrderedDict 
+from collections import OrderedDict
 
 class singular_dispatch(OrderedDict):   
-    def __call__(self, *args, **kwargs): 
-        return self[type(args[0])](*args, **kwargs) 
-        
+    def __call__(self, *args, **kwargs):
+        return self[type(args[0])](*args, **kwargs)
+
 ~~~~
 
 Pretend `OrderedDict` is a normal `dict` for now. By inheriting from `dict`, our singular_dispatch objects can function like any other dictionary, and has all of its methods.[^1] We want singular dispatch objects to also function as a function, so we add a `__call__` method. The call method uses the type of its first argument (other than `self`) to dispatch which function within `self` to use. This assumes that the values in `self` are functions which operate on the type for their keys.
@@ -47,12 +48,12 @@ Pretend `OrderedDict` is a normal `dict` for now. By inheriting from `dict`, our
 This simplifies the definition of `more`:
 
 ~~~~ python
-more = singular_dispatch({ 
-    int: lambda x: x + 1, 
-    str: lambda x: x + 's' 
+more = singular_dispatch({
+    int: lambda x: x + 1,
+    str: lambda x: x + 's'
 })
 
-more(1) == 2 
+more(1) == 2
 more('noun') == 'nouns'
 ~~~~
 

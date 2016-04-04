@@ -1,6 +1,7 @@
 ---
 title: Singular Dispatch and Update
 tags: python
+description: Providing more implementations for a singular dispatch method
 ---
 
 In my earlier [singular dispatch post](/posts/2013-12-12-pattern-matching-and-singular-dispatch-in-python.html), I suggested that the `update` method of the `singular_dispatch` class is quite useful. One place I'm using it is for an implementation of [QuickCheck](http://en.wikipedia.org/wiki/QuickCheck) in Python[^1].

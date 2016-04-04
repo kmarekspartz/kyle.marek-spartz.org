@@ -1,6 +1,7 @@
 ---
 title: Types and Programming Languages
 tags: programming-languages, haskell
+description: Types and Programming Languages book
 ---
 
 > Just because you've implemented something doesn't mean you understand it.

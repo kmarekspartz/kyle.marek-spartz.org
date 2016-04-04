@@ -1,6 +1,7 @@
 ---
 title: Top-down Programming
 tags: programming-philosophy
+description: Why I prefer top-down to bottom-up programming
 ---
 
 > Think about the ideal way to write a web app. Write the code to make it happen.

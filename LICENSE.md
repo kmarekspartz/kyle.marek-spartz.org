@@ -1,4 +1,8 @@
-Copyright (c) 2014, Kyle Marek-Spartz <kyle.marek.spartz@gmail.com>
+---
+description: A license for the site.
+---
+
+Copyright (c) 2016, Kyle Marek-Spartz <kyle.marek.spartz@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

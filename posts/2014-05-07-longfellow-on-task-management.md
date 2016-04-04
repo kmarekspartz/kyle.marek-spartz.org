@@ -1,6 +1,7 @@
 ---
 title: Longfellow on Task Management
 tags: philosophy
+description: A poetry of task management?
 ---
 
 > Each morning sees some task begin,

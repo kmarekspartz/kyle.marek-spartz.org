@@ -1,6 +1,7 @@
 ---
 title: Concurrent implementation of the Daytime Protocol in Rust
 tags: haskell, pymntos, python, web-ring, rust
+description: A concurrent implementation Daytime protocol in Rust
 ---
 
 When learning a language, I rewrite small programs I've previously written to

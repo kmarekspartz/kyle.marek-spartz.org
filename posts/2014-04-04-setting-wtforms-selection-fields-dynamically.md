@@ -1,6 +1,7 @@
 ---
 title: Setting WTForms Selection Fields Dynamically
 tags: python, web-dev, open-source
+description: Setting WTForms selection fields dynamically
 ---
 
 [WTForms](http://wtforms.readthedocs.org/en/latest/) is a very useful tool for constructing web forms and operating on their data.

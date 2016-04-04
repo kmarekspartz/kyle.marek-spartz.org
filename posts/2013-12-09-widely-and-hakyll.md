@@ -1,6 +1,7 @@
 ---
 title: Widely and Hakyll
 tags: hakyll, widely, haskell, meta, open-source
+description: How I use Widely to deploy Hakyll sites
 ---
 
 I've been using [widely](http://www.celador.mn/widely) and [Hakyll](http://jaspervdj.be/hakyll/) together for a little while now for a few different sites.

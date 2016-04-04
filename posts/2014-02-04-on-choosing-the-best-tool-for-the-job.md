@@ -1,6 +1,7 @@
 ---
 title: On Choosing the Best Tool for the Job
 tags: programming-philosophy, tools
+description: Finding balance between tools that do it all and tools that are ideal
 ---
 
 Django. Ruby on Rails. jQuery.

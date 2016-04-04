@@ -1,6 +1,7 @@
 ---
 title: Harry Truman on Iteration
 tags: philosophy, startups
+description: Iteration and revision
 ---
 
 According to Robert Pirsig, anyway:

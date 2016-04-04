@@ -1,6 +1,7 @@
 ---
 title: Unbundling LinkedIn
 tags: ideas, meta, startups
+description: Why I don't have a LinkedIn account
 ---
 
 I used to have a LinkedIn account. After their [password leak](https://en.wikipedia.org/wiki/2012_LinkedIn_hack) in 2012, I got rid of my account. At the time, I did not have a serious web presence, but I've [unbundled](https://en.wikipedia.org/wiki/Unbundling) my use of their services into this site. My [about page](/about.html) accounts for most of what LinkedIn provided me at the time.

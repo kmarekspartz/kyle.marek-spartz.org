@@ -1,5 +1,6 @@
 ---
 title: Now
+description: What I'm working on now
 ---
 
 In 2015, I [focused](/posts/2015-11-25-themes-as-goals.html) on routine and

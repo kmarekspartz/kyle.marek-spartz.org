@@ -1,6 +1,7 @@
 ---
 title: Marketing Your Linguistics Degree
 tags: linguistics, philosophy
+description: Marketing your linguistics degree
 ---
 
 *Today I'll be participating in a forum at the [Minnesota Undergraduate Linguistics Symposium](http://linguistics.mn/) entitled "Marketing Your Linguistics Degree". Here are some of my preparation notes:*

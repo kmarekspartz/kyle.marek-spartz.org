@@ -1,6 +1,7 @@
 ---
 title: Sacrificing Safety for Flexibility
 tags: programming-philosophy, programming-languages
+description: An analogy between type systems and databases 
 ---
 
 There are tradeoffs with almost any technology choice. Often, a choice's strength is also its weakness.

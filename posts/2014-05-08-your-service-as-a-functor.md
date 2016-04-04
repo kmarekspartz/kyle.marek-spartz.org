@@ -1,6 +1,7 @@
 ---
 title: Your Service as a Functor
 tags: programming-languages
+description: Applying category theory to servers and services
 ---
 
 [Marius Eriksen](http://monkey.org/~marius/)'s [*Your Server as a Function*](http://monkey.org/~marius/funsrv.pdf) proposes a useful model for the development and reasoning of distributed systems with a [service-oriented architecture](https://en.wikipedia.org/wiki/Service-oriented_architecture). Most of the discussion regarding this paper seems focused on *futures*, but I've been thinking a lot about *services* and *filters*. The following discussion is not dependent on an understanding of futures.
@@ -64,4 +65,3 @@ loadbalancerFilter2 :: LoadBalancerSettings -> Filter2
 ```
 
 Decomposing redundant work in this manner allows a distributed system to be developed declaratively and safely.
-

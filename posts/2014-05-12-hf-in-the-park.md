@@ -1,6 +1,7 @@
 ---
 title: HF in the Park
 tags: ham-radio, fox-hunting, events
+description: A fox hunt
 ---
 
 [Mary](http://www.marypattison.com), KEØALJ, got her ham radio license this past week. To celebrate, we went to [HF in the Park](http://hamoperator.com/Park/). They had a fox hunt that I [mentioned recently](/posts/2014-05-01-fox-hunting-results.html).

@@ -1,6 +1,7 @@
 ---
 title: Reusing Generators in Python
 tags: python
+description: (On not) reusing generators in Python
 ---
 
 A friend of mine had an issue recently with a generator in Python. Here's the code:

@@ -208,6 +208,7 @@ sortIdentifiersByDate =
 postsCtx :: Tags -> [Item String] -> Context String
 postsCtx tags posts =
     listField "posts" (postCtx tags) (return posts) <>
+    constField "description" "Writings"             <>
     constField "title" "Blog"                       <>
     field "tags" (\_ -> renderTagList tags)         <>
     defaultContext
@@ -215,13 +216,15 @@ postsCtx tags posts =
 
 tagCtx :: Tags -> [Item String] -> String -> Context String
 tagCtx tags posts tag =
-    constField "title" ("Posts tagged &quot;" ++ tag ++ "&quot;") <>
-    listField "posts" (postCtx tags) (return posts)       <>
+    constField "description" ("Posts tagged &quot;" ++ tag ++ "&quot;") <>
+    constField "title"       ("Posts tagged &quot;" ++ tag ++ "&quot;") <>
+    listField  "posts"       (postCtx tags) (return posts)              <>
     defaultContext
 
 
 tagsCtx :: Tags -> Context String
 tagsCtx tags =
+    constField "description" "Tags" <>
     constField "title" "Tags"               <>
     field "tags" (\_ -> renderTagList tags) <>
     defaultContext
@@ -229,6 +232,7 @@ tagsCtx tags =
 
 homeCtx :: Tags -> Context String
 homeCtx tags =
+    constField "description" "Writings"     <>
     constField "title" "Home"               <>
     field "tags" (\_ -> renderTagList tags) <>
     defaultContext

@@ -1,6 +1,7 @@
 ---
 title: Effective Requirements
 tags: programming-philosophy
+description: How to gather requirements
 ---
 
 Requirements are a funny thing. They can be over- or underspecified, and it is often hard to know which is which.

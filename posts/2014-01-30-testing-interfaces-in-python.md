@@ -1,6 +1,7 @@
 ---
 title: Testing Interfaces in Python
 tags: python, interfaces, open-source
+description: Generating tests for interfaces in Python
 ---
 
 In yesterday's [post](/posts/2014-01-29-interfaces-in-python.html), I proposed a way to write and test interfaces in Python. Testing these interfaces was quite verbose. I left refactoring that testing as an exercise to the reader. Then I decided to do that exercise. Here's a neat way to generate interfaces and abstract tests given a dictionary mapping interface names to a list of method names:

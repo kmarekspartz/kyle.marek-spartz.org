@@ -1,6 +1,7 @@
 ---
 title: Interfaces and Layers
 tags: programming-philosophy, interfaces
+description: Interfaces and layers, two perspectives.
 ---
 
 > I've become much more interface-oriented than I used to be. Descriptions of the inputs and actions and outputs of methods with no code. I love writing that stuff. I also enjoy writing the code that implements it, but I do less of that nowadays than I used to. And of course it's important to have had an experience doing that so you don't design impossible specifications. You should have an idea what the implementation is going to look like as you design the interface. You should have an idea for the implementation. Then if someone comes along with a better one, that's fine.

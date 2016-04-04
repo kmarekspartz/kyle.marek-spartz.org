@@ -1,6 +1,7 @@
 ---
 title: Startup Services Startups
 tags: startups
+description: Startups that provide services for other startups
 ---
 
 One of the services we offer at [Celador](http://www.celador.mn) we like to call Startup as a Service. If a client has a business idea, but not the team to make it happen, we can help.

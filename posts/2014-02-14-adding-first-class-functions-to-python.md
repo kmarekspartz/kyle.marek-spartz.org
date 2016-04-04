@@ -1,6 +1,7 @@
 ---
 title: Adding First-class Functions to Python
 tags: python, programming-languages
+description: Object and function duality
 ---
 
 Let's pretend we are stuck in an alternate universe where first-class functions[^1] don't exist in Python. How could we add them back in using classes, without modifying the run-time?

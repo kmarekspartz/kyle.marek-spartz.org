@@ -1,9 +1,10 @@
 ---
 title: Multitools
 tags: programming-philosophy, tools
+description: On choosing the best tool for the job
 ---
 
-*[Last week](/posts/2014-03-04-pymntos-web-development-meetup-tonight.html), I gave a talk entitled "Why Not Django". This is an essay version.*
+*Last week, I gave a talk entitled "Why Not Django". This is an essay version.*
 
 ![My preferred [multitool](https://www.spyderco.com/catalog/details.php?product=206).   ](/images/multitool.jpg)
 

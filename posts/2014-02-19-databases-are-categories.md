@@ -1,6 +1,7 @@
 ---
 title: Databases are Categories
 tags: category-theory, databases
+description: Expanding on the link between databases and category theory
 ---
 
 It turns out that people more qualified than I are working on the link between [databases and category theory](/posts/2014-01-27-databases-primality-and-category-theory.html).

@@ -1,6 +1,7 @@
 ---
 title: Props Now On PyPI
 tags: python, haskell, props, open-source
+description: Releasing a property-based testing framework for Python
 ---
 
 Props ([PyPI](https://pypi.python.org/pypi/props/), [GitHub](https://github.com/zeckalpha/props)) provides property-based testing for Python à la [QuickCheck](http://en.wikipedia.org/wiki/QuickCheck).

@@ -1,9 +1,10 @@
 ---
 title: Databases, Primality, and Category Theory
 tags: category-theory, databases
+description: An observation relating primality from number theory to databases
 ---
 
-My [fiancée](http://www.marypattison.com) is taking a databases course right now, and she pointed out that database normalization is related to prime factorization.
+My [fiancée](http://mary.marek-spartz.org) is taking a databases course right now, and she pointed out that database normalization is related to prime factorization.
 
 If we think of `JOIN` as a multiplication operation, and the multiplicative inverse as splitting a table into two tables, the equivalent process to prime factorization would be database normalization!
 

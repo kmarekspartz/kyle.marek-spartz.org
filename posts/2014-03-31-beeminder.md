@@ -1,6 +1,7 @@
 ---
 title: Beeminder
 tags: meta, beeminder
+description: Thoughts on Beeminder
 ---
 
 I've been using [Beeminder](https://www.beeminder.com/) for two months. I'm currently tracking 14 different goals. Two issues that I had with some of my early goals were not measuring the right metric and using 'Do Less' goals.

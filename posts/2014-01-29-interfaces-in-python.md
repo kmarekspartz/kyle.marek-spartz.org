@@ -1,6 +1,7 @@
 ---
 title: Interfaces in Python
 tags: python, interfaces, open-source
+description: Implementing interfaces in Python
 ---
 
 There's been a long history of proposals and disagreement over interfaces in Python. I'm going to ignore all of that and show one way to utilize interfaces.

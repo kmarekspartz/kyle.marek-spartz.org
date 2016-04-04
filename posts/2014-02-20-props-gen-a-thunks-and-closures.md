@@ -1,6 +1,7 @@
 ---
 title: Props: Gen a, thunks, and closures
 tags: python, props, haskell, programming-languages, open-source
+description: Internals of Props
 ---
 
 In my previous [post](/posts/2014-02-17-props-now-on-pypi.html) about [Props](https://pypi.python.org/pypi/props/), I said I would elaborate on its equivalent to `Gen a` from Haskell's [QuickCheck](https://en.wikipedia.org/wiki/QuickCheck).

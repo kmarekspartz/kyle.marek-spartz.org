@@ -1,6 +1,7 @@
 ---
 title: Fox Hunting Results
 tags: ham-radio, fox-hunting
+description: Fox Hunting Results
 ---
 
 Last month, I posted about fox hunting [equipment](/posts/2014-04-21-fox-hunting-equipment.html) and [software](/posts/2014-04-22-fox-hunting-software.html) that [Mary](http://www.marypattison.com) and her friend Emily used[^1] for a final project. I forgot to mention some other tools: a compass to take bearings, a GPS to take latitude and longitude, and [ArcGIS](http://www.esri.com/) to map the data.

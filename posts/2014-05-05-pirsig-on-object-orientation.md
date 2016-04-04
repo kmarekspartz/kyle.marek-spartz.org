@@ -1,6 +1,7 @@
 ---
 title: Pirsig on Object Orientation
 tags: programming-philosophy
+description: Philosophy and programming languages
 ---
 
 And literate programming!

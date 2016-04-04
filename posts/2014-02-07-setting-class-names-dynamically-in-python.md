@@ -1,6 +1,7 @@
 ---
 title: Setting Class Names Dynamically in Python
 tags: python
+description: Metaprogrammed named classes in Python
 ---
 
 I'm finishing up my [QuickCheck](http://en.wikipedia.org/wiki/QuickCheck) implementation for Python. I'm writing generator combinators to make it easier to make new generators. Since the generators I'm using are just classes with a class method `arbitrary`, the combinators dynamically create classes:

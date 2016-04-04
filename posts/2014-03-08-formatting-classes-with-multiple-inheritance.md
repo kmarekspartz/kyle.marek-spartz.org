@@ -1,6 +1,7 @@
 ---
-title: Formatting Classes with Multiple Inheritance in 
+title: Formatting Classes with Multiple Inheritance in
 tags: python
+description: Formatting rules for Python
 ---
 
 [PEP 8](http://legacy.python.org/dev/peps/pep-0008/#maximum-line-length) says that line length should generally be fewer than 80 characters. It doesn't discuss formatting for classes with multiple inheritance, but we can infer a preferred style from the formatting for methods.
@@ -16,7 +17,7 @@ This could be formatted:
 
 ~~~ Python
 class OurClass(
-    AMixin, 
+    AMixin,
     AnotherMixin,
     SomeParentClass,
     AnotherParent,

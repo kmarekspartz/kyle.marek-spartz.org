@@ -1,6 +1,7 @@
 ---
 title: A Language which isn't Recursively Enumerable
 tags: programming-languages, linguistics
+description: A Language which isn't Recursively Enumerable
 ---
 
 We've been working through the [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy) at the computational linguistics reading group. This past week, the existence of a language which wasn't recursively enumerable came up. Here's my attempt at a solution. Please let me know where my math and reasoning go off track.

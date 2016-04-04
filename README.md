@@ -1,5 +1,6 @@
 ---
 title: Colophon
+description: How the site is built.
 ---
 
 This website is

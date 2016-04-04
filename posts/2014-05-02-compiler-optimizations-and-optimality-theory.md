@@ -1,6 +1,7 @@
 ---
 title: Compiler Optimizations and Optimality Theory
 tags: linguistics, programming-languages
+description: Compiler optimizations and optimality theory
 ---
 
 Yesterday, I read a [post](http://gus-massa.blogspot.com/2014/04/removing-strange-t-and-f-of-ifs-in.html) on bytecode optimizations in Racket. The post discusses a number of optimizations (both proposed and implemented) for `if`-expressions in the Racket compiler.

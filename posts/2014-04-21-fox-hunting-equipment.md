@@ -1,6 +1,7 @@
 ---
 title: Fox Hunting Equipment
 tags: ham-radio, fox-hunting, tools
+description: Fox hunting equipement
 ---
 
 For her master's coursework, [Mary](http://www.marypattison.com) is taking a class on spatial data methodology. She wanted to do a radio direction finding final project, but since I haven't done much with my ham radio license recently, this was a good chance to invest in some equipment:

@@ -2,6 +2,7 @@
 title: The (Linguistics) Pragmatic Programmer
 mathjax: true
 tags: linguistics, programming-languages
+description: Applying principles of natural language linguistics to programming languages
 ---
 
 *What follows is an mildly revised version of a final paper from the linguistics pragmatics course I took last spring.*

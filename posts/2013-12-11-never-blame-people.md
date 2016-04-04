@@ -1,6 +1,7 @@
 ---
 title: Never Blame People
 tags: ui, programming-philosophy
+description: Computer programs should not blame people for their own failings
 ---
 
 Many people don't like using computers because they internalize computer problems when things go wrong. People blame themselves when computers don't behave as expected.
