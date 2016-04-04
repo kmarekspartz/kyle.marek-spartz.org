@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/kmarekspartz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://kyle.marek-spartz.org
+  * I am kmarekspartz (https://keybase.io/kmarekspartz) on keybase.
+  * I have a public key ASARNJhw9AZxoDGXy-5AMtqFJ-HGQQQe7Z-VsX0SsCigSgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012011349870f40671a03197cbee4032da8527e1c641041eed9f95b17d12b028a04a0a",
+            "host": "keybase.io",
+            "kid": "012011349870f40671a03197cbee4032da8527e1c641041eed9f95b17d12b028a04a0a",
+            "uid": "c52f763c17625fb129ae5d6fe8a0e319",
+            "username": "kmarekspartz"
+        },
+        "service": {
+            "hostname": "kyle.marek-spartz.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.14"
+    },
+    "ctime": 1458590621,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1458590583,
+        "hash": "844edd4e49471e35d1e1d939a74f5007978779c100c654a68b543ac66ccea450ac59e6f7b78dfb7c2c7c2f032ba0637c35cd95df2fdb61e68125f49165ed9073",
+        "seqno": 417299
+    },
+    "prev": "7f5ad0fefd1638f0e975197709a9695dfd5754108561de303487647187a092c5",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgETSYcPQGcaAxl8vuQDLahSfhxkEEHu2flbF9ErAooEoKp3BheWxvYWTFAwB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMTEzNDk4NzBmNDA2NzFhMDMxOTdjYmVlNDAzMmRhODUyN2UxYzY0MTA0MWVlZDlmOTViMTdkMTJiMDI4YTA0YTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMTEzNDk4NzBmNDA2NzFhMDMxOTdjYmVlNDAzMmRhODUyN2UxYzY0MTA0MWVlZDlmOTViMTdkMTJiMDI4YTA0YTBhIiwidWlkIjoiYzUyZjc2M2MxNzYyNWZiMTI5YWU1ZDZmZThhMGUzMTkiLCJ1c2VybmFtZSI6ImttYXJla3NwYXJ0eiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoia3lsZS5tYXJlay1zcGFydHoub3JnIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNCJ9LCJjdGltZSI6MTQ1ODU5MDYyMSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDU4NTkwNTgzLCJoYXNoIjoiODQ0ZWRkNGU0OTQ3MWUzNWQxZTFkOTM5YTc0ZjUwMDc5Nzg3NzljMTAwYzY1NGE2OGI1NDNhYzY2Y2NlYTQ1MGFjNTllNmY3Yjc4ZGZiN2MyYzdjMmYwMzJiYTA2MzdjMzVjZDk1ZGYyZmRiNjFlNjgxMjVmNDkxNjVlZDkwNzMiLCJzZXFubyI6NDE3Mjk5fSwicHJldiI6IjdmNWFkMGZlZmQxNjM4ZjBlOTc1MTk3NzA5YTk2OTVkZmQ1NzU0MTA4NTYxZGUzMDM0ODc2NDcxODdhMDkyYzUiLCJzZXFubyI6OSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDDVCB/SdOzo+BznIUCCa5DgISbH+0noUjyAJ4r0sH/tj8lYNpHw3WR93SBCufeElsl7KrxVdg5qU5ADYj26wgOqHNpZ190eXBlIKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kmarekspartz
+
+==================================================================
