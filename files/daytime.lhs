@@ -120,7 +120,7 @@ is thrown away).  The service closes the connection after sending the
 quote."*
 
 
-A non-server of this would just be a simple version of [`date`](http://unixhelp.ed.ac.uk/CGI/man-cgi?date)
+A non-server of this would just be a simple version of [`date`](http://linux.die.net/man/1/date)
 
 > main1 :: IO ()
 > main1 = do
