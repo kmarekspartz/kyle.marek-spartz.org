@@ -46,3 +46,11 @@ blockquote {
 .sourceCode, code {
   font-family: 'Inconsolata', sans-serif;
 }
+
+.microblog .info {
+  color: #6d6d6d;
+}
+
+.microblog .post {
+  margin-bottom: 40px;
+}
