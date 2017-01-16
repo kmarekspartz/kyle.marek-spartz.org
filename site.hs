@@ -42,31 +42,23 @@ postsGlob = "posts/*.md"
 
 main :: IO ()
 main = hakyllWith config $ do
-    tags <- buildTags postsGlob $ fromCapture "posts/tags/*.html"
-
     match staticContent $ idR copyFileCompiler
-
-    -- match "css/*" $ idR compressCssCompiler
 
     match postsGlob $ do
         route $ setExtension "html"
-        compile $ postCompiler tags
+        compile $ postCompiler
 
     match "*.md" $ do
         route $ setExtension "html"
         compile defaultCompiler
 
-    tagsRules tags $ \tag pattern -> idR $ tagCompiler tags tag pattern
+    create ["blog.html"] $ idR $ postsCompiler
 
-    create ["posts/tags/index.html"] $ idR $ tagsCompiler tags
+    create ["index.html"] $ idR $ homeCompiler
 
-    create ["blog.html"] $ idR $ postsCompiler tags
+    create ["atom.xml"] $ idR $ feedCompiler
 
-    create ["index.html"] $ idR $ homeCompiler tags
-
-    create ["atom.xml"] $ idR $ feedCompiler tags
-
-    create ["atom-all.xml"] $ idR $ largeFeedCompiler tags
+    create ["atom-all.xml"] $ idR $ largeFeedCompiler
 
     match "templates/*" $ compile templateCompiler
 
@@ -86,37 +78,23 @@ cssTemplateCompiler :: Compiler (Item Template)
 cssTemplateCompiler = cached "Hakyll.Web.Template.cssTemplateCompiler" $
     fmap (readTemplate . compressCss) <$> getResourceString
 
-tagCompiler :: Tags -> String -> Pattern -> Compiler (Item String)
-tagCompiler tags tag pattern = do
-    posts <- recentFirst =<< loadAll pattern
-    defaultTemplateWith "templates/tag.html" $ tagCtx tags posts tag
+homeCompiler :: Compiler (Item String)
+homeCompiler =
+    defaultTemplateWith "templates/index.html" $ homeCtx
 
-
-tagsCompiler :: Tags -> Compiler (Item String)
-tagsCompiler tags =
-    defaultTemplateWith "templates/tags.html" $ tagsCtx tags
-
-
-homeCompiler :: Tags -> Compiler (Item String)
-homeCompiler tags =
-    defaultTemplateWith "templates/index.html" $ homeCtx tags
-
-
-
-postsCompiler :: Tags -> Compiler (Item String)
-postsCompiler tags = do
+postsCompiler :: Compiler (Item String)
+postsCompiler = do
     posts <- recentFirst =<< loadAll postsGlob
-    defaultTemplateWith "templates/blog.html" $ postsCtx tags posts
+    defaultTemplateWith "templates/blog.html" $ postsCtx posts
 
 
-postCompiler :: Tags -> Compiler (Item String)
-postCompiler tags =
+postCompiler :: Compiler (Item String)
+postCompiler =
     pandocCompilerWith defaultHakyllReaderOptions writerOptions
         >>= saveSnapshot "content"
-        >>= loadAndApplyTemplate "templates/post.html"    ctx
-        >>= loadAndApplyTemplate "templates/default.html" ctx
+        >>= loadAndApplyTemplate "templates/post.html"    postCtx
+        >>= loadAndApplyTemplate "templates/default.html" postCtx
         >>= relativizeUrls
-      where ctx = postCtx tags
 
 defaultCompiler :: Compiler (Item String)
 defaultCompiler =
@@ -125,30 +103,28 @@ defaultCompiler =
         >>= relativizeUrls
 
 
-feedCompilerHelper :: (Compiler [Item String] -> Compiler [Item String]) -> Tags -> Compiler (Item String)
-feedCompilerHelper f tags = do
-    let ctx = feedCtx tags
+feedCompilerHelper :: (Compiler [Item String] -> Compiler [Item String]) -> Compiler (Item String)
+feedCompilerHelper f = do
     posts <- f . recentFirst =<<  -- Any reason to just take the most recent 10?
         loadAllSnapshots postsGlob "content"
-    renderAtom myFeedConfiguration ctx posts
+    renderAtom myFeedConfiguration feedCtx posts
 
 
-feedCompiler :: Tags -> Compiler (Item String)
+feedCompiler :: Compiler (Item String)
 feedCompiler = feedCompilerHelper $ fmap (take 10)
 
 
-largeFeedCompiler :: Tags -> Compiler (Item String)
+largeFeedCompiler :: Compiler (Item String)
 largeFeedCompiler = feedCompilerHelper id
 
 
-feedCtx :: Tags -> Context String
-feedCtx tags = bodyField "description" <> postCtx tags
+feedCtx :: Context String
+feedCtx = bodyField "description" <> postCtx
 
 
-postCtx :: Tags -> Context String
-postCtx tags =
+postCtx :: Context String
+postCtx =
     dateField "date" "%B %e, %Y" <>
-    tagsField "tags" tags        <>
     field "nextPost" nextPostUrl <>
     field "prevPost" prevPostUrl <>
     defaultContext
@@ -204,36 +180,17 @@ sortIdentifiersByDate =
       in compare (parseTime' fn1 :: Maybe UTCTime) (parseTime' fn2 :: Maybe UTCTime)
 --------------------------------------------------------------------------------
 
-postsCtx :: Tags -> [Item String] -> Context String
-postsCtx tags posts =
-    listField "posts" (postCtx tags) (return posts) <>
-    constField "description" "Writings"             <>
-    constField "title" "Blog"                       <>
-    field "tags" (\_ -> renderTagList tags)         <>
+postsCtx :: [Item String] -> Context String
+postsCtx posts =
+    listField "posts" postCtx (return posts) <>
+    constField "description" "Writings"      <>
+    constField "title" "Blog"                <>
     defaultContext
 
-
-tagCtx :: Tags -> [Item String] -> String -> Context String
-tagCtx tags posts tag =
-    constField "description" ("Posts tagged &quot;" ++ tag ++ "&quot;") <>
-    constField "title"       ("Posts tagged &quot;" ++ tag ++ "&quot;") <>
-    listField  "posts"       (postCtx tags) (return posts)              <>
-    defaultContext
-
-
-tagsCtx :: Tags -> Context String
-tagsCtx tags =
-    constField "description" "Tags" <>
-    constField "title" "Tags"               <>
-    field "tags" (\_ -> renderTagList tags) <>
-    defaultContext
-
-
-homeCtx :: Tags -> Context String
-homeCtx tags =
+homeCtx :: Context String
+homeCtx =
     constField "description" "Writings"     <>
     constField "title" "Home"               <>
-    field "tags" (\_ -> renderTagList tags) <>
     defaultContext
 
 
