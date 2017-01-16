@@ -54,8 +54,6 @@ main = hakyllWith config $ do
 
     create ["blog.html"] $ idR $ postsCompiler
 
-    create ["index.html"] $ idR $ homeCompiler
-
     create ["atom.xml"] $ idR $ feedCompiler
 
     create ["atom-all.xml"] $ idR $ largeFeedCompiler
@@ -77,10 +75,6 @@ defaultTemplateWith template ctx =
 cssTemplateCompiler :: Compiler (Item Template)
 cssTemplateCompiler = cached "Hakyll.Web.Template.cssTemplateCompiler" $
     fmap (readTemplate . compressCss) <$> getResourceString
-
-homeCompiler :: Compiler (Item String)
-homeCompiler =
-    defaultTemplateWith "templates/index.html" $ homeCtx
 
 postsCompiler :: Compiler (Item String)
 postsCompiler = do
