@@ -111,7 +111,7 @@ main `main`:
 > main = main4
 
 First, lets write a non-server version of what a Daytime server
-does. According the the
+does. According to the
 [specification](https://tools.ietf.org/html/rfc867):
 
 *"Once a connection is established the current date and time is sent

@@ -43,4 +43,4 @@ config = defaultConfiguration
         fileName = takeFileName path
 ```
 
-I've been very happy with this setup, though there remains one issue: With the the `.widely` file in multiple locations, occasionally I'll accidentally call `widely push` in the root of the repository. This isn't a huge issue as widely asks before making changes. When I make this mistake, widely detects quite a few files that shouldn't be included. I think it'll just take getting used to calling `./site deploy` instead.
+I've been very happy with this setup, though there remains one issue: With the `.widely` file in multiple locations, occasionally I'll accidentally call `widely push` in the root of the repository. This isn't a huge issue as widely asks before making changes. When I make this mistake, widely detects quite a few files that shouldn't be included. I think it'll just take getting used to calling `./site deploy` instead.

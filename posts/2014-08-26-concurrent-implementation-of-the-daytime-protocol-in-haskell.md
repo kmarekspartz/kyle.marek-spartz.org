@@ -143,7 +143,7 @@ main = main4
 ```
 
 First, lets write a non-server version of what a Daytime server does.
-According the the [specification](https://tools.ietf.org/html/rfc867):
+According to the [specification](https://tools.ietf.org/html/rfc867):
 
 *"Once a connection is established the current date and time is sent out
 the connection as a ascii character string (and any data received is

@@ -27,11 +27,11 @@ public class OurFish implements CountFishInterface {
 
 # Interfaces in Python
 - In Python, this verification can't be done statically, due to the ability to add methods at runtime.
-- [http://www.python.org/dev/peps/pep-0245/]()
-- [https://pypi.python.org/pypi/zope.interface/4.1.0]()
-- [http://ref.readthedocs.org/en/latest/understanding_python/interfaces/index.html]()
-- [http://nedbatchelder.com/text/pythonic-interfaces.html]()
-- [http://dirtsimple.org/2004/12/python-interfaces-are-not-java.html]()
+- <http://www.python.org/dev/peps/pep-0245/>
+- <https://pypi.python.org/pypi/zope.interface/4.1.0>
+- <http://ref.readthedocs.org/en/latest/understanding_python/interfaces/index.html>
+- <http://nedbatchelder.com/text/pythonic-interfaces.html>
+- <http://dirtsimple.org/2004/12/python-interfaces-are-not-java.html>
 
 
 # `NotImplementedError`
@@ -65,7 +65,7 @@ class OurFish(CountFishInterface):
     - If the methods specified in the interface are provided for using mixins or parent classes, then choosing the order of the inheritance is important.
     - Interfaces should appear in an appropriate place in the inheritance specification, i.e. near the end.
     - For help with this, see the documentation on [multiple inheritance](http://docs.python.org/3/tutorial/classes.html#multiple-inheritance).
-    
+
 
 # Testing against an interface
 
@@ -194,6 +194,6 @@ for interface_name, methods in interfaces.iteritems():
 
 # `interface-mixins`
 
-- [https://pypi.python.org/pypi/interface-mixins]()
-- [https://github.com/zeckalpha/interface-mixins]()
-- [http://kyle.marek-spartz.org]()
+- <https://pypi.python.org/pypi/interface-mixins>
+- <https://github.com/zeckalpha/interface-mixins>
+- <http://kyle.marek-spartz.org>

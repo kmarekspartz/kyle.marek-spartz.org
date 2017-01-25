@@ -37,7 +37,7 @@
 	- (buzzword alert) Social Networks
 	- Insurance applications
 	- Threading Emails (See [jwz's algorithm](http://www.jwz.org/doc/threading.html))
-	
+
 # Querying Graphs *Efficiently*
 
 - Don't use SQL!
@@ -52,7 +52,7 @@
     	- (though jwz doesn't have a beard.)
     - if your filesystem can handle each node
 
-# Querying Graphs *using a DSL* 
+# Querying Graphs *using a DSL*
 
 - What if our query language had a notion of nodes and edges?
 - DSL for querying
@@ -77,9 +77,9 @@
 
 # The Book
 
-![](/images/graph_databases_cover.png)
+![Graph Databases Book](/images/graph_databases_cover.png)
 
-- [www.graphdatabases.com]()
+- <www.graphdatabases.com>
 - free ebook version
 - ~$25 print version
 - describes core principles of graph databases
@@ -89,6 +89,3 @@
 
 
 See also: [bulbflow](http://bulbflow.com/)
-
-
-

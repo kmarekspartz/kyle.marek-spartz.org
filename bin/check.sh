@@ -1,3 +1,8 @@
+#!/usr/bin/env bash
+set -e
+
+ag "\bthe\W+the\b" || true
+
 MARKDOWN_FILES=$(git ls-files | grep '.md$')
 
 MISSPELLED_FILES=$(for f in $MARKDOWN_FILES; do

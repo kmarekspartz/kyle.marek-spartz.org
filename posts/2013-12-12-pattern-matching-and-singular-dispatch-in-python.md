@@ -1,5 +1,5 @@
 ---
-title: "Pattern Matching" and Singular Dispatch in Python
+title: Pattern Matching and Singular Dispatch in Python
 tags: python
 description: Implementing pattern matching and singular dispatch in Python
 ---

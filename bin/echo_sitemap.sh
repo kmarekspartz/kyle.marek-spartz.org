@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+set -e
+
 pushd _site >/dev/null
 
 ROOT_URL="http://kyle.marek-spartz.org/"

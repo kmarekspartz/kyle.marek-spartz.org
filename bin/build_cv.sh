@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+set -e
 pandoc about.md \
   --latex-engine=xelatex \
   -o Kyle_Marek-Spartz_CV.pdf \

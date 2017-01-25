@@ -165,7 +165,6 @@ posts/2014-02-07-setting-class-names-dynamically-in-python.md
   13 combinator
 
 posts/2014-02-10-top-down-programming.md
-   1 QuickCheck
    1 readme
 
 posts/2014-02-11-linting-natural-language.md
@@ -899,8 +898,6 @@ posts/2013-12-09-widely-and-hakyll.md:30: Configuration { deployCommand = "pushd
 
 posts/2013-12-09-widely-and-hakyll.md:37: PrefixOf` fileName = True | "#" `isPrefixOf` fileName = True | "~" `isSuffixOf` fileName = True | ".swp" `isSuffixOf` fileName = True | otherwise = False where fileName = takeFileName path ``` I've been [very -> (use sparingly; try to use words that are strong in themselves for emphasis)] happy with this setup, though there remains [one -> When used as a pronoun, it  must be used consistently: One must manage one's money carefully.] issue:
 
-posts/2013-12-09-widely-and-hakyll.md:46: With the [the -> Double word.] `.widely` file in multiple locations, occasionally I'll accidentally call `widely push` in the root of the repository.
-
 posts/2013-12-09-widely-and-hakyll.md:46: I think it'll just take getting used to calling `./[site -> (a "site" is a place, a "sight" is related to "seeing")] deploy` instead.
 
 posts/2013-12-10-lost-keys.md:7: Losing keys is an ordeal, but thankfully I'm not going through it [presently -> (do not use as substitute for "now", restrict to synonym for "soon")].
@@ -1209,7 +1206,7 @@ posts/2014-02-21-restful-email.md:4: A proposed REST API for email --- [There ar
 
 posts/2014-02-21-restful-email.md:9: What [would -> (use "should" if used as conditional statement in the first person or for "shall" in indirect quotation after a verb in past tense.  Consider omitting it for repeated actions)] such a [system -> Frequently used without need.] look [like -> Substitute by "as" before phrases or clauses: Our love was beautiful, as love was meant to be.]?
 
-posts/2014-02-21-restful-email.md:11: First, instead of our usual email addresses, we'd have routes, [so -> (do not use as intensifier)] my email, [kyle.marek.spartz@gmail.com](), [would -> (use "should" if used as conditional statement in the first person or for "shall" in indirect quotation after a verb in past tense.  Consider omitting it for repeated actions)] look more [like -> Substitute by "as" before phrases or clauses: Our love was beautiful, as love was meant to be.]:
+posts/2014-02-21-restful-email.md:11: First, instead of our usual email addresses, we'd have routes, [so -> (do not use as intensifier)] my email, <kyle.marek.spartz@gmail.com>, [would -> (use "should" if used as conditional statement in the first person or for "shall" in indirect quotation after a verb in past tense.  Consider omitting it for repeated actions)] look more [like -> Substitute by "as" before phrases or clauses: Our love was beautiful, as love was meant to be.]:
 
 posts/2014-02-21-restful-email.md:30: GET gmail.com/kyle.marek.spartz/labels/spam URL query strings on GETs [could -> (do not confuse with "may")] be used to filter results by the email metadata:
 
@@ -1317,7 +1314,7 @@ posts/2014-02-24-the-linguistics-pragmatic-programmer.md:162: With this in mind,
 
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:172: Another use of `self` (or `this`) occurs when you want to [refer -> (an allusion is an indirect reference, while a reference is a direct reference)] to the object wrapping the current namespace.
 
-posts/2014-02-24-the-linguistics-pragmatic-programmer.md:173: For example, when defining a class in Python, you use self to [refer -> (an allusion is an indirect reference, while a reference is a direct reference)] to the [the -> Double word.] eventual instance of the class:
+posts/2014-02-24-the-linguistics-pragmatic-programmer.md:173: For example, when defining a class in Python, you use self to [refer -> (an allusion is an indirect reference, while a reference is a direct reference)] to the eventual instance of the class:
 
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:193: In other languages, the `self` in the methods [would -> (use "should" if used as conditional statement in the first person or for "shall" in indirect quotation after a verb in past tense.  Consider omitting it for repeated actions)] [refer -> (an allusion is an indirect reference, while a reference is a direct reference)] to the methods themselves, rather [than -> (examine sentences containing "than" to insure that they are not missing words: I love my father more than my mother. I love my father more than my mother loves my father. I love my father more than I love my mother)] the instance object of the class.
 
@@ -1391,7 +1388,7 @@ posts/2014-02-24-the-linguistics-pragmatic-programmer.md:337: Since `Any` is a c
 
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:341: [There is -> (a dead phrase; rewrite the sentence and it will probably improve)] also a `None` contract [which -> (use "that" if clause is restrictive)] always returns false, but it is of little practical use.
 
-posts/2014-02-24-the-linguistics-pragmatic-programmer.md:344: [There are -> (a dead phrase; rewrite the sentence and it will probably improve)] also contract combinators, [which -> (use "that" if clause is restrictive)] correspond to the [the -> Double word.] Set and Boolean combinators.
+posts/2014-02-24-the-linguistics-pragmatic-programmer.md:344: [There are -> (a dead phrase; rewrite the sentence and it will probably improve)] also contract combinators, [which -> (use "that" if clause is restrictive)] correspond to the Set and Boolean combinators.
 
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:345: For example, the contract `-2 or Positive` takes the -2 contract [which -> (use "that" if clause is restrictive)] checks for equality with -2, and the Positive contract [which -> (use "that" if clause is restrictive)] checks for a positive number, and unifies them into a composite contract.
 
@@ -2003,8 +2000,6 @@ posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md
 
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:141: Code .literate .haskell} main = [main -> Double word.]4 ``` First, lets write a non-server version of what a Daytime server does.
 
-posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:146: According the [the -> Double word.] [specification](https://tools.ietf.org/html/rfc867):
-
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:148: Once a connection is established the current date and time is sent out the connection as a ascii [character -> Often redundant, except when discussing role-playing games.] string (and any data received is thrown away).
 
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:153: A non-server of this [would -> (use "should" if used as conditional statement in the first person or for "shall" in indirect quotation after a verb in past tense.  Consider omitting it for repeated actions)] just be a simple version of [`date`](http://linux.die.net/man/1/date) ``` {.sourceCode .literate .haskell} main1 ::
@@ -2329,7 +2324,7 @@ presentations/2013-12-05-graph_databases.md:31: Neo4j|ArangoDB|Titan` - No matte
 
 presentations/2013-12-05-graph_databases.md:50: C programmer - (dmr > jwz > rms) - (though jwz doesn't have a beard.) - if your filesystem [can -> (do not confuse with "may")] handle each node - What if our query language had a notion of nodes and edges?
 
-presentations/2013-12-05-graph_databases.md:75: Similar to the benefits of dynamic languages) ![](/images/graph_databases_cover.png) - [www.graphdatabases.com]() - free ebook version - ~$25 print version - describes core [principles -> (a "principle" is a rule, while a "principal" is a person, when used as a noun, or means "chief", when used as an adjective, and the adverb for both words is spelt "principally")] of graph databases - focuses on Neo4j, but discusses others See also:
+presentations/2013-12-05-graph_databases.md:75: Similar to the benefits of dynamic languages) ![Graph Databases Book](/images/graph_databases_cover.png) - <www.graphdatabases.com> - free ebook version - ~$25 print version - describes core [principles -> (a "principle" is a rule, while a "principal" is a person, when used as a noun, or means "chief", when used as an adjective, and the adverb for both words is spelt "principally")] of graph databases - focuses on Neo4j, but discusses others See also:
 
 presentations/2014-02-13-interfaces.md:13: Java public interface CountFishInterface { public void [one -> When used as a pronoun, it  must be used consistently: One must manage one's money carefully.](); public void two(); } public class OurFish implements CountFishInterface { public void [one -> When used as a pronoun, it  must be used consistently: One must manage one's money carefully.]() { ... } public void two() { ... } } ~~~~ - `javac` should complain if the interface is not satisfied.
 
@@ -2422,7 +2417,7 @@ posts/2013-12-09-widely-and-hakyll.md:23: To do this, I initially added `".widel
 posts/2013-12-09-widely-and-hakyll.md:27: Second, Hakyll ignores dotfiles by default, so we need to change the `ignoreFile` function in the configuration:
 posts/2013-12-09-widely-and-hakyll.md:30: Configuration { deployCommand = "pushd _site && widely push && popd" , ignoreFile = ignoreFile' } where ignoreFile' path | ".widely" `isPrefixOf` fileName = False | ".
 posts/2013-12-09-widely-and-hakyll.md:37: PrefixOf` fileName = True | "#" `isPrefixOf` fileName = True | "~" `isSuffixOf` fileName = True | ".swp" `isSuffixOf` fileName = True | otherwise = False where fileName = takeFileName path ``` I've been very happy with this setup, though there remains one issue:
-posts/2013-12-09-widely-and-hakyll.md:46: With the the `.widely` file in multiple locations, occasionally I'll accidentally call `widely push` in the root of the repository.
+posts/2013-12-09-widely-and-hakyll.md:46: With the `.widely` file in multiple locations, occasionally I'll accidentally call `widely push` in the root of the repository.
 posts/2013-12-10-lost-keys.md:9: They keyhole and the teeth of each key provide us with the information we need.
 posts/2013-12-10-lost-keys.md:11: If the average person had a way of cataloging this information, they could get replacements from a locksmith.
 posts/2013-12-10-lost-keys.md:11: Perhaps there should be an app which takes pictures of your keys and stores this information for you.
@@ -2528,7 +2523,7 @@ posts/2014-02-10-top-down-programming.md:9: Aaron Swartz](http://www.aaronsw.com
 posts/2014-02-10-top-down-programming.md:11: Instead, use [lazy evaluation](http://en.wikipedia.org/wiki/Lazy_evaluation) to implement only the code that you need as you need it!
 posts/2014-02-10-top-down-programming.md:11: This prevents the creation of [spaghetti code](http://en.wikipedia.org/wiki/Spaghetti_code).
 posts/2014-02-10-top-down-programming.md:11: Not only does this keep our implementation simple, but this also allows us to program in the problem domain, which makes it easier to find problems later.
-posts/2014-02-10-top-down-programming.md:13: I've been using [readme driven development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html) to implement my port of [QuickCheck]() to Python.
+posts/2014-02-10-top-down-programming.md:13: I've been using [readme driven development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html) to implement my port of [QuickCheck](https://en.wikipedia.org/wiki/QuickCheck) to Python.
 posts/2014-02-10-top-down-programming.md:13: There's already [quite](https://github.com/markchadwick/paycheck) [a](http://dan.bravender.us/2009/6/21/Simple_Quickcheck_implementation_for_Python.html) [few](https://pypi.python.org/pypi/pytest-quickcheck/) [other](http://www.drmaciver.com/2013/03/quickcheck-style-testing-in-python-with-hypothesis/) [libraries](https://github.com/npryce/python-factcheck) that have taken the good names.
 posts/2014-02-11-linting-natural-language.md:2: Linting Natural Language tags:
 posts/2014-02-11-linting-natural-language.md:4: How I use GNU Style and Diction, and aspell.
@@ -2590,7 +2585,7 @@ posts/2014-02-20-props-gen-a-thunks-and-closures.md:61: Python def setup_a_thunk
 posts/2014-02-20-props-gen-a-thunks-and-closures.md:65: Do a bunch of work // Using the variables passed in to setup_a_thunk return a_result return thunked_computation ~~~ We can then call `setup_a_thunk` a bunch of times, but it would not actually do the work until we force it, i.e.
 posts/2014-02-20-props-gen-a-thunks-and-closures.md:80: Since [objects are closures](http://c2.com/cgi/wiki?ClosuresAndObjectsAreEquivalent), we can view the class definition for `Tree` as setting up a closure, which we force when we call `arbitrary`.
 posts/2014-02-21-restful-email.md:4: A proposed REST API for email --- There are a few different options for Email REST APIs, but none of them, as far as I can tell, are a replacement for the traditional email protocols, SMTP, POP, and IMAP.
-posts/2014-02-21-restful-email.md:11: First, instead of our usual email addresses, we'd have routes, so my email, [kyle.marek.spartz@gmail.com](), would look more like:
+posts/2014-02-21-restful-email.md:11: First, instead of our usual email addresses, we'd have routes, so my email, <kyle.marek.spartz@gmail.com>, would look more like:
 posts/2014-02-21-restful-email.md:30: GET gmail.com/kyle.marek.spartz/labels/spam URL query strings on GETs could be used to filter results by the email metadata:
 posts/2014-02-21-restful-email.md:34: GET gmail.com/kyle.marek.spartz?from=gmail.com%2Fmichaeljburling To send an email, we could POST to someone else's inbox, with the message content in the request body:
 posts/2014-02-21-restful-email.md:39: POST gmail.com/michaeljburling For security, we can incorporate public keys into the system.
@@ -2640,7 +2635,7 @@ posts/2014-02-24-the-linguistics-pragmatic-programmer.md:157: We would like to r
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:159: However, this would not work, since the ellipsis represents recursion.
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:160: Instead, we provide an anaphor `self` which can be used within the lambda expression to represent recursive calls to itself.
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:162: With this in mind, we can write the following anonymous recursive function:
-posts/2014-02-24-the-linguistics-pragmatic-programmer.md:173: For example, when defining a class in Python, you use self to refer to the the eventual instance of the class:
+posts/2014-02-24-the-linguistics-pragmatic-programmer.md:173: For example, when defining a class in Python, you use self to refer to the eventual instance of the class:
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:182: Person() location = Location() def run_to(self, object):
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:193: In other languages, the `self` in the methods would refer to the methods themselves, rather than the instance object of the class.
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:194: This is more common in prototypal object-oriented languages (as opposite to classic), due to how prototypes work For example, JavaScript, which uses `this` in place of self, has this issue.
@@ -2676,7 +2671,7 @@ posts/2014-02-24-the-linguistics-pragmatic-programmer.md:330: We can use the cor
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:332: Since conditions are just sets of possible states, each contract can be takes a state and returns boolean value as to whether it is in the set or not.
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:336: Contracts therefore must have the contract `Any -> Boolean`.
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:337: Since `Any` is a contract, it also has the contract `Any -> Boolean`, but `Any` is defined to always return true, so when checking the contracts of contracts, it ends up here.
-posts/2014-02-24-the-linguistics-pragmatic-programmer.md:344: There are also contract combinators, which correspond to the the Set and Boolean combinators.
+posts/2014-02-24-the-linguistics-pragmatic-programmer.md:344: There are also contract combinators, which correspond to the Set and Boolean combinators.
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:345: For example, the contract `-2 or Positive` takes the -2 contract which checks for equality with -2, and the Positive contract which checks for a positive number, and unifies them into a composite contract.
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:351: These contract combinators along with a minimization function may provide a form of pragmatic reasoning for programming languages.
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md:352: A minimization function would take these contracts and simplify them.
@@ -2996,7 +2991,7 @@ posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:133: Code .literate .haskell} ) ``` This program has four different main functions.
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:137: The fourth one is the concurrent Daytime server, so we'll use that implementation as our main `main`:
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:141: Code .literate .haskell} main = main4 ``` First, lets write a non-server version of what a Daytime server does.
-posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:146: According the the [specification](https://tools.ietf.org/html/rfc867):
+posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:146: According to the [specification](https://tools.ietf.org/html/rfc867):
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:148: Once a connection is established the current date and time is sent out the connection as a ascii character string (and any data received is thrown away).
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:150: The service closes the connection after sending the quote.
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:153: A non-server of this would just be a simple version of [`date`](http://linux.die.net/man/1/date) ``` {.sourceCode .literate .haskell} main1 ::
@@ -3176,7 +3171,7 @@ presentations/2013-12-05-graph_databases.md:37: Social Networks - Insurance appl
 presentations/2013-12-05-graph_databases.md:50: C programmer - (dmr > jwz > rms) - (though jwz doesn't have a beard.) - if your filesystem can handle each node - What if our query language had a notion of nodes and edges?
 presentations/2013-12-05-graph_databases.md:58: DSL for querying (Not in SQL or Cypher, these are just to get the point across) - `SELECT * WHERE user -[ Borrowed ]-> book` - `SELECT borrowing WHERE user -[ borrowing:Borrowed ]-> book` - `SELECT * WHERE lending -[ To ]-> user && lending -[ Of ]-> book && lending -[ At ]-> date` - Let the data dictate the structure of our database.
 presentations/2013-12-05-graph_databases.md:74: Migrations become much easier.
-presentations/2013-12-05-graph_databases.md:75: Similar to the benefits of dynamic languages) ![](/images/graph_databases_cover.png) - [www.graphdatabases.com]() - free ebook version - ~$25 print version - describes core principles of graph databases - focuses on Neo4j, but discusses others See also:
+presentations/2013-12-05-graph_databases.md:75: Similar to the benefits of dynamic languages) ![Graph Databases Book](/images/graph_databases_cover.png) - <www.graphdatabases.com> - free ebook version - ~$25 print version - describes core principles of graph databases - focuses on Neo4j, but discusses others See also:
 presentations/2014-02-13-interfaces.md:1: Interfaces % Kyle Marek-Spartz; <kyle.marek.spartz@gmail.com>; <http://kyle.marek-spartz.org> % February 13, 2014 - Interfaces verify that a class implements certain methods.
 presentations/2014-02-13-interfaces.md:13: Java public interface CountFishInterface { public void one(); public void two(); } public class OurFish implements CountFishInterface { public void one() { ... } public void two() { ... } } ~~~~ - `javac` should complain if the interface is not satisfied.
 presentations/2014-02-13-interfaces.md:29: In Python, this verification can't be done statically, due to the ability to add methods at runtime.
@@ -3233,11 +3228,11 @@ readability grades:
         Lix: 41.6 = school year 7
         SMOG-Grading: 11.3
 sentence info:
-        124816 characters
-        25314 words, average length 4.93 characters = 1.53 syllables
+        124857 characters
+        25320 words, average length 4.93 characters = 1.53 syllables
         1542 sentences, average length 16.4 words
         45% (701) short sentences (at most 11 words)
-        15% (240) long sentences (at least 26 words)
+        15% (241) long sentences (at least 26 words)
         633 paragraphs, average length 2.4 sentences
         2% (45) questions
         36% (564) passive sentences
@@ -3246,8 +3241,8 @@ word usage:
         verb types:
         to be (712) auxiliary (403) 
         types as % of total:
-        conjunctions 4(1021) pronouns 7(1695) prepositions 9(2224)
+        conjunctions 4(1021) pronouns 7(1695) prepositions 9(2225)
         nominalizations 2(487)
 sentence beginnings:
         pronoun (284) interrogative pronoun (39) article (94)
-        subordinating conjunction (74) conjunction (9) preposition (114)
+        subordinating conjunction (74) conjunction (9) preposition (115)

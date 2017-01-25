@@ -171,7 +171,7 @@ $$
 
 Another use of `self` (or `this`) occurs when you want to refer to the
 object wrapping the current namespace. For example, when defining a
-class in Python, you use self to refer to the the eventual instance of
+class in Python, you use self to refer to the eventual instance of
 the class:
 
 ~~~~{.python}
@@ -341,7 +341,7 @@ return true, so when checking the contracts of contracts, it ends up here.
 There is also a `None` contract which always returns false, but it is
 of little practical use.
 
-There are also contract combinators, which correspond to the the Set
+There are also contract combinators, which correspond to the Set
 and Boolean combinators. For example, the contract `-2 or Positive`
 takes the -2 contract which checks for equality with -2, and the
 Positive contract which checks for a positive number, and unifies them

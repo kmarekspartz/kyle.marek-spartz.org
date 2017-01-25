@@ -9,7 +9,7 @@ as I can tell, are a replacement for the traditional email protocols, SMTP,
 POP, and IMAP. What would such a system look like?
 
 First, instead of our usual email addresses, we'd have routes, so my email,
-[kyle.marek.spartz@gmail.com](), would look more like:
+<kyle.marek.spartz@gmail.com>, would look more like:
 
     gmail.com/kyle.marek.spartz
 
