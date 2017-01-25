@@ -1,3 +1,5 @@
+pushd _site >/dev/null
+
 ROOT_URL="http://kyle.marek-spartz.org/"
 
 echo $ROOT_URL
@@ -14,7 +16,8 @@ for publication in publications/*.pdf; do
     echo $ROOT_URL$publication
 done
 
-echo $ROOT_URL"posts/tags/"
-for tag in posts/tags/*.html; do
+for tag in posts/*.html; do
     echo $ROOT_URL$tag
 done
+
+popd >/dev/null
