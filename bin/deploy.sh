@@ -12,7 +12,7 @@ popd
 ./bin/build_cv.sh
 ./bin/build_sitemap.sh
 ./bin/tidy.sh
-./bin/check_bad_links.sh
+# ./bin/check_bad_links.sh
 
 pushd _site
 widely push

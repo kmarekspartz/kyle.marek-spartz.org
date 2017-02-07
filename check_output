@@ -942,7 +942,7 @@ posts/2013-12-11-never-blame-people.md:9: By telling [people -> Do not use with 
 
 posts/2013-12-11-never-blame-people.md:11: Another current trend [which -> (use "that" if clause is restrictive)] [people -> Do not use with numbers or as substitute for "public".] internalize is obfuscated UI.
 
-posts/2013-12-11-never-blame-people.md:11: When [people -> Do not use with numbers or as substitute for "public".] cannot find a menu because it is [hidden off the edge of the screen](http://windows.microsoft.com), or buttons are labeled with [abstract icons](http://gmail.com), [they -> (do not use as substitute for "each, each one, everybody, every one, anybody, any one, somebody, some one")] blame themselves.
+posts/2013-12-11-never-blame-people.md:11: When [people -> Do not use with numbers or as substitute for "public".] cannot find a menu because it is [hidden off the edge of the screen](https://www.microsoft.com/en-us/windows), or buttons are labeled with [abstract icons](http://gmail.com), [they -> (do not use as substitute for "each, each one, everybody, every one, anybody, any one, somebody, some one")] blame themselves.
 
 posts/2013-12-11-never-blame-people.md:13: Software needs to teach [people -> Do not use with numbers or as substitute for "public".] not to blame themselves for things beyond their control.
 
@@ -1752,7 +1752,7 @@ posts/2014-05-23-wx-now-open-source.md:9: It also [will -> (shall is sometimes u
 
 posts/2014-05-23-wx-now-open-source.md:11: [So -> (do not use as intensifier)] far I've [gotten -> The preferred form of this participle is "got," but it is unpleasant to the ear in either form.] the Rest API and an Admin interface together, as [Flask-Peewee](http://flask-peewee.readthedocs.org/en/latest/) does this automatically.
 
-posts/2014-05-23-wx-now-open-source.md:15: I'm going to make a branch with [SQLAlchemy](http://sqlalchemy.readthedocs.org/en/rel_0_9/) models [so -> (do not use as intensifier)] that I [can -> (do not confuse with "may")] directly [compare -> "Compare" to points out resemblances, "compare with" points out differences.] the two.
+posts/2014-05-23-wx-now-open-source.md:15: I'm going to make a branch with [SQLAlchemy](http://sqlalchemy.readthedocs.io/en/latest/) models [so -> (do not use as intensifier)] that I [can -> (do not confuse with "may")] directly [compare -> "Compare" to points out resemblances, "compare with" points out differences.] the two.
 
 posts/2014-05-23-wx-now-open-source.md:17: Eventually, I plan on using [Hammock](https://github.com/kadirpekel/hammock) to implement a client that [will -> (shall is sometimes used with first person pronouns and the future tense. It expresses something you believe will happen, not something that you are determined to do. A drowning man shouts: "I shall drown, no one will save me!")] run on [one -> When used as a pronoun, it  must be used consistently: One must manage one's money carefully.] of my RPis to collect and submit weather measurements.
 
@@ -2090,7 +2090,7 @@ posts/2014-12-01-benchmarking-large-riak-data-types.md:109: Update #2:** [Russel
 
 posts/2014-12-02-benchmarking-large-riak-data-types-continued.md:4: Some additional information about yesterdays post --- [Yesterday's post](/posts/2014-12-01-benchmarking-large-riak-data-types.html) [could -> (do not confuse with "may")] have included a bit more information.
 
-posts/2014-12-02-benchmarking-large-riak-data-types-continued.md:11: I'm on Mac OS X 10.9.5, and I ran the benchmark against a single Riak 2.0.2 node running locally, installed from [homebrew](https://brew.sh), [which -> (use "that" if clause is restrictive)] does [a binary install](https://github.com/Homebrew/homebrew/blob/master/Library/Formula/riak.rb).
+posts/2014-12-02-benchmarking-large-riak-data-types-continued.md:11: I'm on Mac OS X 10.9.5, and I ran the benchmark against a single Riak 2.0.2 node running locally, installed from [homebrew](https://brew.sh), [which -> (use "that" if clause is restrictive)] does [a binary install](https://github.com/Homebrew/homebrew-core/blob/master/Formula/riak.rb).
 
 posts/2014-12-02-benchmarking-large-riak-data-types-continued.md:18: Some graphs I didn't include were a comparison of byte size and [number of -> many, several] items, Set read times for both the key-value and data-[type -> (do not use as synonym for "kind of")] APIs, and Map read times for the key-value API.
 
@@ -2324,7 +2324,7 @@ presentations/2013-12-05-graph_databases.md:31: Neo4j|ArangoDB|Titan` - No matte
 
 presentations/2013-12-05-graph_databases.md:50: C programmer - (dmr > jwz > rms) - (though jwz doesn't have a beard.) - if your filesystem [can -> (do not confuse with "may")] handle each node - What if our query language had a notion of nodes and edges?
 
-presentations/2013-12-05-graph_databases.md:75: Similar to the benefits of dynamic languages) ![Graph Databases Book](/images/graph_databases_cover.png) - <www.graphdatabases.com> - free ebook version - ~$25 print version - describes core [principles -> (a "principle" is a rule, while a "principal" is a person, when used as a noun, or means "chief", when used as an adjective, and the adverb for both words is spelt "principally")] of graph databases - focuses on Neo4j, but discusses others See also:
+presentations/2013-12-05-graph_databases.md:75: Similar to the benefits of dynamic languages) ![Graph Databases Book](/images/graph_databases_cover.png) - [www.graphdatabases.com](http://www.graphdatabases.com) - free ebook version - ~$25 print version - describes core [principles -> (a "principle" is a rule, while a "principal" is a person, when used as a noun, or means "chief", when used as an adjective, and the adverb for both words is spelt "principally")] of graph databases - focuses on Neo4j, but discusses others See also:
 
 presentations/2014-02-13-interfaces.md:13: Java public interface CountFishInterface { public void [one -> When used as a pronoun, it  must be used consistently: One must manage one's money carefully.](); public void two(); } public class OurFish implements CountFishInterface { public void [one -> When used as a pronoun, it  must be used consistently: One must manage one's money carefully.]() { ... } public void two() { ... } } ~~~~ - `javac` should complain if the interface is not satisfied.
 
@@ -2383,8 +2383,9 @@ about.md:20: Internal tooling to encourage cross-company collaboration by random
 about.md:31: Primary developer, REST server and web application for psychological examination, data collection, and analysis.
 about.md:33: Integrated server with iOS and Windows clients.* - **Kyle Marek-Spartz**, [Benjamin Knoll](http://www.bmhi.umn.edu/ihi/research/nlpie/people/knoll/), [Robert Bill](http://www.bmhi.umn.edu/ihi/research/nlpie/people/bill/), [Thomas Christie](https://tom-christie.github.io/), [Serguei Pakhomov](http://www.tc.umn.edu/~pakh0002/homepage/).
 about.md:35: System for Automated Speech and Language Analysis (SALSA) (*demonstration paper* [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-paper.pdf)], *poster* [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-poster.pdf)]).
+about.md:35: Interspeech](http://www.isca-speech.org/iscaweb/index.php/conferences/interspeech).
 about.md:35: September 2014.
-about.md:36: Serguei Pakhomov, **Kyle Marek-Spartz**, Robert Bill, Benjamin Knoll, Thomas Christie, [Angela Birnbaum](http://www.pharmacy.umn.edu/faculty/birnbaum_angela/), [Ilo Leppik](http://www.pharmacy.umn.edu/faculty/leppik_ilo/), [Susan Marino](http://www.pharmacy.umn.edu/faculty/marino_susan/).
+about.md:36: Serguei Pakhomov, **Kyle Marek-Spartz**, Robert Bill, Benjamin Knoll, Thomas Christie, [Angela Birnbaum](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/angela-birnbaum), [Ilo Leppik](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/ilo-leppik), [Susan Marino](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/susan-marino).
 about.md:36: Computerized Language and Speech Analysis to Measure Effects of Anti-Epileptic Drugs on Cognition (*poster* [[pdf](http://kyle.marek-spartz.org/publications/2014-epilepsy-poster.pdf)]).
 about.md:36: International Congress on Epilepsy, Brain and Mind.
 about.md:41: Research Assistant*, [GroupLens](http://www.grouplens.org/):
@@ -2433,7 +2434,7 @@ posts/2013-12-11-never-blame-people.md:9: Instead of 'Operation Failed', softwar
 posts/2013-12-11-never-blame-people.md:9: Network connectivity?
 posts/2013-12-11-never-blame-people.md:9: By telling people what is wrong, rather than telling them that something went wrong, software can empower people to adjust the necessary conditions to fix the problem.
 posts/2013-12-11-never-blame-people.md:11: Another current trend which people internalize is obfuscated UI.
-posts/2013-12-11-never-blame-people.md:11: When people cannot find a menu because it is [hidden off the edge of the screen](http://windows.microsoft.com), or buttons are labeled with [abstract icons](http://gmail.com), they blame themselves.
+posts/2013-12-11-never-blame-people.md:11: When people cannot find a menu because it is [hidden off the edge of the screen](https://www.microsoft.com/en-us/windows), or buttons are labeled with [abstract icons](http://gmail.com), they blame themselves.
 posts/2013-12-11-never-blame-people.md:13: Software needs to teach people not to blame themselves for things beyond their control.
 posts/2013-12-12-pattern-matching-and-singular-dispatch-in-python.md:4: Implementing pattern matching and singular dispatch in Python --- [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching) and [singular dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch) are useful tools not readily usable in Python.
 posts/2013-12-12-pattern-matching-and-singular-dispatch-in-python.md:9: Here's an absolute value function:
@@ -2842,7 +2843,6 @@ posts/2014-05-08-your-service-as-a-functor.md:54: Service -> Filter authenticati
 posts/2014-05-08-your-service-as-a-functor.md:61: Service -> Service -> Service loadbalancerFilter2 ::
 posts/2014-05-08-your-service-as-a-functor.md:63: LoadBalancerSettings -> Filter2 ``` Decomposing redundant work in this manner allows a distributed system to be developed declaratively and safely.
 posts/2014-05-12-hf-in-the-park.md:9: We assembled the 2 meter portion of our [Cushcraft A270-6S](/posts/2014-04-21-fox-hunting-equipment.html) for the fox hunt, as it was on the 2 meter band.
-posts/2014-05-12-hf-in-the-park.md:9: Parry, KCØTWB, supplied the fox, based on the [FoxBox](http://michiganfoxhunter.com/michiganfoxhunter/fox_projects/foxbox.htm).
 posts/2014-05-15-adding-tags-to-posts-with-hakyll.md:4: Adding tags to posts with Hakyll --- I've added tags to this blog using [Javran](https://javran.github.io/)'s [tutorial](https://javran.github.io/posts/2014-03-01-add-tags-to-your-hakyll-blog.html).
 posts/2014-05-21-reusing-generators-in-python.md:23: There was an issue with the `for`-loop, so the print statement was added in, but this changed the behavior of the program.
 posts/2014-05-21-reusing-generators-in-python.md:23: Since the generator would be exhausted anyway, we can get the expected behavior without additional cost by doing the following:
@@ -2859,7 +2859,7 @@ posts/2014-05-23-wx-now-open-source.md:7: I'm working toward a RPi weather stati
 posts/2014-05-23-wx-now-open-source.md:9: Instead of having the weather station be its own web server, since it may go in and out of range of the internet or lose power, I decided to make a web app and deploy it elsewhere.
 posts/2014-05-23-wx-now-open-source.md:11: Recently, I saw a lightning talk demonstrating the use of [Peewee](http://peewee.readthedocs.org/en/latest/), and I thought it looked pretty neat.
 posts/2014-05-23-wx-now-open-source.md:11: So far I've gotten the Rest API and an Admin interface together, as [Flask-Peewee](http://flask-peewee.readthedocs.org/en/latest/) does this automatically.
-posts/2014-05-23-wx-now-open-source.md:15: I'm going to make a branch with [SQLAlchemy](http://sqlalchemy.readthedocs.org/en/rel_0_9/) models so that I can directly compare the two.
+posts/2014-05-23-wx-now-open-source.md:15: I'm going to make a branch with [SQLAlchemy](http://sqlalchemy.readthedocs.io/en/latest/) models so that I can directly compare the two.
 posts/2014-05-23-wx-now-open-source.md:15: I'll be giving a talk at the upcoming [PyMNtos Web Dev Meetup](http://www.meetup.com/PyMNtos-Twin-Cities-Python-User-Group/events/182901522/) about their comparative strengths and weaknesses.
 posts/2014-05-23-wx-now-open-source.md:17: Eventually, I plan on using [Hammock](https://github.com/kadirpekel/hammock) to implement a client that will run on one of my RPis to collect and submit weather measurements.
 posts/2014-05-28-this-site-now-open-source.md:7: There remain a few features that I'd like to add to this website, including links between adjacent posts, a list of recent posts in the side bar, automated building of my presentations and CV, and a [Gophermap](https://en.wikipedia.org/wiki/Gophermap) back-end.
@@ -2867,7 +2867,7 @@ posts/2014-05-28-this-site-now-open-source.md:7: There's a great community aroun
 posts/2014-05-28-this-site-now-open-source.md:7: To facilitate this discussion, I've [open sourced](https://github.com/zeckalpha/kyle.marek-spartz.org) this website so that I can link to relevant portions when asking for assistance.
 posts/2014-05-29-mindfeed.md:4: Automatically create Beeminder datapoints for posts in RSS/Atom feeds.
 posts/2014-05-29-mindfeed.md:7: I've been manually keeping track of my blogging with [Beeminder](https://www.beeminder.com/) for the last few months.
-posts/2014-05-29-mindfeed.md:9: I created a script to check my feed every 24 hours and create datapoints for new posts using the [Beeminder API](https://www.beeminder.com/api), [Hammock](https://github.com/danielcrenna/hammock), [feedparser](https://pypi.python.org/pypi/feedparser), and [Heroku](https://www.heroku.com/).
+posts/2014-05-29-mindfeed.md:9: I created a script to check my feed every 24 hours and create datapoints for new posts using the [Beeminder API](https://www.beeminder.com/api), [Hammock](https://pypi.python.org/pypi/hammock), [feedparser](https://pypi.python.org/pypi/feedparser), and [Heroku](https://www.heroku.com/).
 posts/2014-05-29-mindfeed.md:13: Beeminder account.
 posts/2014-05-29-mindfeed.md:14: Beeminder authentication token](https://www.beeminder.com/api#auth) - A destination Beeminder goal.
 posts/2014-05-29-mindfeed.md:24: BEEMINDER_API_URL="https://www.beeminder.com/api/v1/" heroku config:set USERNAME=<your-beeminder-username> heroku config:set AUTH_TOKEN=<your-beeminder-authentication-token> heroku config:set GOAL=<your-beeminder-goal-name> heroku config:set FEED_URL=<your-feed-url> git push heroku master heroku scale worker=1 In related news, I've also added the graph for my Beeminder blogging goal to my [blog index page](/blog.html), though I'm not yet sure how I want to organize the page–adding the list of tags and the Beeminder graph pushed the post list below the fold.
@@ -2919,7 +2919,7 @@ posts/2014-07-09-email-clients.md:32: Additionally, the clever foldering it uses
 posts/2014-07-09-email-clients.md:34: If I had an email client that did the above, but also seamlessly incorporated RSS/Atom feed reading, XMPP chat, and SMS I'd be elated.
 posts/2014-07-12-understandable-regular-expressions.md:2: Understandable Regular Expressions tags:
 posts/2014-07-12-understandable-regular-expressions.md:4: A friend of mine is working on an understandable regular expression implementation.
-posts/2014-07-12-understandable-regular-expressions.md:7: Andrew Clarkson](https://github.com/bitborn) is working on a pure Python implementation of [regular expressions](https://en.wikipedia.org/wiki/Regular_expression), with the intent to use it in a [lexer](https://github.com/bitborn/luther) for compiler implementation.
+posts/2014-07-12-understandable-regular-expressions.md:7: Andrew Clarkson](https://github.com/andrewclarkson) is working on a pure Python implementation of [regular expressions](https://en.wikipedia.org/wiki/Regular_expression), with the intent to use it in a [lexer](https://github.com/andrewclarkson/luther) for compiler implementation.
 posts/2014-07-12-understandable-regular-expressions.md:7: One of his goals is to make it understandable and clear, one thing that doesn't often happen with regular expression implementations.
 posts/2014-07-14-additional-linkedin-problems.md:2: Additional LinkedIn Problems tags:
 posts/2014-07-14-additional-linkedin-problems.md:4: Ron Garret discusses some additional issues with LinkedIn --- > LinkedIn was actually asking me, not for my LinkedIn password, but for my email password.
@@ -3047,7 +3047,7 @@ posts/2014-12-01-benchmarking-large-riak-data-types.md:110: I ran the benchmark 
 posts/2014-12-02-benchmarking-large-riak-data-types-continued.md:2: Benchmarking Large Riak Data Types, continued tags:
 posts/2014-12-02-benchmarking-large-riak-data-types-continued.md:4: Some additional information about yesterdays post --- [Yesterday's post](/posts/2014-12-01-benchmarking-large-riak-data-types.html) could have included a bit more information.
 posts/2014-12-02-benchmarking-large-riak-data-types-continued.md:7: Here's that information.
-posts/2014-12-02-benchmarking-large-riak-data-types-continued.md:11: I'm on Mac OS X 10.9.5, and I ran the benchmark against a single Riak 2.0.2 node running locally, installed from [homebrew](https://brew.sh), which does [a binary install](https://github.com/Homebrew/homebrew/blob/master/Library/Formula/riak.rb).
+posts/2014-12-02-benchmarking-large-riak-data-types-continued.md:11: I'm on Mac OS X 10.9.5, and I ran the benchmark against a single Riak 2.0.2 node running locally, installed from [homebrew](https://brew.sh), which does [a binary install](https://github.com/Homebrew/homebrew-core/blob/master/Formula/riak.rb).
 posts/2014-12-02-benchmarking-large-riak-data-types-continued.md:18: Some graphs I didn't include were a comparison of byte size and number of items, Set read times for both the key-value and data-type APIs, and Map read times for the key-value API.
 posts/2014-12-02-benchmarking-large-riak-data-types-continued.md:20: Set byte size and number of items](/images/2014-12-01-riak-benchmark/set-size.png) ![Map byte size and number of items](/images/2014-12-01-riak-benchmark/map-size.png) ![Set reads (key-value API)](/images/2014-12-01-riak-benchmark/set-kv-reads.png) ![Set reads (data-type API)](/images/2014-12-01-riak-benchmark/set-dt-reads.png) ![Map reads (key-value API)](/images/2014-12-01-riak-benchmark/map-kv-reads.png) [Here you go!](/files/riak-benchmark-results.tar.gz) [Russell Brown](https://github.com/russelldb) is working on a feature branch of [`riak_dt`](https://github.com/basho/riak_dt) which may have a fix for some of this.
 posts/2014-12-02-benchmarking-large-riak-data-types-continued.md:41: I'm running the benchmark against a locally-compiled Riak right now, and then I'll build it with his potential fix and compare the benchmark results.
@@ -3171,7 +3171,7 @@ presentations/2013-12-05-graph_databases.md:37: Social Networks - Insurance appl
 presentations/2013-12-05-graph_databases.md:50: C programmer - (dmr > jwz > rms) - (though jwz doesn't have a beard.) - if your filesystem can handle each node - What if our query language had a notion of nodes and edges?
 presentations/2013-12-05-graph_databases.md:58: DSL for querying (Not in SQL or Cypher, these are just to get the point across) - `SELECT * WHERE user -[ Borrowed ]-> book` - `SELECT borrowing WHERE user -[ borrowing:Borrowed ]-> book` - `SELECT * WHERE lending -[ To ]-> user && lending -[ Of ]-> book && lending -[ At ]-> date` - Let the data dictate the structure of our database.
 presentations/2013-12-05-graph_databases.md:74: Migrations become much easier.
-presentations/2013-12-05-graph_databases.md:75: Similar to the benefits of dynamic languages) ![Graph Databases Book](/images/graph_databases_cover.png) - <www.graphdatabases.com> - free ebook version - ~$25 print version - describes core principles of graph databases - focuses on Neo4j, but discusses others See also:
+presentations/2013-12-05-graph_databases.md:75: Similar to the benefits of dynamic languages) ![Graph Databases Book](/images/graph_databases_cover.png) - [www.graphdatabases.com](http://www.graphdatabases.com) - free ebook version - ~$25 print version - describes core principles of graph databases - focuses on Neo4j, but discusses others See also:
 presentations/2014-02-13-interfaces.md:1: Interfaces % Kyle Marek-Spartz; <kyle.marek.spartz@gmail.com>; <http://kyle.marek-spartz.org> % February 13, 2014 - Interfaces verify that a class implements certain methods.
 presentations/2014-02-13-interfaces.md:13: Java public interface CountFishInterface { public void one(); public void two(); } public class OurFish implements CountFishInterface { public void one() { ... } public void two() { ... } } ~~~~ - `javac` should complain if the interface is not satisfied.
 presentations/2014-02-13-interfaces.md:29: In Python, this verification can't be done statically, due to the ability to add methods at runtime.
@@ -3223,13 +3223,13 @@ readability grades:
         Kincaid: 8.9
         ARI: 10.0
         Coleman-Liau: 11.4
-        Flesch Index: 60.3/100 (plain English)
-        Fog Index: 12.1
+        Flesch Index: 60.2/100 (plain English)
+        Fog Index: 12.2
         Lix: 41.6 = school year 7
         SMOG-Grading: 11.3
 sentence info:
-        124857 characters
-        25320 words, average length 4.93 characters = 1.53 syllables
+        125001 characters
+        25330 words, average length 4.93 characters = 1.54 syllables
         1542 sentences, average length 16.4 words
         45% (701) short sentences (at most 11 words)
         15% (241) long sentences (at least 26 words)
@@ -3242,7 +3242,7 @@ word usage:
         to be (712) auxiliary (403) 
         types as % of total:
         conjunctions 4(1021) pronouns 7(1695) prepositions 9(2225)
-        nominalizations 2(487)
+        nominalizations 2(490)
 sentence beginnings:
         pronoun (284) interrogative pronoun (39) article (94)
         subordinating conjunction (74) conjunction (9) preposition (115)

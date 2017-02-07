@@ -79,7 +79,7 @@
 
 ![Graph Databases Book](/images/graph_databases_cover.png)
 
-- <www.graphdatabases.com>
+- [www.graphdatabases.com](http://www.graphdatabases.com)
 - free ebook version
 - ~$25 print version
 - describes core principles of graph databases
