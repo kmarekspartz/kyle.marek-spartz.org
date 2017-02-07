@@ -10,7 +10,7 @@ description: Some additional information about yesterdays post
 
 I'm on Mac OS X 10.9.5, and I ran the benchmark against a single Riak 2.0.2 node
 running locally, installed from [homebrew](https://brew.sh), which does
-[a binary install](https://github.com/Homebrew/homebrew/blob/master/Library/Formula/riak.rb).
+[a binary install](https://github.com/Homebrew/homebrew-core/blob/master/Formula/riak.rb).
 
 
 ## Other graphs

@@ -12,6 +12,6 @@ Recently, I saw a lightning talk demonstrating the use of [Peewee](http://peewee
 
 Today, I put WX on [GitHub](https://github.com/zeckalpha/wx).
 
-I'm going to make a branch with [SQLAlchemy](http://sqlalchemy.readthedocs.org/en/rel_0_9/) models so that I can directly compare the two. I'll be giving a talk at the upcoming [PyMNtos Web Dev Meetup](http://www.meetup.com/PyMNtos-Twin-Cities-Python-User-Group/events/182901522/) about their comparative strengths and weaknesses.
+I'm going to make a branch with [SQLAlchemy](http://sqlalchemy.readthedocs.io/en/latest/) models so that I can directly compare the two. I'll be giving a talk at the upcoming [PyMNtos Web Dev Meetup](http://www.meetup.com/PyMNtos-Twin-Cities-Python-User-Group/events/182901522/) about their comparative strengths and weaknesses.
 
 Eventually, I plan on using [Hammock](https://github.com/kadirpekel/hammock) to implement a client that will run on one of my RPis to collect and submit weather measurements.

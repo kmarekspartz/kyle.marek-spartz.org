@@ -70,4 +70,4 @@ var cdr = function (pair) {
 ```
 
 *See also:* [SICP Exercise
-2.4](https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-14.html#%_thm_2.4)
+2.4](https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-14.html#%25_thm_2.4)
