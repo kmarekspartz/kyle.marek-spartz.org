@@ -48,7 +48,7 @@ Integrated server with iOS and Windows clients.*
 innovations in emergent social networks via social brokerage / weak ties.*
 
 - **Kyle Marek-Spartz**, Paula Chesley, [Hannah Sande](http://linguistics.berkeley.edu/~hsande/). Construction of the Gmane corpus for examining the diffusion of lexical innovations (*workshop paper*,  [[pdf](http://kyle.marek-spartz.org/publications/WON2012_Marek-Spartz_Chesley_Sande_Gmane.pdf)]). Words and Networks: Language Use in Socio-Technical Networks (WON 2012) Workshop at 2012 ACM Web Science Conference. June 2012.
-- **Kyle Marek-Spartz**. Language change in social networks (*presentation*). University of Minnesota: [Institute of Linguistics](http://linguistics.umn.edu/) – [Society Of Undergraduate Linguists](http://www.soulumn.org) (SOUL) Colloquium. April 2012.
+- **Kyle Marek-Spartz**. Language change in social networks (*presentation*). University of Minnesota: [Institute of Linguistics](http://linguistics.umn.edu/) – Society Of Undergraduate Linguists (SOUL) Colloquium. April 2012.
 
 
 ### *Finalist*, University of Minnesota [MobileApp Challenge](https://sites.google.com/a/umn.edu/university-of-minnesota-mobile-app-challenge/home), 2011-2012
