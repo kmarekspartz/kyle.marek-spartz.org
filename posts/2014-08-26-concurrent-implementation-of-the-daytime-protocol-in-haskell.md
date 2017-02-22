@@ -12,7 +12,7 @@ The server given in the book implements an informally specified doubling
 protocol, where each submitted line gets parsed as an Integer and
 returns the double of the input.
 
-Back in May, [Andrew Clarkson](https://github.com/bitborn) gave a
+Back in May, [Andrew Clarkson](https://github.com/andrewclarkson) gave a
 talk at the PyMNtos meeting about [Asynchronous
 IO](https://docs.python.org/3.4/library/asyncio.html) in Python. As an
 example, he included an asynchronous version of a

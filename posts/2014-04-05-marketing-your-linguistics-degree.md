@@ -4,7 +4,7 @@ tags: linguistics, philosophy
 description: Marketing your linguistics degree
 ---
 
-*Today I'll be participating in a forum at the [Minnesota Undergraduate Linguistics Symposium](http://linguistics.mn/) entitled "Marketing Your Linguistics Degree". Here are some of my preparation notes:*
+*Today I'll be participating in a forum at the Minnesota Undergraduate Linguistics Symposium entitled "Marketing Your Linguistics Degree". Here are some of my preparation notes:*
 
 When I came to college, I wasn't sure exactly what I wanted to do. I was interested in cognitive science, but it isn't offered as an undergraduate major, so I took the introductory psychology course. It wasn't what I was looking for, so I then took the introductory linguistics course, with a plan to go on to neuroscience if it didn't work out. It worked out! Since then, I developed my computer skills and got a research job doing software development with a linguistic focus.
 
