@@ -64,13 +64,12 @@ Led Python (web.py) REST server development, assisted iOS application developmen
     - *Research Assistant*, High Altitude Ballooning Team, 2010-2011
 - *Teaching Assistant*, AEM 1901, Weather Balloon Seminar, Fall 2010
 
-
-# Education
+## Education
 
 - Linguistics B.A., with minor in Computer Science, *University of Minnesota*
 
 
-# Organizations, Service, and Honors
+## Organizations, Service, and Honors
 
 - [Leadership Saint Paul](http://www.saintpaulchamber.com/blog/leadership-saint-paul-class-of-2016-announced), [Saint Paul Chamber of Commerce Foundation](http://www.saintpaulchamber.com/foundation.html), 2016
 - *Co-Organizer*, [HaskellMN](http://www.haskell.mn) (*user group*), 2014-Present
