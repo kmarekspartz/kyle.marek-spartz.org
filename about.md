@@ -11,8 +11,6 @@ description: Kyle Marek-Spartz's CV
 - [+1 507 205-4102](tel:+1-507-205-4102)
 - Saint Paul, Minnesota
 
-# Experience
-
 ### *Software Engineer*, [GovDelivery](http://www.govdelivery.com/), 2014-Present
 
 Communications SaaS for government. Segmentation tools for customers to reach
