@@ -6,4 +6,5 @@ pandoc about.md \
   -Vmainfont="Palatino" \
   -Vtitle='' \
   -Vgeometry="margin=1in" \
-  -Vfontsize="11pt"
+  -Vfontsize="11pt" \
+  -Vcolorlinks=true
