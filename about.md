@@ -11,13 +11,24 @@ description: Kyle Marek-Spartz's CV
 - [+1 507 205-4102](tel:+1-507-205-4102)
 - Saint Paul, Minnesota
 
-### *Software Engineer*, [GovDelivery](http://www.govdelivery.com/), 2014-Present
 
-Communications SaaS for government. Segmentation tools for customers to reach
-and (re-)engage citizens based on (in-)activity using streaming/evented data
-architecture. Increased subscriber import reliability and performance to help
-reach over 100 million subscribers. Internal tooling to encourage cross-company
-collaboration by randomly pairing employees to meet.
+### [Granicus](https://granicus.com) (formerly known as GovDelivery), 2014-Present
+
+- *Site Reliability Engineer*, 2017-Present
+- *Software Engineer*, 2014-2017
+
+Enabled customers to segment and engage citizens based on activity and outcomes
+using a streaming data architecture. Increased subscriber import reliability and
+performance to reach over 100 million subscribers.
+
+Mentored team members to develop engineering best practices. Reinforced process
+improvements by formalizing a definition of done, especially around deployment,
+documentation, monitoring, load testing, measurement, and data practices.
+Increased release reliability by investing in test reliability and release
+frequency.
+
+Led cross-department team to promote collaboration, diversity, distributed team
+skills, and mentorship throughout the company.
 
 
 ### *Co-Founder*, [Celador](http://www.celador.mn), 2013-Present
