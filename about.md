@@ -91,8 +91,6 @@ Computerized Language and Speech Analysis to Measure Effects of Anti-Epileptic D
 
 Construction of the Gmane corpus for examining the diffusion of lexical innovations (workshop paper,  [[pdf](http://kyle.marek-spartz.org/publications/WON2012_Marek-Spartz_Chesley_Sande_Gmane.pdf)]). **Kyle Marek-Spartz**, Paula Chesley, [Hannah Sande](http://linguistics.berkeley.edu/~hsande/). Words and Networks: Language Use in Socio-Technical Networks (WON 2012) Workshop at 2012 ACM Web Science Conference, June 2012.
 
-Language change in social networks (presentation). **Kyle Marek-Spartz**. University of Minnesota: [Institute of Linguistics](http://linguistics.umn.edu/) – Society Of Undergraduate Linguists (SOUL) Colloquium, April 2012.
-
 
 ## Education
 
