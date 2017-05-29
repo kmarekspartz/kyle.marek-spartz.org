@@ -12,26 +12,28 @@ about.md
    1 CSci
    1 Chesley
    1 Gmane
+   1 GovDelivery
    1 Ilo
    1 InContext
    1 Informatics
    1 KDØGTK
    1 MobileApp
    1 Pakhomov
+   1 Prototyped
    1 RockSat
-   1 SaaS
+   1 SRE
    1 Socio
    1 Spartz's
    1 UROP
-   1 evented
    1 href
+   1 mentorship
    1 pdf
    1 prebody
    1 py
    2 Serguei
    2 iOS
-   6 Spartz
-   7 Marek
+   5 Spartz
+   6 Marek
 
 colophon.md
    1 CSS
@@ -860,11 +862,15 @@ README.md:3: How the [site -> (a "site" is a place, a "sight" is related to "see
 
 about.md:3: My CV is also available as a <[a -> Double word.] href="/Kyle_Marek-Spartz_CV.pdf">PDF</a>.
 
-about.md:33: Integrated server with iOS and Windows clients.* - **Kyle Marek-Spartz**, [Benjamin Knoll](http://www.bmhi.umn.edu/ihi/research/nlpie/[people -> Do not use with numbers or as substitute for "public".]/knoll/), [Robert Bill](http://www.bmhi.umn.edu/ihi/research/nlpie/[people -> Do not use with numbers or as substitute for "public".]/bill/), [Thomas Christie](https://tom-christie.github.io/), [Serguei Pakhomov](http://www.tc.umn.edu/~pakh0002/homepage/).
+about.md:4: Kyle Marek-Spartz's CV --- <kyle.marek.spartz@gmail.com>, <http://kyle.marek-spartz.org>, [+1 507 205-4102](tel:+1-507-205-4102), Saint Paul, Minnesota **[Granicus](https://granicus.com) (formerly known as GovDelivery), 2014-Present** *[Site -> (a "site" is a place, a "sight" is related to "seeing")] Reliability Engineer*, 2017-Present Founding member of SRE team.
 
-about.md:35: [System -> Frequently used without need.] for Automated Speech and Language Analysis (SALSA) (*demonstration paper* [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-paper.pdf)], *poster* [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-poster.pdf)]).
+about.md:22: Software Engineer*, 2014-2017 [Led -> The past tense of the verb "lead" is "led".] cross-department team to promote collaboration, diversity, distributed/remote team skills, and mentorship throughout the company.
 
-about.md:58: [Led -> The past tense of the verb "lead" is "led".] Python (web.py) REST server development, assisted iOS application development.* - [NASA Minnesota Space Grant](http://www.aem.umn.edu/msgc/), 2010-2011 - *Team [Lead -> The past tense of the verb "lead" is "led".]*, RockSat-C Suborbital Rocket Payload, 2011 - *Research Assistant*, High Altitude Ballooning Team, 2010-2011 - *Teaching Assistant*, AEM 1901, Weather Balloon Seminar, Fall 2010 - Linguistics B.A., with minor in Computer Science, *University of Minnesota*, 2013 - [Leadership Saint Paul](http://www.saintpaulchamber.com/blog/leadership-saint-paul-class-of-2016-announced), [Saint Paul Chamber of Commerce Foundation](http://www.saintpaulchamber.com/foundation.html), 2016 - *Co-Organizer*, [HaskellMN](http://www.haskell.mn) (*user group*), 2014-Present - *Founder, Planning Committee, Adviser*, Minnesota Undergraduate Linguistics Symposium, 2012-2014 - [Phi Beta Kappa](https://www.pbk.org) (ΦBK), 2013 - *Secretary*, University of Minnesota:
+about.md:73: [Led -> The past tense of the verb "lead" is "led".] Python (web.py) REST server development, assisted iOS application development.
+
+about.md:76: University of Minnesota [Aerospace Engineering and Mechanics](http://www.aem.umn.edu/), 2010-2011** [NASA Minnesota Space Grant](http://www.aem.umn.edu/msgc/), 2010-2011 - *Team [Lead -> The past tense of the verb "lead" is "led".]*, RockSat-C Suborbital Rocket Payload, 2011 - *Research Assistant*, High Altitude Ballooning Team, 2010-2011 *Teaching Assistant*, AEM 1901, Weather Balloon Seminar, Fall 2010 [System -> Frequently used without need.] for Automated Speech and Language Analysis (SALSA) (demonstration paper [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-paper.pdf)], poster [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-poster.pdf)]).
+
+about.md:88: Kyle Marek-Spartz**, [Benjamin Knoll](http://www.bmhi.umn.edu/ihi/research/nlpie/[people -> Do not use with numbers or as substitute for "public".]/knoll/), [Robert Bill](http://www.bmhi.umn.edu/ihi/research/nlpie/[people -> Do not use with numbers or as substitute for "public".]/bill/), [Thomas Christie](https://tom-christie.github.io/), [Serguei Pakhomov](http://www.tc.umn.edu/~pakh0002/homepage/).
 
 colophon.md:3: How the [site -> (a "site" is a place, a "sight" is related to "seeing")] is built.
 
@@ -1974,7 +1980,7 @@ posts/2014-08-06-imports-continued.md:49: A language (or [linter](https://en.wik
 
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:4: I demonstrate a concurrent implementation of the Daytime Protocol in Haskell --- [One -> When used as a pronoun, it  must be used consistently: One must manage one's money carefully.] example from [*Parallel and Concurrent Programming in Haskell*](http://chimera.labs.oreilly.com/books/1230000000929/index.html) is a [concurrent network server](http://chimera.labs.oreilly.com/books/1230000000929/ch12.html#sec_server-trivial).
 
-posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:15: Back in [May -> = Do not confuse with "can".], [Andrew Clarkson](https://github.com/bitborn) gave a talk at the PyMNtos meeting about [Asynchronous IO](https://docs.python.org/3.4/library/asyncio.html) in Python.
+posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:15: Back in [May -> = Do not confuse with "can".], [Andrew Clarkson](https://github.com/andrewclarkson) gave a talk at the PyMNtos meeting about [Asynchronous IO](https://docs.python.org/3.4/library/asyncio.html) in Python.
 
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:26: Code .literate .haskell} import Control.Monad (forever) ``` `[forever -> Double word.]` is useful for making loops out of void functions (`IO ()`).
 
@@ -2368,7 +2374,7 @@ presentations/2014-07-30-the-design-of-swift.md:84: ... - Haskell does something
 
 presentations/2014-07-30-the-design-of-swift.md:95: Heartbleed, Apple's `goto` fail - You keep your curly braces if I [can -> (do not confuse with "may")] keep my significant whitespace.
 
-1271 phrases in 1542 sentences found.
+1273 phrases in 1546 sentences found.
 LICENSE.md:5: Copyright (c) 2017, Kyle Marek-Spartz <kyle.marek.spartz@gmail.com> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 LICENSE.md:15: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 LICENSE.md:18: THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
@@ -2376,37 +2382,43 @@ LICENSE.md:21: IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR 
 README.md:2: Colophon description:
 README.md:6: This website is built using [Hakyll](http://jaspervdj.be/hakyll/), deployed using [Widely](http://www.celador.mn/widely/), and styled with [Google Web Fonts](http://www.google.com/fonts) ([EB Garamond](http://www.google.com/fonts/specimen/EB+Garamond), [Inconsolata](http://www.google.com/fonts/specimen/Inconsolata)).
 README.md:13: The source is available on [GitHub](https://github.com/zeckalpha/kyle.marek-spartz.org).
-about.md:4: Kyle Marek-Spartz's CV --- - <kyle.marek.spartz@gmail.com> - <http://kyle.marek-spartz.org> - [+1 507 205-4102](tel:+1-507-205-4102) *Communications SaaS for government.
-about.md:17: Segmentation tools for customers to reach and (re-)engage citizens based on (in-)activity using streaming/evented data architecture.
-about.md:19: Increased subscriber import reliability and performance to help reach over 100 million subscribers.
-about.md:20: Internal tooling to encourage cross-company collaboration by randomly pairing employees to meet.* *Development and maintenance of customer web and mobile applications.* *Speech and cognition research.
-about.md:31: Primary developer, REST server and web application for psychological examination, data collection, and analysis.
-about.md:33: Integrated server with iOS and Windows clients.* - **Kyle Marek-Spartz**, [Benjamin Knoll](http://www.bmhi.umn.edu/ihi/research/nlpie/people/knoll/), [Robert Bill](http://www.bmhi.umn.edu/ihi/research/nlpie/people/bill/), [Thomas Christie](https://tom-christie.github.io/), [Serguei Pakhomov](http://www.tc.umn.edu/~pakh0002/homepage/).
-about.md:35: System for Automated Speech and Language Analysis (SALSA) (*demonstration paper* [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-paper.pdf)], *poster* [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-poster.pdf)]).
-about.md:35: Interspeech](http://www.isca-speech.org/iscaweb/index.php/conferences/interspeech).
-about.md:35: September 2014.
-about.md:36: Serguei Pakhomov, **Kyle Marek-Spartz**, Robert Bill, Benjamin Knoll, Thomas Christie, [Angela Birnbaum](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/angela-birnbaum), [Ilo Leppik](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/ilo-leppik), [Susan Marino](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/susan-marino).
-about.md:36: Computerized Language and Speech Analysis to Measure Effects of Anti-Epileptic Drugs on Cognition (*poster* [[pdf](http://kyle.marek-spartz.org/publications/2014-epilepsy-poster.pdf)]).
-about.md:36: International Congress on Epilepsy, Brain and Mind.
-about.md:41: Research Assistant*, [GroupLens](http://www.grouplens.org/):
-about.md:41: Wikipedia, 2012-2013 - *Teaching Assistant*, CSci 1001, Overview of Computer Science, Spring 2012 *Propagation of language change through social networks, diffusion of lexical innovations in emergent social networks via social brokerage / weak ties.* - **Kyle Marek-Spartz**, Paula Chesley, [Hannah Sande](http://linguistics.berkeley.edu/~hsande/).
-about.md:50: Construction of the Gmane corpus for examining the diffusion of lexical innovations (*workshop paper*, [[pdf](http://kyle.marek-spartz.org/publications/WON2012_Marek-Spartz_Chesley_Sande_Gmane.pdf)]).
-about.md:50: Language Use in Socio-Technical Networks (WON 2012) Workshop at 2012 ACM Web Science Conference.
-about.md:51: Kyle Marek-Spartz**.
-about.md:51: Language change in social networks (*presentation*).
-about.md:51: University of Minnesota:
-about.md:51: Institute of Linguistics](http://linguistics.umn.edu/) – [Society Of Undergraduate Linguists](http://www.soulumn.org) (SOUL) Colloquium.
-about.md:56: InContext, a language learning application focused on vocabulary development and retention.
-about.md:57: Vocabulary list generation, adaptive testing, reading resource suggestion targeting learner.
-about.md:58: Led Python (web.py) REST server development, assisted iOS application development.* - [NASA Minnesota Space Grant](http://www.aem.umn.edu/msgc/), 2010-2011 - *Team Lead*, RockSat-C Suborbital Rocket Payload, 2011 - *Research Assistant*, High Altitude Ballooning Team, 2010-2011 - *Teaching Assistant*, AEM 1901, Weather Balloon Seminar, Fall 2010 - Linguistics B.A., with minor in Computer Science, *University of Minnesota*, 2013 - [Leadership Saint Paul](http://www.saintpaulchamber.com/blog/leadership-saint-paul-class-of-2016-announced), [Saint Paul Chamber of Commerce Foundation](http://www.saintpaulchamber.com/foundation.html), 2016 - *Co-Organizer*, [HaskellMN](http://www.haskell.mn) (*user group*), 2014-Present - *Founder, Planning Committee, Adviser*, Minnesota Undergraduate Linguistics Symposium, 2012-2014 - [Phi Beta Kappa](https://www.pbk.org) (ΦBK), 2013 - *Secretary*, University of Minnesota:
-about.md:80: Society Of Undergraduate Linguists, 2011-2013 - [National Merit Scholar](http://www.nationalmerit.org/), 2009-2013 - Amateur Radio:
+about.md:4: Kyle Marek-Spartz's CV --- <kyle.marek.spartz@gmail.com>, <http://kyle.marek-spartz.org>, [+1 507 205-4102](tel:+1-507-205-4102), Saint Paul, Minnesota **[Granicus](https://granicus.com) (formerly known as GovDelivery), 2014-Present** *Site Reliability Engineer*, 2017-Present Founding member of SRE team.
+about.md:18: Guided team toward engineering and agile best practices.
+about.md:19: Increased adoption of monitoring tools by streamlining change process.
+about.md:22: Software Engineer*, 2014-2017 Led cross-department team to promote collaboration, diversity, distributed/remote team skills, and mentorship throughout the company.
+about.md:27: Reinforced process improvements by formalizing a definition of done, especially around deployment, documentation, monitoring, load testing, measurement, and data practices.
+about.md:29: Increased release reliability by investing in test reliability and release frequency.
+about.md:32: Enabled customers to segment and engage citizens based on activity and outcomes using a streaming data architecture.
+about.md:33: Increased subscriber import reliability and performance to reach over 100 million subscribers.
+about.md:34: Prototyped account monitoring to classify client health.
+about.md:38: Celador](http://www.celador.mn), 2013-Present** *Co-Founder* Consulted organizations on development and maintenance of web and mobile applications, IT management, business practices, and organizational culture change.
+about.md:47: Speech Informatics Lab](http://rxinformatics.umn.edu/), 2012-2014** *Research Assistant* Speech and cognition research.
+about.md:51: Primary developer, REST server and web application for psychological examination, data collection, and analysis.
+about.md:56: University of Minnesota [Computer Science and Engineering](http://www.cs.umn.edu/index.php), 2012-2013** *Research Assistant*, [GroupLens](http://www.grouplens.org/):
+about.md:58: Wikipedia, 2012-2013 *Teaching Assistant*, CSci 1001, Overview of Computer Science, Spring 2012 **University of Minnesota [Undergraduate Research Opportunity Program](http://www.urop.umn.edu/) (UROP), 2011-2012** Propagation of language change through social networks, diffusion of lexical innovations in emergent social networks via social brokerage / weak ties.
+about.md:69: University of Minnesota [MobileApp Challenge](https://sites.google.com/a/umn.edu/university-of-minnesota-mobile-app-challenge/home), 2011-2012** InContext, a language learning application focused on vocabulary development and retention.
+about.md:72: Vocabulary list generation, adaptive testing, reading resource suggestion targeting learner.
+about.md:73: Led Python (web.py) REST server development, assisted iOS application development.
+about.md:76: University of Minnesota [Aerospace Engineering and Mechanics](http://www.aem.umn.edu/), 2010-2011** [NASA Minnesota Space Grant](http://www.aem.umn.edu/msgc/), 2010-2011 - *Team Lead*, RockSat-C Suborbital Rocket Payload, 2011 - *Research Assistant*, High Altitude Ballooning Team, 2010-2011 *Teaching Assistant*, AEM 1901, Weather Balloon Seminar, Fall 2010 System for Automated Speech and Language Analysis (SALSA) (demonstration paper [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-paper.pdf)], poster [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-poster.pdf)]).
+about.md:88: Kyle Marek-Spartz**, [Benjamin Knoll](http://www.bmhi.umn.edu/ihi/research/nlpie/people/knoll/), [Robert Bill](http://www.bmhi.umn.edu/ihi/research/nlpie/people/bill/), [Thomas Christie](https://tom-christie.github.io/), [Serguei Pakhomov](http://www.tc.umn.edu/~pakh0002/homepage/).
+about.md:88: Interspeech](http://www.isca-speech.org/iscaweb/index.php/conferences/interspeech), September 2014.
+about.md:90: Computerized Language and Speech Analysis to Measure Effects of Anti-Epileptic Drugs on Cognition (poster [[pdf](http://kyle.marek-spartz.org/publications/2014-epilepsy-poster.pdf)]).
+about.md:90: Serguei Pakhomov, **Kyle Marek-Spartz**, Robert Bill, Benjamin Knoll, Thomas Christie, [Angela Birnbaum](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/angela-birnbaum), [Ilo Leppik](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/ilo-leppik), [Susan Marino](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/susan-marino).
+about.md:90: International Congress on Epilepsy, Brain and Mind, April 2014.
+about.md:92: Construction of the Gmane corpus for examining the diffusion of lexical innovations (workshop paper, [[pdf](http://kyle.marek-spartz.org/publications/WON2012_Marek-Spartz_Chesley_Sande_Gmane.pdf)]).
+about.md:92: Kyle Marek-Spartz**, Paula Chesley, [Hannah Sande](http://linguistics.berkeley.edu/~hsande/).
+about.md:92: Language Use in Socio-Technical Networks (WON 2012) Workshop at 2012 ACM Web Science Conference, June 2012.
+about.md:97: Linguistics B.A., with minor in Computer Science, University of Minnesota [Leadership Saint Paul](http://www.saintpaulchamber.com/blog/leadership-saint-paul-class-of-2016-announced) Participant, [Saint Paul Chamber of Commerce Foundation](http://www.saintpaulchamber.com/foundation.html), 2016 - Met with leaders throughout the east metro from industry, government, and charitable organizations.
+about.md:104: Worked with a focus group to support a charitable organization in an advisory capacity.
+about.md:106: Co-Organizer, [HaskellMN](http://www.haskell.mn) (user group), 2014-Present Founder, Planning Committee, Adviser, Minnesota Undergraduate Linguistics Symposium, 2012-2014 [Phi Beta Kappa](https://www.pbk.org) (ΦBK), 2013 Secretary, University of Minnesota:
+about.md:112: Society Of Undergraduate Linguists, 2011-2013 [National Merit Scholar](http://www.nationalmerit.org/), 2009-2013 Amateur Radio:
 colophon.md:2: Colophon description:
 colophon.md:6: This website is built using [Hakyll](http://jaspervdj.be/hakyll/), deployed using [Widely](http://www.celador.mn/widely/), and styled with [Google Web Fonts](http://www.google.com/fonts) ([EB Garamond](http://www.google.com/fonts/specimen/EB+Garamond), [Inconsolata](http://www.google.com/fonts/specimen/Inconsolata)).
 colophon.md:13: The source is available on [GitHub](https://github.com/zeckalpha/kyle.marek-spartz.org).
 index.md:2: Now description:
-index.md:9: During the week, I engineer software and promote collaboration at [GovDelivery](https://www.govdelivery.com/).
+index.md:9: During the week, I engineer software, reliability, and collaboration at [Granicus](https://www.granicus.com/).
 now.md:2: Now description:
-now.md:9: During the week, I engineer software and promote collaboration at [GovDelivery](https://www.govdelivery.com/).
+now.md:9: During the week, I engineer software, reliability, and collaboration at [Granicus](https://www.granicus.com/).
 posts/2013-12-08-welcome.md:4: Welcome to Kyle Marek-Spartz's blog!
 posts/2013-12-08-welcome.md:9: This blog is to provide a venue for a variety of ideas that have been bouncing around for a while, with no real place to share them with the world.
 posts/2013-12-09-widely-and-hakyll.md:4: How I use Widely to deploy Hakyll sites --- I've been using [widely](http://www.celador.mn/widely) and [Hakyll](http://jaspervdj.be/hakyll/) together for a little while now for a few different sites.
@@ -2750,7 +2762,7 @@ posts/2014-04-04-setting-wtforms-selection-fields-dynamically.md:9: Setting sele
 posts/2014-04-04-setting-wtforms-selection-fields-dynamically.md:18: Model self.selection_field.choices = query(Model).all() ~~~ You'd have to call the set_choices method after instantiating your form.
 posts/2014-04-04-setting-wtforms-selection-fields-dynamically.md:30: MyForm, self).__init__() from models import Model self.selection_field.choices = query(Model).all() ~~~ This allows you to use the filtered form without changing your external code.
 posts/2014-04-05-marketing-your-linguistics-degree.md:2: Marketing Your Linguistics Degree tags:
-posts/2014-04-05-marketing-your-linguistics-degree.md:4: Marketing your linguistics degree --- *Today I'll be participating in a forum at the [Minnesota Undergraduate Linguistics Symposium](http://linguistics.mn/) entitled "Marketing Your Linguistics Degree".
+posts/2014-04-05-marketing-your-linguistics-degree.md:4: Marketing your linguistics degree --- *Today I'll be participating in a forum at the Minnesota Undergraduate Linguistics Symposium entitled "Marketing Your Linguistics Degree".
 posts/2014-04-05-marketing-your-linguistics-degree.md:7: Here are some of my preparation notes:* When I came to college, I wasn't sure exactly what I wanted to do.
 posts/2014-04-05-marketing-your-linguistics-degree.md:9: I was interested in cognitive science, but it isn't offered as an undergraduate major, so I took the introductory psychology course.
 posts/2014-04-05-marketing-your-linguistics-degree.md:9: It wasn't what I was looking for, so I then took the introductory linguistics course, with a plan to go on to neuroscience if it didn't work out.
@@ -2975,7 +2987,7 @@ posts/2014-08-06-imports-continued.md:49: A language (or [linter](https://en.wik
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:2: Concurrent implementation of the Daytime Protocol in Haskell tags:
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:4: I demonstrate a concurrent implementation of the Daytime Protocol in Haskell --- One example from [*Parallel and Concurrent Programming in Haskell*](http://chimera.labs.oreilly.com/books/1230000000929/index.html) is a [concurrent network server](http://chimera.labs.oreilly.com/books/1230000000929/ch12.html#sec_server-trivial).
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:11: The server given in the book implements an informally specified doubling protocol, where each submitted line gets parsed as an Integer and returns the double of the input.
-posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:15: Back in May, [Andrew Clarkson](https://github.com/bitborn) gave a talk at the PyMNtos meeting about [Asynchronous IO](https://docs.python.org/3.4/library/asyncio.html) in Python.
+posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:15: Back in May, [Andrew Clarkson](https://github.com/andrewclarkson) gave a talk at the PyMNtos meeting about [Asynchronous IO](https://docs.python.org/3.4/library/asyncio.html) in Python.
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:17: As an example, he included an asynchronous version of a [Daytime](https://en.wikipedia.org/wiki/Daytime_Protocol) server.
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:26: Code .literate .haskell} import Control.Monad (forever) ``` `forever` is useful for making loops out of void functions (`IO ()`).
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md:32: Code .literate .haskell} import Text.Printf (printf) ``` `printf` behaves similarly to how it does in other languages:
@@ -3220,29 +3232,29 @@ presentations/2014-07-30-the-design-of-swift.md:83: Categories?
 presentations/2014-07-30-the-design-of-swift.md:84: ... - Haskell does something similar with type classes - ... but it avoids the namespace issue.
 presentations/2014-07-30-the-design-of-swift.md:95: Heartbleed, Apple's `goto` fail - You keep your curly braces if I can keep my significant whitespace.
 readability grades:
-        Kincaid: 8.9
-        ARI: 10.0
-        Coleman-Liau: 11.4
-        Flesch Index: 60.2/100 (plain English)
+        Kincaid: 9.0
+        ARI: 10.1
+        Coleman-Liau: 11.5
+        Flesch Index: 59.9/100
         Fog Index: 12.2
-        Lix: 41.6 = school year 7
+        Lix: 41.8 = school year 7
         SMOG-Grading: 11.3
 sentence info:
-        125001 characters
-        25330 words, average length 4.93 characters = 1.54 syllables
-        1542 sentences, average length 16.4 words
-        45% (701) short sentences (at most 11 words)
-        15% (241) long sentences (at least 26 words)
-        633 paragraphs, average length 2.4 sentences
+        126020 characters
+        25492 words, average length 4.94 characters = 1.54 syllables
+        1546 sentences, average length 16.5 words
+        45% (699) short sentences (at most 11 words)
+        15% (245) long sentences (at least 26 words)
+        641 paragraphs, average length 2.4 sentences
         2% (45) questions
         36% (564) passive sentences
-        longest sent 313 wds at sent 1353; shortest sent 1 wds at sent 63
+        longest sent 313 wds at sent 1357; shortest sent 1 wds at sent 67
 word usage:
         verb types:
         to be (712) auxiliary (403) 
         types as % of total:
-        conjunctions 4(1021) pronouns 7(1695) prepositions 9(2225)
-        nominalizations 2(490)
+        conjunctions 4(1031) pronouns 7(1694) prepositions 9(2241)
+        nominalizations 2(498)
 sentence beginnings:
-        pronoun (284) interrogative pronoun (39) article (94)
+        pronoun (282) interrogative pronoun (39) article (94)
         subordinating conjunction (74) conjunction (9) preposition (115)
