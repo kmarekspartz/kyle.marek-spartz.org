@@ -15,15 +15,19 @@ description: Kyle Marek-Spartz's CV
 
 *Site Reliability Engineer*, 2017-Present
 
+Founding member of SRE team. Guided team toward engineering and agile best
+practices. Increased adoption of monitoring tools by streamlining change
+process.
+
 *Software Engineer*, 2014-2017
 
 Led cross-department team to promote collaboration, diversity,
 distributed/remote team skills, and mentorship throughout the company.
 
-Mentored engineers toward best practices. Reinforced process improvements by
-formalizing a definition of done, especially around deployment, documentation,
-monitoring, load testing, measurement, and data practices. Increased release
-reliability by investing in test reliability and release frequency.
+Reinforced process improvements by formalizing a definition of done, especially
+around deployment, documentation, monitoring, load testing, measurement, and
+data practices. Increased release reliability by investing in test reliability
+and release frequency.
 
 Enabled customers to segment and engage citizens based on activity and outcomes
 using a streaming data architecture. Increased subscriber import reliability and
@@ -36,7 +40,8 @@ monitoring system to classify clients.
 *Co-Founder*
 
 Consulted organizations on development and maintenance of web and mobile
-applications, IT management, business practices, and cultural change.
+applications, IT management, business practices, and organizational culture
+change.
 
 
 **[University of Minnesota](http://www.umn.edu/) [College of Pharmacy](http://www.pharmacy.umn.edu/): [Speech Informatics Lab](http://rxinformatics.umn.edu/), 2012-2014**
