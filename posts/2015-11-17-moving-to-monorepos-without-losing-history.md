@@ -12,7 +12,7 @@ cd some-repo
 
 git remote add other-repo git@other-repo.com:other-repo/other-repo.git
 git fetch other-repo
-git checkout other-repo master
+git checkout other-repo/master
 
 git checkout -b merge-other-repo
 mkdir other-repo
@@ -23,7 +23,7 @@ done
 
 # If you're making a merge request:
 
-git merge master
+git merge master --allow-unrelated-histories
 
 git push origin merge-other-repo
 

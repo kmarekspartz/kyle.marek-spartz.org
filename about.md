@@ -6,7 +6,8 @@ description: Kyle Marek-Spartz's CV
 
 # **Kyle Marek-Spartz**
 
-<kyle.marek.spartz@gmail.com>, <http://kyle.marek-spartz.org>, [+1 507 205-4102](tel:+1-507-205-4102),  Saint Paul, Minnesota
+<kyle.marek.spartz@gmail.com>, <http://kyle.marek-spartz.org>,
+[+1 507 205-4102](tel:+1-507-205-4102),  Saint Paul, Minnesota
 
 ## Experience
 
@@ -16,25 +17,26 @@ description: Kyle Marek-Spartz's CV
 
 *Software Engineer*, 2014-2017
 
+Led cross-department team to promote collaboration, diversity,
+distributed/remote team skills, and mentorship throughout the company.
+
+Mentored engineers toward best practices. Reinforced process improvements by
+formalizing a definition of done, especially around deployment, documentation,
+monitoring, load testing, measurement, and data practices. Increased release
+reliability by investing in test reliability and release frequency.
+
 Enabled customers to segment and engage citizens based on activity and outcomes
 using a streaming data architecture. Increased subscriber import reliability and
-performance to reach over 100 million subscribers.
-
-Mentored team members to develop engineering best practices. Reinforced process
-improvements by formalizing a definition of done, especially around deployment,
-documentation, monitoring, load testing, measurement, and data practices.
-Increased release reliability by investing in test reliability and release
-frequency.
-
-Led cross-department team to promote collaboration, diversity, distributed team
-skills, and mentorship throughout the company.
+performance to reach over 100 million subscribers. Prototyped account health
+monitoring system to classify clients.
 
 
 **[Celador](http://www.celador.mn), 2013-Present**
 
 *Co-Founder*
 
-Development and maintenance of customer web and mobile applications.
+Consulted organizations on development and maintenance of web and mobile
+applications, IT management, business practices, and cultural change.
 
 
 **[University of Minnesota](http://www.umn.edu/) [College of Pharmacy](http://www.pharmacy.umn.edu/): [Speech Informatics Lab](http://rxinformatics.umn.edu/), 2012-2014**
