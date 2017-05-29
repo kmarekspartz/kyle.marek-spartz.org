@@ -99,10 +99,18 @@ Linguistics B.A., with minor in Computer Science, University of Minnesota
 
 ## Organizations, Service, and Honors
 
-- [Leadership Saint Paul](http://www.saintpaulchamber.com/blog/leadership-saint-paul-class-of-2016-announced), [Saint Paul Chamber of Commerce Foundation](http://www.saintpaulchamber.com/foundation.html), 2016
-- Co-Organizer, [HaskellMN](http://www.haskell.mn) (user group), 2014-Present
-- Founder, Planning Committee, Adviser, Minnesota Undergraduate Linguistics Symposium, 2012-2014
-- [Phi Beta Kappa](https://www.pbk.org) (ΦBK), 2013
-- Secretary, University of Minnesota: Society Of Undergraduate Linguists, 2011-2013
-- [National Merit Scholar](http://www.nationalmerit.org/), 2009-2013
-- Amateur Radio: KDØGTK, general class license, [ARRL](http://www.arrl.org/) member
+[Leadership Saint Paul](http://www.saintpaulchamber.com/blog/leadership-saint-paul-class-of-2016-announced) Participant, [Saint Paul Chamber of Commerce Foundation](http://www.saintpaulchamber.com/foundation.html), 2016
+
+- Met with leaders throughout the east metro from industry, government, and charitable organizations. Toured facilities to learn how the city ticks. Worked with a focus group to support a charitable organization in an advisory capacity.
+
+Co-Organizer, [HaskellMN](http://www.haskell.mn) (user group), 2014-Present
+
+Founder, Planning Committee, Adviser, Minnesota Undergraduate Linguistics Symposium, 2012-2014
+
+[Phi Beta Kappa](https://www.pbk.org) (ΦBK), 2013
+
+Secretary, University of Minnesota: Society Of Undergraduate Linguists, 2011-2013
+
+[National Merit Scholar](http://www.nationalmerit.org/), 2009-2013
+
+Amateur Radio: KDØGTK, general class license, [ARRL](http://www.arrl.org/) member
