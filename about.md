@@ -31,8 +31,8 @@ and release frequency.
 
 Enabled customers to segment and engage citizens based on activity and outcomes
 using a streaming data architecture. Increased subscriber import reliability and
-performance to reach over 100 million subscribers. Prototyped account health
-monitoring system to classify clients.
+performance to reach over 100 million subscribers. Prototyped account monitoring
+to classify client health.
 
 
 **[Celador](http://www.celador.mn), 2013-Present**
