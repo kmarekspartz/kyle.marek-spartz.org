@@ -6,6 +6,8 @@ description: Kyle Marek-Spartz's CV
 
 # **Kyle Marek-Spartz**
 
+Engineering software, reliability, and collaboration.
+
 <kyle.marek.spartz@gmail.com>, <http://kyle.marek-spartz.org>,
 [+1 507 205-4102](tel:+1-507-205-4102),  Saint Paul, Minnesota
 
