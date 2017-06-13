@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+stack exec site build
+
 HTML_FILES=$(find _site -name "*.html")
 
 UNTIDY_FILES=$(for f in $HTML_FILES; do
