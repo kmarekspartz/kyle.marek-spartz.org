@@ -315,7 +315,7 @@ posts/2014-03-11-multitools.md
 posts/2014-03-29-unbundling-linkedin.md
    1 Unbundling
    1 html
-   6 LinkedIn
+   7 LinkedIn
 
 posts/2014-03-31-beeminder.md
    1 beeminder
@@ -529,7 +529,7 @@ posts/2014-07-12-understandable-regular-expressions.md
 
 posts/2014-07-14-additional-linkedin-problems.md
    1 Unbundling
-   5 LinkedIn
+   6 LinkedIn
 
 posts/2014-07-17-hackage-code-review.md
    1 Gratzer
@@ -3246,7 +3246,7 @@ sentence info:
         1547 sentences, average length 16.5 words
         45% (700) short sentences (at most 11 words)
         15% (244) long sentences (at least 26 words)
-        642 paragraphs, average length 2.4 sentences
+        643 paragraphs, average length 2.4 sentences
         2% (45) questions
         36% (564) passive sentences
         longest sent 313 wds at sent 1358; shortest sent 1 wds at sent 68
