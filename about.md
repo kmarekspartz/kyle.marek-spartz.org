@@ -6,10 +6,34 @@ description: Kyle Marek-Spartz's CV
 
 # **Kyle Marek-Spartz**
 
-Engineering software, reliability, and collaboration.
+*Engineering software, reliability, and collaboration.*
 
 <kyle.marek.spartz@gmail.com>, <http://kyle.marek-spartz.org>,
 [+1 507 205-4102](tel:+1-507-205-4102),  Saint Paul, Minnesota
+
+I find again and again that improving how we work yields better returns than
+working on the software directly, so I aim to do that as much as possible. I'm a
+big believer in retrospectives, 1-1s, pairing, TDD, and continuous delivery. I
+have found great value working with cross-functional and distributed teams.
+
+
+## Skills
+
+- Python (Flask, SQLAlchemy, Alembic, NLTK, matplotlib, boto, MyPy)
+- Ruby (Rails, Sinatra, Resque, Sidekiq, JRuby)
+- JavaScript
+- Haskell (Hakyll, hledger, pandoc)
+- R (Rstudio, tidyverse)
+- SQL (Oracle/MySQL/Postgres)
+- Kafka, ELK, Redis
+- Docker
+- Git (GitHub, GitLab)
+- Travis CI
+- Ansible, Puppet
+- Heroku, DigitalOcean
+- Twilio, AWS S3
+- Pingdom, PagerDuty, New Relic
+- Data analysis: Time series, speech processing, recommender systems
 
 ## Experience
 
@@ -41,9 +65,9 @@ to classify client health.
 
 *Co-Founder*
 
-Consulted organizations on development and maintenance of web and mobile
-applications, IT management, business practices, and organizational culture
-change.
+Consulted organizations on data science, development and maintenance of web and
+mobile applications, IT management, business practices, and organizational
+culture change.
 
 
 **[University of Minnesota](http://www.umn.edu/) [College of Pharmacy](http://www.pharmacy.umn.edu/): [Speech Informatics Lab](http://rxinformatics.umn.edu/), 2012-2014**
@@ -52,7 +76,7 @@ change.
 
 Speech and cognition research. Primary developer, REST server and web
 application for psychological examination, data collection, and analysis.
-Integrated server with iOS and Windows clients.
+Integrated server with Twilio, iOS, and Windows clients.
 
 
 **University of Minnesota [Computer Science and Engineering](http://www.cs.umn.edu/index.php), 2012-2013**
@@ -96,12 +120,14 @@ Construction of the Gmane corpus for examining the diffusion of lexical innovati
 
 ## Education
 
+MBA, *(Enrolled)*, Hamline University, estimated graduation: Summer 2019
+
 Linguistics B.A., with minor in Computer Science, University of Minnesota
 
 
 ## Organizations, Service, and Honors
 
-[Leadership Saint Paul](http://www.saintpaulchamber.com/blog/leadership-saint-paul-class-of-2016-announced) Participant, [Saint Paul Chamber of Commerce Foundation](http://www.saintpaulchamber.com/foundation.html), 2016
+[Leadership Saint Paul](http://www.saintpaulchamber.com/blog/leadership-saint-paul-class-of-2016-announced), [Saint Paul Chamber of Commerce Foundation](http://www.saintpaulchamber.com/foundation.html), 2016
 
 - Met with leaders throughout the east metro from industry, government, and charitable organizations. Toured facilities to learn how the city ticks. Worked with a focus group to support a charitable organization in an advisory capacity.
 
