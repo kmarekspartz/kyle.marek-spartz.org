@@ -23,7 +23,7 @@ have found great value working with cross-functional and distributed teams.
 - Ruby (Rails, Sinatra, Resque, Sidekiq, JRuby)
 - JavaScript
 - Haskell (Hakyll, hledger, pandoc)
-- R (Rstudio, tidyverse)
+- R (RStudio, tidyverse)
 - SQL (Oracle/MySQL/Postgres)
 - Kafka, ELK, Redis
 - Docker
