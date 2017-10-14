@@ -13,7 +13,7 @@ description: Kyle Marek-Spartz's CV
 
 I find again and again that improving how we work yields better returns than
 working on the software directly, so I aim to do that as much as possible. I'm a
-big believer in retrospectives, 1-1s, pairing, TDD, and continuous delivery. I
+big believer in 1-1s, TDD, pairing, continuous delivery, and retrospectives. I
 have found great value working with cross-functional and distributed teams.
 
 
