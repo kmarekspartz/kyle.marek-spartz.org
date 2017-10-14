@@ -11,10 +11,10 @@ description: Kyle Marek-Spartz's CV
 <kyle.marek.spartz@gmail.com>, <http://kyle.marek-spartz.org>,
 [+1 507 205-4102](tel:+1-507-205-4102),  Saint Paul, Minnesota
 
-I find again and again that improving how we work yields better returns than
-working on the software directly, so I aim to do that as much as possible. I'm a
-big believer in 1-1s, TDD, pairing, continuous delivery, and retrospectives. I
-have found great value working with cross-functional and distributed teams.
+I find again and again that improving how we work yields compounding
+returns, so I aim to do that as much as possible. I'm a big believer
+in 1-1s, TDD, pairing, continuous delivery, and retrospectives. I have
+found great value working with cross-functional and distributed teams.
 
 
 ## Skills
