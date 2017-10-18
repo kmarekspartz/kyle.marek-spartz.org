@@ -1,760 +1,191 @@
 404.md
-   1 fourohfour
 
 README.md
-   1 CSS
-   1 EB
-   1 html
 
 about.md
-   1 ACM
-   1 AEM
    1 AWS
    1 Ansible
-   1 CSci
-   1 Chesley
    1 DigitalOcean
    1 GitLab
-   1 Gmane
-   1 GovDelivery
-   1 Hakyll
-   1 Hamline
-   1 Haskell
-   1 Heroku
-   1 Ilo
-   1 InContext
-   1 Informatics
    1 JRuby
-   1 KDØGTK
-   1 MobileApp
    1 MyPy
    1 MySQL
    1 NLTK
    1 PagerDuty
-   1 Pakhomov
    1 Pingdom
    1 Postgres
-   1 Prototyped
    1 RStudio
-   1 Redis
    1 Resque
-   1 RockSat
-   1 SQLAlchemy
-   1 SRE
    1 Sidekiq
-   1 Socio
-   1 Spartz's
-   1 UROP
+   1 Strived
    1 boto
    1 hledger
-   1 href
    1 matplotlib
-   1 mentorship
-   1 pandoc
-   1 pdf
-   1 prebody
-   1 py
-   1 recommender
+   1 neurocognitive
    1 tidyverse
-   2 Serguei
+   2 SQLAlchemy
    2 Twilio
-   2 iOS
-   5 Spartz
-   6 Marek
 
 colophon.md
-   1 CSS
-   1 EB
-   1 html
 
 posts/2013-12-08-welcome.md
-   1 Marek
-   1 Spartz's
 
 posts/2013-12-09-widely-and-hakyll.md
-   1 Hakyll's
-   1 SITENAME
-   1 copyFileCompiler
-   1 dotfiles
-   1 fromRegex
-   1 hakyll
-   1 idRoute
-   1 swp
-   1 takeFileName
-   2 config
-   2 defaultConfiguration
-   2 ing
-   2 isSuffixOf
-   2 popd
-   2 pushd
-   3 cd
-   3 deployCommand
-   3 haskell
-   3 isPrefixOf
-   4 ignoreFile
-   5 Hakyll
-   6 fileName
 
 posts/2013-12-11-never-blame-people.md
-   1 UI
-   1 ui
 
 posts/2013-12-12-pattern-matching-and-singular-dispatch-in-python.md
-   1 isn
-   1 ve
-   2 kwargs
-   3 OrderedDict
-   3 TypeError
-   3 args
-   3 str
 
 posts/2013-12-18-singular-dispatch-and-update.md
-   1 Bool
-   1 QuickCheck
-   1 bool
-   1 classmethod
-   1 combinator
-   1 haskell
-   1 html
-   1 pythonic
-   1 subtyping
-   2 Haskell
-   2 NaturalPlus
-   2 args
-   2 init
-   2 mixin
-   3 maxint
-   3 sys
-   4 cls
-   6 ArbitraryMixin
 
 posts/2014-01-23-on-perl-programming.md
-   1 perl
 
 posts/2014-01-27-databases-primality-and-category-theory.md
-   1 Primality
-   1 primality
 
 posts/2014-01-29-interfaces-in-python.md
-   1 TestOurFish
-   1 globals
-   1 html
-   1 pythonic
-   1 setUp
-   1 unittest
-   2 AbstractTestColorFishInterface
-   2 AbstractTestCountFishInterface
-   2 TestCase
-   2 iteritems
-   4 str
-   5 args
-   5 kwargs
-   6 OurFish
-   6 py
-   7 CountFishInterface
-   9 ColorFishInterface
-   9 NotImplementedError
 
 posts/2014-01-30-testing-interfaces-in-python.md
-   1 AbstractTest
-   1 ColorFish
-   1 ColorFishInterface
-   1 CountFish
-   1 CountFishInterface
-   1 TestOurFish
-   1 args
-   1 getattr
-   1 html
-   1 iteritems
-   1 kwargs
-   1 setUp
-   1 unittest
-   2 AbstractInterfaceTest
-   2 AbstractTestColorFishInterface
-   2 AbstractTestCountFishInterface
-   2 NotImplementedError
-   2 OurFish
-   2 TestCase
-   2 globals
-   3 py
 
 posts/2014-02-03-interface-package-now-on-pypi.md
-   2 PyPI
-   2 html
 
 posts/2014-02-04-on-choosing-the-best-tool-for-the-job.md
-   1 Django
-   1 interdependencies
-   1 jQuery
 
 posts/2014-02-07-setting-class-names-dynamically-in-python.md
    1 Metaprogrammed
-   1 classmethod
-   4 combinators
-  13 combinator
 
 posts/2014-02-10-top-down-programming.md
-   1 readme
 
 posts/2014-02-11-linting-natural-language.md
-   1 bs
-   1 linters
-   2 aspell
-   2 md
 
 posts/2014-02-14-adding-first-class-functions-to-python.md
-   2 MapFunc
-   2 SquareFunc
 
 posts/2014-02-17-props-now-on-pypi.md
-   1 Bool
-   1 Classmethods
-   1 Haskell's
-   1 PyPI
-   1 Typeclasses
-   1 haskell
-   1 issubclass
-   1 typeclass
-   2 NotImplementedError
-   2 QuickCheck
-   2 html
-   3 Haskell
-   3 classmethod
-   4 ArbitraryInterface
-   4 bool
-   4 cls
 
 posts/2014-02-18-types-and-programming-languages.md
-   1 Cantwell
-   1 haskell
-   2 Haskell
 
 posts/2014-02-19-databases-are-categories.md
-   1 html
-   1 primality
 
 posts/2014-02-19-sacrificing-safety-for-flexibility.md
-   1 NoSQL
-   1 denormalize
-   1 nullable
-   1 tradeoff
-   1 tradeoffs
-   1 untagged
 
 posts/2014-02-20-props-gen-a-thunks-and-closures.md
-   1 Eq
-   1 QuickCheck
-   1 QuickCheck's
-   1 classmethod
-   1 haskell
-   1 html
-   1 init
-   1 pypi
-   2 ArbitraryInterface
-   2 cls
-   2 thunked
-   3 Haskell's
-   8 Haskell
 
 posts/2014-02-21-restful-email.md
-   1 APIs
-   1 GETs
-   1 IMAP
-   1 RESTful
-   1 SMTP
-   1 else's
-   1 metadata
 
 posts/2014-02-24-the-linguistics-pragmatic-programmer.md
-   1 Anaphora
-   1 Findler
-   1 Pre
-   1 anaphora
-   1 bijective
-   1 diachronic
-   1 et
-   1 javascript
-   1 lbrace
-   1 lexemes
-   1 mathjax
-   1 prototypal
-   1 sed
-   1 unintuitive
-   1 versa
-   2 Anaphoric
-   2 Gricean
-   2 Haskell
-   2 Smalltalk
-   2 anaphor
-   2 anaphoric
-   2 boolean
-   2 clifford
-   2 namespaces
-   2 pre
-   2 runtime
-   2 sql
-   2 textrm
-   3 EmilyElizabeth
-   3 combinators
-   3 haskell
-   5 Hoare
-   7 namespace
 
 posts/2014-02-25-a-mathjax-issue.md
-   1 Daniil
-   1 config
-   1 lbrace
-   1 mathjax
-   1 png
-   2 PNG
-   2 textrm
-   6 MathJax
 
 posts/2014-02-26-harry-truman-on-iteration.md
-   2 Pirsig
 
 posts/2014-02-28-a-language-which-isnt-recursively-enumerable.md
-   1 superset
-   1 supersets
-   3 UTM
 
 posts/2014-03-02-pirsig-on-tools.md
-   2 Pirsig
 
 posts/2014-03-08-formatting-classes-with-multiple-inheritance.md
-   4 AMixin
-   4 AnotherMixin
-   4 AnotherParent
-   4 OurClass
-   4 SomeParentClass
-   4 ThisIsJustTooMany
 
 posts/2014-03-11-multitools.md
-   1 Django
-   1 html
-   1 interdependencies
-   1 jpg
-   1 multitools
-   1 prybar
-   3 Multitools
-   7 multitool
 
 posts/2014-03-29-unbundling-linkedin.md
-   1 Unbundling
-   1 html
-   7 LinkedIn
 
 posts/2014-03-31-beeminder.md
-   1 beeminder
-   1 pescatarian
-   1 reframed
-   3 Beeminder
 
 posts/2014-04-04-setting-wtforms-selection-fields-dynamically.md
-   1 SelectField
-   1 dev
-   2 WTForms
-   5 MyForm
-   6 init
 
 posts/2014-04-05-marketing-your-linguistics-degree.md
-   1 neuroscience
 
 posts/2014-04-07-effective-requirements.md
-   1 implementers
-   1 underspecified
-   2 pseudocode
 
 posts/2014-04-10-keyme.md
-   1 KeyMe
-   1 html
 
 posts/2014-04-13-minneapolis-food-deserts.md
-   1 GIS
-   1 fiancée
-   1 gis
-   1 mpls
-   1 png
 
 posts/2014-04-21-fox-hunting-equipment.md
-   1 KDØGTK
    1 equipement
-   1 html
-   1 jpg
-   2 VX
-   2 Yagi
 
 posts/2014-04-22-fox-hunting-software.md
-   1 html
 
 posts/2014-04-26-bringrr.md
-   1 Bringrr
-   1 keyme
-   2 html
 
 posts/2014-04-30-startup-services-startups.md
-   1 HN
-   1 hackerspaces
 
 posts/2014-05-01-fox-hunting-results.md
-   1 ArcGIS
-   1 Yagi
-   2 html
 
 posts/2014-05-02-compiler-optimizations-and-optimality-theory.md
-   1 EVAL
    1 optimality
-   2 Optimality
-   3 bytecode
 
 posts/2014-05-05-pirsig-on-object-orientation.md
-   1 subassembles
-   2 Pirsig
 
 posts/2014-05-07-longfellow-on-task-management.md
-   1 Wadsworth
-   8 nbsp
 
 posts/2014-05-08-your-service-as-a-functor.md
-   1 LoadBalancerSettings
-   1 TimeDuration
-   1 andThen
-   1 authenticationFilter
-   1 balancers
-   1 cachingFilter
-   1 combinators
-   1 declaratively
-   1 loadbalancerFilter
-   1 loggingFilter
-   1 parameterize
-   1 statusFilter
-   1 timeoutFilter
-   1 unauthorizedMessage
-   2 Functor
-   2 authorizedWwwService
-   2 parameterized
-   2 wwwService
-   3 authService
-   7 Haskell
 
 posts/2014-05-12-hf-in-the-park.md
-   1 Cushcraft
-   1 KCØTWB
-   1 PSR
-   1 QSO
-   1 png
-   1 qso
-   2 KEØALJ
-   2 html
 
 posts/2014-05-13-more-pictures-from-hf-in-the-park.md
-   1 PSR
-   1 html
-  12 jpg
 
 posts/2014-05-15-adding-tags-to-posts-with-hakyll.md
-   1 hakyll
-   2 Hakyll
 
 posts/2014-05-23-datetime-interval-now-on-pypi.md
-   1 PyPI
-   1 durations
-   1 isoformat
-   1 timedelta
-   3 PeriodicInterval
-   6 datetime
 
 posts/2014-05-23-wx-now-open-source.md
-   1 Dev
-   1 PyMNtos
-   1 RPis
-   1 dev
-   1 pymntos
-   1 wx
-   2 RPi
-   3 WX
 
 posts/2014-05-28-this-site-now-open-source.md
-   1 dev
-   1 hakyll
-   1 haskell
 
 posts/2014-05-29-mindfeed.md
-   1 AUTH
-   1 BEEMINDER
-   1 Heroku
-   1 Mindfeed
-   1 RSS
-   1 cd
-   1 dev
-   1 html
-   1 somename
-   1 url
-   1 xml
-   3 datapoints
-   4 beeminder
-   4 mindfeed
-   5 config
-   8 Beeminder
-   9 heroku
 
 posts/2014-06-06-swift-programming-language.md
-   1 Strongtalk
-   1 pre
-   4 Smalltalk
 
 posts/2014-06-10-optional-assignment-in-swift.md
-   1 func
-   1 inout
-   1 runtime
-   2 rhs
-   3 lhs
 
 posts/2014-06-20-json-parsing-in-swift.md
-   1 ADT
-   1 Bool
-   1 Haskell's
-   1 JSONBoolean
-   1 JSONNull
-   1 JSONNumber
-   1 booleans
-   1 dev
-   1 enum
-   1 json
-   1 redditors
-   2 AnyObject
-   2 JSONArray
-   2 JSONObject
-   2 JSONString
-   3 needspassword
-   3 url
-   4 println
-   5 JSONValue
-  11 JSON
 
 posts/2014-06-25-developers-and-depression.md
-   1 php
-   2 PHP
 
 posts/2014-06-27-uploading-to-pypi.md
-   1 HTTPS
-   1 plaintext
-   1 recomputation
-   4 PyPI
 
 posts/2014-07-09-email-clients.md
-   1 RSS
-   1 SMS
-   1 XMPP
-   1 emacs
-   1 foldering
-   1 iOS
-   2 Gmail
 
 posts/2014-07-12-understandable-regular-expressions.md
-   1 pymntos
 
 posts/2014-07-14-additional-linkedin-problems.md
-   1 Unbundling
-   6 LinkedIn
 
 posts/2014-07-17-hackage-code-review.md
-   1 Gratzer
-   1 Haskell
-   1 mn
-   2 Hackage
-   2 haskell
 
 posts/2014-07-21-quantity-and-quality.md
-   1 Flesch
-   1 Kincaid
-   1 beeminder
-   1 mindfeed
-   2 Beeminder
 
 posts/2014-08-05-imports.md
-   1 Submodules
-   1 enum
-   1 func
-   1 html
-   1 ing
-   1 meetup
-   1 mn
-   1 os
-   1 programmatically
-   1 struct
-   1 typealias
-   1 ui
-   2 HaskellWiki
-   2 haskell
-   2 init
-   2 sys
-   8 py
-  14 Haskell
 
 posts/2014-08-06-imports-continued.md
-   1 html
-   1 init
-   1 mn
-   1 ui
-   2 ByteString
-   2 Haskell
-   2 Haskell's
-   2 baz
-   2 haskell
-   3 py
 
 posts/2014-08-26-concurrent-implementation-of-the-daytime-protocol-in-haskell.md
-   1 Monad
-   1 PortID
-   1 Printf
-   1 PyMNtos
-   1 TCP
-   1 ascii
-   1 nc
-   1 pymntos
-   1 runhaskell
-   2 fromIntegral
-   2 lhs
-   2 localhost
-   2 outH
-   3 Haskell
-   3 defaultTimeLocale
-   3 formatTime
-   3 getCurrentTime
-   3 hClose
-   3 listenOn
-   3 threadDelay
-   3 withSocketsDo
-   4 PortNumber
-   4 forkFinally
-   4 hPutStrLn
-   4 stdout
-   6 printf
-   6 putStrLn
-   9 mainWith
-  26 sourceCode
-  27 haskell
 
 posts/2014-08-28-parallelizing-algorithms-in-haskell.md
-   1 Parallelizing
-   1 html
-   1 lhs
-   1 parallelizing
-   2 Ord
-   2 Quicksort
-   2 parallelize
-   2 parallelized
-   3 parList
-   3 rseq
-   3 sourceCode
-   4 leftPartition
-   4 rightPartition
-   5 Haskell
-   5 haskell
-   5 quicksort
-   6 parallelsort
-   6 xs
 
 posts/2014-10-28-glabal.md
-   1 Glabal
-   1 haskell
-   1 init
-   1 mkdir
-   1 popd
-   1 pushd
-   2 GHC
-   3 glabal
-   3 pandoc
 
 posts/2014-11-01-benjamin-franklin-on-open-source.md
-   1 compleat
 
 posts/2014-12-01-benchmarking-large-riak-data-types.md
-   1 Benchmarking
-   1 CRDT
-   1 ProtobuffsFailedRequest
-   1 SecureRandom
-   1 elsif
-   1 localhost
-   1 pb
-   1 performant
-   1 securerandom
-   1 superlinear
-   2 APIs
-   2 benchmarking
-   2 html
-   3 prewrite
-   4 dt
-   4 kv
-   4 png
-   5 realtime
-   6 postwrite
-   8 Riak
-   8 riak
 
 posts/2014-12-02-benchmarking-large-riak-data-types-continued.md
-   1 APIs
-   1 Benchmarking
-   1 dt
-   2 benchmarking
-   2 html
-   2 kv
-   3 Riak
-   5 png
-   8 riak
 
 posts/2014-12-03-benchmarking-large-riak-data-types-a-potential-fix.md
-   1 Benchmarking
-   1 OTP
-   1 orswot
-   1 rdb
-   1 tradeoff
-   2 benchmarking
-   2 html
-   3 kv
-   4 Riak
-   4 Unpatched
-   6 unpatched
-   7 dt
-  10 png
-  15 riak
 
 posts/2014-12-08-one-year-of-blogging.md
-   2 html
 
 posts/2014-12-09-hakyll-css-template-compiler.md
-   1 Haskell
-   1 compressCss
-   1 fmap
-   1 getResourceString
-   1 hakyll
-   1 inlined
-   1 readTemplate
-   1 whitespace
-   2 Hakyll
-   2 cssTemplateCompiler
-  12 CSS
 
 posts/2015-01-19-your-turn.md
-   1 beeminder
 
 posts/2015-01-20-review-checklists.md
-   1 gtd
   15 br
-  23 checkbox
 
 posts/2015-03-16-cons-car-and-cdr-need-not-be-primitive.md
-   1 haskell
-   1 mn
    2 SICP
-   2 javascript
    9 cdr
 
 posts/2015-09-08-eventual-consistency-for-sql-databases.md
    1 DML
-   1 NoSQL
-   1 ing
    1 undeleted
    1 unordered
    2 de
@@ -774,106 +205,29 @@ posts/2015-10-14-eventual-consistency-for-sql-normalization.md
   28 VARCHAR
 
 posts/2015-11-16-concurrent-implementation-of-the-daytime-protocol-in-rust.md
-   1 Haskell
    1 Ok
    1 extern
-   1 haskell
    1 io
    1 jumpstart
    1 mut
-   1 pymntos
    1 strftime
    2 TcpListener
    2 TcpStream
-   2 fn
 
 posts/2015-11-17-moving-to-monorepos-without-losing-history.md
-   1 cd
-   1 mkdir
    1 monorepos
    1 mv
    1 repos
-   9 repo
 
 posts/2015-11-25-themes-as-goals.md
-   1 beeminder
 
 presentations/2013-12-05-graph_databases.md
-   1 ArangoDB
-   1 Cypher
-   1 Marek
-   1 Mongo
-   1 Redis
-   1 Spartz
-   1 dataset
-   1 dmr
-   1 ebook
-   1 jwz's
-   1 png
-   1 rms
-   2 DSL
-   2 Neo
-   2 ORM
-   2 structs
-   3 filesystem
-   3 jwz
 
 presentations/2014-02-13-interfaces.md
-   1 AbstractTest
-   1 ColorFish
-   1 CountFish
-   1 Marek
-   1 OurFishImplementsCountFishInterface
-   1 Spartz
-   1 TestOurFish
-   1 classmethods
-   1 getattr
-   1 iteritems
-   1 javac
-   1 runtime
-   1 sidenote
-   1 str
-   2 AbstractInterfaceTest
-   2 AbstractTestCountFishInterface
-   2 AttributeError
-   2 TestCase
-   2 globals
-   2 mixins
-   2 setUp
-   3 args
-   3 kwargs
-   4 CountFishInterface
-   5 OurFish
-   9 NotImplementedError
 
 presentations/2014-04-10-property-based-testing.md
-   1 AssertionError
-   1 Associativity
-   1 Commutativity
-   1 Haskell
-   1 Marek
-   1 NotImplementedError
-   1 Spartz
-   1 init
-   1 str
-   2 QuickCheck
-   2 classmethod
-   2 combinators
-   3 bool
-   3 cls
-   4 ArbitraryInterface
 
 presentations/2014-07-30-the-design-of-swift.md
-   1 Haskell
-   1 Heartbleed
-   1 Marek
-   1 Spartz
-   1 enums
-   1 goto
-   1 png
-   2 ObjC
-   2 namespace
-   2 whitespace
 
 LICENSE.md:2: A license for the [site -> (a "site" is a place, a "sight" is related to "seeing")].
 
@@ -889,17 +243,27 @@ README.md:3: How the [site -> (a "site" is a place, a "sight" is related to "see
 
 about.md:3: My CV is also available as a <[a -> Double word.] href="/Kyle_Marek-Spartz_CV.pdf">PDF</a>.
 
-about.md:4: Kyle Marek-Spartz's CV --- *Engineering software, reliability, and collaboration.* <kyle.marek.spartz@gmail.com>, <http://kyle.marek-spartz.org>, [+1 507 205-4102](tel:+1-507-205-4102), Saint Paul, Minnesota I find again and again that improving how we work yields better returns [than -> (examine sentences containing "than" to insure that they are not missing words: I love my father more than my mother. I love my father more than my mother loves my father. I love my father more than I love my mother)] working on the software directly, [so -> (do not use as intensifier)] I aim to do that as much as possible.
+about.md:22: Granicus](https://granicus.com) (formerly known as GovDelivery), 2014-Present** *[Site -> (a "site" is a place, a "sight" is related to "seeing")] Reliability Engineer*, 2017-Present Founding member of SRE team.
 
-about.md:36: Time series, speech processing, recommender systems **[Granicus](https://granicus.com) (formerly known as GovDelivery), 2014-Present** *[Site -> (a "site" is a place, a "sight" is related to "seeing")] Reliability Engineer*, 2017-Present Founding member of SRE team.
+about.md:34: Strived for improvement after every unplanned event, [which -> (use "that" if clause is restrictive)] improved our service levels.
 
-about.md:48: Software Engineer*, 2014-2017 [Led -> The past tense of the verb "lead" is "led".] cross-department team to promote collaboration, diversity, distributed/remote team skills, and mentorship throughout the company.
+about.md:41: Software Engineer*, 2014-2017 [Led -> The past tense of the verb "lead" is "led".] cross-department team to promote collaboration, diversity, distributed/remote team skills, and mentorship throughout the company.
 
-about.md:99: [Led -> The past tense of the verb "lead" is "led".] Python (web.py) REST server development, assisted iOS application development.
+about.md:65: IT management, business practices, organizational culture change Coached junior engineers [while -> (if used as substitute for "and, but" then replace by semicolon, do not use as substitute for "although" as it leads to ambiguity or absurdity, best use it only in the sense of "during the time that")] supporting contracts.
 
-about.md:102: University of Minnesota [Aerospace Engineering and Mechanics](http://www.aem.umn.edu/), 2010-2011** [NASA Minnesota Space Grant](http://www.aem.umn.edu/msgc/), 2010-2011 - *Team [Lead -> The past tense of the verb "lead" is "led".]*, RockSat-C Suborbital Rocket Payload, 2011 - *Research Assistant*, High Altitude Ballooning Team, 2010-2011 *Teaching Assistant*, AEM 1901, Weather Balloon Seminar, Fall 2010 [System -> Frequently used without need.] for Automated Speech and Language Analysis (SALSA) (demonstration paper [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-paper.pdf)], poster [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-poster.pdf)]).
+about.md:75: [Lead -> The past tense of the verb "lead" is "led".] developer, Python (Flask+SQLAlchemy) REST server and web application for psychological examination, data collection, speech transcription, and analysis.
 
-about.md:114: Kyle Marek-Spartz**, [Benjamin Knoll](http://www.bmhi.umn.edu/ihi/research/nlpie/[people -> Do not use with numbers or as substitute for "public".]/knoll/), [Robert Bill](http://www.bmhi.umn.edu/ihi/research/nlpie/[people -> Do not use with numbers or as substitute for "public".]/bill/), [Thomas Christie](https://tom-christie.github.io/), [Serguei Pakhomov](http://www.tc.umn.edu/~pakh0002/homepage/).
+about.md:86: Tracked information flow [between -> (choose "between" 2 options and "among" 3 or more)] languages with intent to seed a recommender for multilingual Wikipedia editors.
+
+about.md:108: [Led -> The past tense of the verb "lead" is "led".] Python (web.py) REST server development, assisted iOS application development.
+
+about.md:111: University of Minnesota [Aerospace Engineering and Mechanics](http://www.aem.umn.edu/), 2010-2011** [NASA Minnesota Space Grant](http://www.aem.umn.edu/msgc/), 2010-2011 - *Team [Lead -> The past tense of the verb "lead" is "led".]*, RockSat-C Suborbital Rocket Payload, 2011 - *Research Assistant*, High Altitude Ballooning Team, 2010-2011 *Teaching Assistant*, AEM 1901, Weather Balloon Seminar, Fall 2010 Developed software and hardware for atmospheric, physics, and biological experiments.
+
+about.md:121: [Led -> The past tense of the verb "lead" is "led".] integration of components into suborbital rocket payload, including planning, documentation, coordination, launch preparation, data analysis, and reporting.
+
+about.md:129: [System -> Frequently used without need.] for Automated Speech and Language Analysis (SALSA) (demonstration paper [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-paper.pdf)], poster [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-poster.pdf)]).
+
+about.md:129: Kyle Marek-Spartz**, [Benjamin Knoll](http://www.bmhi.umn.edu/ihi/research/nlpie/[people -> Do not use with numbers or as substitute for "public".]/knoll/), [Robert Bill](http://www.bmhi.umn.edu/ihi/research/nlpie/[people -> Do not use with numbers or as substitute for "public".]/bill/), [Thomas Christie](https://tom-christie.github.io/), [Serguei Pakhomov](http://www.tc.umn.edu/~pakh0002/homepage/).
 
 colophon.md:3: How the [site -> (a "site" is a place, a "sight" is related to "seeing")] is built.
 
@@ -2403,7 +1767,7 @@ presentations/2014-07-30-the-design-of-swift.md:84: ... - Haskell does something
 
 presentations/2014-07-30-the-design-of-swift.md:95: Heartbleed, Apple's `goto` fail - You keep your curly braces if I [can -> (do not confuse with "may")] keep my significant whitespace.
 
-1275 phrases in 1551 sentences found.
+1278 phrases in 1571 sentences found.
 LICENSE.md:5: Copyright (c) 2017, Kyle Marek-Spartz <kyle.marek.spartz@gmail.com> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 LICENSE.md:15: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 LICENSE.md:18: THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
@@ -2411,40 +1775,59 @@ LICENSE.md:21: IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR 
 README.md:2: Colophon description:
 README.md:6: This website is built using [Hakyll](http://jaspervdj.be/hakyll/), deployed using [Widely](http://www.celador.mn/widely/), and styled with [Google Web Fonts](http://www.google.com/fonts) ([EB Garamond](http://www.google.com/fonts/specimen/EB+Garamond), [Inconsolata](http://www.google.com/fonts/specimen/Inconsolata)).
 README.md:13: The source is available on [GitHub](https://github.com/zeckalpha/kyle.marek-spartz.org).
-about.md:4: Kyle Marek-Spartz's CV --- *Engineering software, reliability, and collaboration.* <kyle.marek.spartz@gmail.com>, <http://kyle.marek-spartz.org>, [+1 507 205-4102](tel:+1-507-205-4102), Saint Paul, Minnesota I find again and again that improving how we work yields better returns than working on the software directly, so I aim to do that as much as possible.
+about.md:4: Kyle Marek-Spartz's CV --- *Engineering software, reliability, and collaboration.* <kyle.marek.spartz@gmail.com>, <http://kyle.marek-spartz.org>, [+1 507 205-4102](tel:+1-507-205-4102), Saint Paul, Minnesota I find again and again that improving how we work yields compounding returns.
 about.md:16: I have found great value working with cross-functional and distributed teams.
-about.md:22: Python (Flask, SQLAlchemy, Alembic, NLTK, matplotlib, boto, MyPy) - Ruby (Rails, Sinatra, Resque, Sidekiq, JRuby) - JavaScript - Haskell (Hakyll, hledger, pandoc) - R (RStudio, tidyverse) - SQL (Oracle/MySQL/Postgres) - Kafka, ELK, Redis - Docker - Git (GitHub, GitLab) - Travis CI - Ansible, Puppet - Heroku, DigitalOcean - Twilio, AWS S3 - Pingdom, PagerDuty, New Relic - Data analysis:
-about.md:36: Time series, speech processing, recommender systems **[Granicus](https://granicus.com) (formerly known as GovDelivery), 2014-Present** *Site Reliability Engineer*, 2017-Present Founding member of SRE team.
-about.md:44: Guided team toward engineering and agile best practices.
-about.md:45: Increased adoption of monitoring tools by streamlining change process.
-about.md:48: Software Engineer*, 2014-2017 Led cross-department team to promote collaboration, diversity, distributed/remote team skills, and mentorship throughout the company.
-about.md:53: Reinforced process improvements by formalizing a definition of done, especially around deployment, documentation, monitoring, load testing, measurement, and data practices.
-about.md:55: Increased release reliability by investing in test reliability and release frequency.
-about.md:58: Enabled customers to segment and engage citizens based on activity and outcomes using a streaming data architecture.
-about.md:59: Increased subscriber import reliability and performance to reach over 100 million subscribers.
-about.md:60: Prototyped account monitoring to classify client health.
-about.md:64: Celador](http://www.celador.mn), 2013-Present** *Co-Founder* Consulted organizations on data science, development and maintenance of web and mobile applications, IT management, business practices, and organizational culture change.
-about.md:73: Speech Informatics Lab](http://rxinformatics.umn.edu/), 2012-2014** *Research Assistant* Speech and cognition research.
-about.md:77: Primary developer, REST server and web application for psychological examination, data collection, and analysis.
-about.md:82: University of Minnesota [Computer Science and Engineering](http://www.cs.umn.edu/index.php), 2012-2013** *Research Assistant*, [GroupLens](http://www.grouplens.org/):
-about.md:84: Wikipedia, 2012-2013 *Teaching Assistant*, CSci 1001, Overview of Computer Science, Spring 2012 **University of Minnesota [Undergraduate Research Opportunity Program](http://www.urop.umn.edu/) (UROP), 2011-2012** Propagation of language change through social networks, diffusion of lexical innovations in emergent social networks via social brokerage / weak ties.
-about.md:95: University of Minnesota [MobileApp Challenge](https://sites.google.com/a/umn.edu/university-of-minnesota-mobile-app-challenge/home), 2011-2012** InContext, a language learning application focused on vocabulary development and retention.
-about.md:98: Vocabulary list generation, adaptive testing, reading resource suggestion targeting learner.
-about.md:99: Led Python (web.py) REST server development, assisted iOS application development.
-about.md:102: University of Minnesota [Aerospace Engineering and Mechanics](http://www.aem.umn.edu/), 2010-2011** [NASA Minnesota Space Grant](http://www.aem.umn.edu/msgc/), 2010-2011 - *Team Lead*, RockSat-C Suborbital Rocket Payload, 2011 - *Research Assistant*, High Altitude Ballooning Team, 2010-2011 *Teaching Assistant*, AEM 1901, Weather Balloon Seminar, Fall 2010 System for Automated Speech and Language Analysis (SALSA) (demonstration paper [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-paper.pdf)], poster [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-poster.pdf)]).
-about.md:114: Kyle Marek-Spartz**, [Benjamin Knoll](http://www.bmhi.umn.edu/ihi/research/nlpie/people/knoll/), [Robert Bill](http://www.bmhi.umn.edu/ihi/research/nlpie/people/bill/), [Thomas Christie](https://tom-christie.github.io/), [Serguei Pakhomov](http://www.tc.umn.edu/~pakh0002/homepage/).
-about.md:114: Interspeech](http://www.isca-speech.org/iscaweb/index.php/conferences/interspeech), September 2014.
-about.md:116: Computerized Language and Speech Analysis to Measure Effects of Anti-Epileptic Drugs on Cognition (poster [[pdf](http://kyle.marek-spartz.org/publications/2014-epilepsy-poster.pdf)]).
-about.md:116: Serguei Pakhomov, **Kyle Marek-Spartz**, Robert Bill, Benjamin Knoll, Thomas Christie, [Angela Birnbaum](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/angela-birnbaum), [Ilo Leppik](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/ilo-leppik), [Susan Marino](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/susan-marino).
-about.md:116: International Congress on Epilepsy, Brain and Mind, April 2014.
-about.md:118: Construction of the Gmane corpus for examining the diffusion of lexical innovations (workshop paper, [[pdf](http://kyle.marek-spartz.org/publications/WON2012_Marek-Spartz_Chesley_Sande_Gmane.pdf)]).
-about.md:118: Kyle Marek-Spartz**, Paula Chesley, [Hannah Sande](http://linguistics.berkeley.edu/~hsande/).
-about.md:118: Language Use in Socio-Technical Networks (WON 2012) Workshop at 2012 ACM Web Science Conference, June 2012.
-about.md:123: MBA, *(Enrolled)*, Hamline University, estimated graduation:
-about.md:123: Summer 2019 Linguistics B.A., with minor in Computer Science, University of Minnesota [Leadership Saint Paul](http://www.saintpaulchamber.com/blog/leadership-saint-paul-class-of-2016-announced), [Saint Paul Chamber of Commerce Foundation](http://www.saintpaulchamber.com/foundation.html), 2016 - Met with leaders throughout the east metro from industry, government, and charitable organizations.
-about.md:132: Worked with a focus group to support a charitable organization in an advisory capacity.
-about.md:134: Co-Organizer, [HaskellMN](http://www.haskell.mn) (user group), 2014-Present Founder, Planning Committee, Adviser, Minnesota Undergraduate Linguistics Symposium, 2012-2014 [Phi Beta Kappa](https://www.pbk.org) (ΦBK), 2013 Secretary, University of Minnesota:
-about.md:140: Society Of Undergraduate Linguists, 2011-2013 [National Merit Scholar](http://www.nationalmerit.org/), 2009-2013 Amateur Radio:
+about.md:22: Granicus](https://granicus.com) (formerly known as GovDelivery), 2014-Present** *Site Reliability Engineer*, 2017-Present Founding member of SRE team.
+about.md:26: Guided team toward engineering and agile best practices using informal scrum master approach.
+about.md:29: Introduced changes without being dogmatic.
+about.md:29: Focused on incremental and experimental changes.
+about.md:30: Coached team toward identifying full queues and bottlenecks in their process.
+about.md:33: Participated in on call rotation.
+about.md:33: Improved alert and incident management automation.
+about.md:34: Strived for improvement after every unplanned event, which improved our service levels.
+about.md:35: Increased adoption of monitoring tools by streamlining change process.
+about.md:38: Mentored team members to help balance skill gaps.
+about.md:38: Established cross-training culture.
+about.md:39: Connected the team with other parts of the organization.
+about.md:41: Software Engineer*, 2014-2017 Led cross-department team to promote collaboration, diversity, distributed/remote team skills, and mentorship throughout the company.
+about.md:46: Reinforced process improvements by formalizing a definition of done, especially around deployment, documentation, monitoring, load testing, measurement, and data practices.
+about.md:48: Increased release reliability by investing in test reliability and release frequency.
+about.md:51: Enabled customers to segment and engage citizens based on activity and outcomes using a streaming data architecture.
+about.md:52: Increased subscriber import reliability and performance to reach over 100 million subscribers.
+about.md:53: Prototyped account monitoring to classify client health.
+about.md:57: Celador](http://www.celador.mn), 2013-Present** *Co-Founder* Consulted organizations on various topics:
+about.md:65: IT management, business practices, organizational culture change Coached junior engineers while supporting contracts.
+about.md:70: Speech Informatics Lab](http://rxinformatics.umn.edu/), 2012-2014** *Research Assistant* Speech and cognition research developing speech processing to screen for neurocognitive diseases, e.g.
+about.md:75: Alzheimer's and Dementia.
+about.md:75: Lead developer, Python (Flask+SQLAlchemy) REST server and web application for psychological examination, data collection, speech transcription, and analysis.
+about.md:81: University of Minnesota [Computer Science and Engineering](http://www.cs.umn.edu/index.php), 2012-2013** *Research Assistant*, [GroupLens](http://www.grouplens.org/):
+about.md:83: Wikipedia, 2012-2013 Developed software to collect articles from multiple Wikipedia language versions.
+about.md:86: Tracked information flow between languages with intent to seed a recommender for multilingual Wikipedia editors.
+about.md:89: Teaching Assistant*, CSci 1001, Overview of Computer Science, Spring 2012 Mentored students on history of computer science, software quality, security, and mathematics.
+about.md:92: Coached students toward pair programming to learn Python.
+about.md:96: University of Minnesota [UROP](http://www.urop.umn.edu/), 2011-2012** Developed software to collect and derive social networks from email discussion groups.
+about.md:99: Analyzed propagation of language change through social networks, diffusion of lexical innovations in emergent social networks via social brokerage / weak ties.
+about.md:104: University of Minnesota [MobileApp Challenge](https://sites.google.com/a/umn.edu/university-of-minnesota-mobile-app-challenge/home), 2011-2012** InContext, a language learning application focused on vocabulary development and retention.
+about.md:107: Vocabulary list generation, adaptive testing, reading resource suggestion targeting learner.
+about.md:108: Led Python (web.py) REST server development, assisted iOS application development.
+about.md:111: University of Minnesota [Aerospace Engineering and Mechanics](http://www.aem.umn.edu/), 2010-2011** [NASA Minnesota Space Grant](http://www.aem.umn.edu/msgc/), 2010-2011 - *Team Lead*, RockSat-C Suborbital Rocket Payload, 2011 - *Research Assistant*, High Altitude Ballooning Team, 2010-2011 *Teaching Assistant*, AEM 1901, Weather Balloon Seminar, Fall 2010 Developed software and hardware for atmospheric, physics, and biological experiments.
+about.md:121: Led integration of components into suborbital rocket payload, including planning, documentation, coordination, launch preparation, data analysis, and reporting.
+about.md:123: Mentored students on engineering practices.
+about.md:129: System for Automated Speech and Language Analysis (SALSA) (demonstration paper [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-paper.pdf)], poster [[pdf](http://kyle.marek-spartz.org/publications/2014-interspeech-poster.pdf)]).
+about.md:129: Kyle Marek-Spartz**, [Benjamin Knoll](http://www.bmhi.umn.edu/ihi/research/nlpie/people/knoll/), [Robert Bill](http://www.bmhi.umn.edu/ihi/research/nlpie/people/bill/), [Thomas Christie](https://tom-christie.github.io/), [Serguei Pakhomov](http://www.tc.umn.edu/~pakh0002/homepage/).
+about.md:129: Interspeech](http://www.isca-speech.org/iscaweb/index.php/conferences/interspeech), September 2014.
+about.md:131: Computerized Language and Speech Analysis to Measure Effects of Anti-Epileptic Drugs on Cognition (poster [[pdf](http://kyle.marek-spartz.org/publications/2014-epilepsy-poster.pdf)]).
+about.md:131: Serguei Pakhomov, **Kyle Marek-Spartz**, Robert Bill, Benjamin Knoll, Thomas Christie, [Angela Birnbaum](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/angela-birnbaum), [Ilo Leppik](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/ilo-leppik), [Susan Marino](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/susan-marino).
+about.md:131: International Congress on Epilepsy, Brain and Mind, April 2014.
+about.md:133: Construction of the Gmane corpus for examining the diffusion of lexical innovations (workshop paper, [[pdf](http://kyle.marek-spartz.org/publications/WON2012_Marek-Spartz_Chesley_Sande_Gmane.pdf)]).
+about.md:133: Kyle Marek-Spartz**, Paula Chesley, [Hannah Sande](http://linguistics.berkeley.edu/~hsande/).
+about.md:133: Language Use in Socio-Technical Networks (WON 2012) Workshop at 2012 ACM Web Science Conference, June 2012.
+about.md:138: MBA, *(Enrolled)*, Hamline University, estimated graduation:
+about.md:138: Summer 2019 Linguistics B.A., with minor in Computer Science, University of Minnesota [Leadership Saint Paul](http://www.saintpaulchamber.com/blog/leadership-saint-paul-class-of-2016-announced), [Saint Paul Chamber of Commerce Foundation](http://www.saintpaulchamber.com/foundation.html), 2016 - Met with leaders throughout the east metro from industry, government, and charitable organizations.
+about.md:147: Worked with a focus group to support a charitable organization in an advisory capacity.
+about.md:149: Co-Organizer, [HaskellMN](http://www.haskell.mn) (user group), 2014-Present Founder, Planning Committee, Adviser, Minnesota Undergraduate Linguistics Symposium, 2012-2014 [Phi Beta Kappa](https://www.pbk.org) (ΦBK), 2013 Secretary, University of Minnesota:
+about.md:155: Society Of Undergraduate Linguists, 2011-2013 [National Merit Scholar](http://www.nationalmerit.org/), 2009-2013 Amateur Radio:
+about.md:159: KDØGTK, general class license, [ARRL](http://www.arrl.org/) member - Python (Flask, SQLAlchemy, Alembic, NLTK, matplotlib, boto, MyPy) - Ruby (Rails, Sinatra, Resque, Sidekiq, JRuby) - JavaScript - Haskell (Hakyll, hledger, pandoc) - R (RStudio, tidyverse) - SQL (Oracle/MySQL/Postgres) - Kafka, ELK, Redis - Docker - Git (GitHub, GitLab) - Travis CI - Ansible, Puppet - Heroku, DigitalOcean - Twilio, AWS S3 - Pingdom, PagerDuty, New Relic - Data analysis:
 colophon.md:2: Colophon description:
 colophon.md:6: This website is built using [Hakyll](http://jaspervdj.be/hakyll/), deployed using [Widely](http://www.celador.mn/widely/), and styled with [Google Web Fonts](http://www.google.com/fonts) ([EB Garamond](http://www.google.com/fonts/specimen/EB+Garamond), [Inconsolata](http://www.google.com/fonts/specimen/Inconsolata)).
 colophon.md:13: The source is available on [GitHub](https://github.com/zeckalpha/kyle.marek-spartz.org).
@@ -3268,26 +2651,26 @@ readability grades:
         Kincaid: 9.0
         ARI: 10.1
         Coleman-Liau: 11.5
-        Flesch Index: 59.8/100
+        Flesch Index: 59.7/100
         Fog Index: 12.2
-        Lix: 41.9 = school year 7
+        Lix: 42.0 = school year 7
         SMOG-Grading: 11.4
 sentence info:
-        126701 characters
-        25615 words, average length 4.95 characters = 1.54 syllables
-        1551 sentences, average length 16.5 words
-        49% (774) short sentences (at most 12 words)
-        14% (221) long sentences (at least 27 words)
-        643 paragraphs, average length 2.4 sentences
+        127817 characters
+        25781 words, average length 4.96 characters = 1.54 syllables
+        1571 sentences, average length 16.4 words
+        45% (713) short sentences (at most 11 words)
+        15% (245) long sentences (at least 26 words)
+        650 paragraphs, average length 2.4 sentences
         2% (45) questions
-        36% (564) passive sentences
-        longest sent 313 wds at sent 1362; shortest sent 1 wds at sent 72
+        35% (565) passive sentences
+        longest sent 313 wds at sent 1382; shortest sent 1 wds at sent 92
 word usage:
         verb types:
-        to be (712) auxiliary (403) 
+        to be (713) auxiliary (403) 
         types as % of total:
-        conjunctions 4(1038) pronouns 7(1701) prepositions 9(2245)
-        nominalizations 2(501)
+        conjunctions 4(1043) pronouns 7(1701) prepositions 9(2266)
+        nominalizations 2(511)
 sentence beginnings:
-        pronoun (284) interrogative pronoun (39) article (94)
+        pronoun (285) interrogative pronoun (39) article (94)
         subordinating conjunction (74) conjunction (9) preposition (115)

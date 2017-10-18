@@ -9,31 +9,13 @@ description: Kyle Marek-Spartz's CV
 *Engineering software, reliability, and collaboration.*
 
 <kyle.marek.spartz@gmail.com>, <http://kyle.marek-spartz.org>,
-[+1 507 205-4102](tel:+1-507-205-4102),  Saint Paul, Minnesota
+[+1 507 205-4102](tel:+1-507-205-4102), Saint Paul, Minnesota
 
 I find again and again that improving how we work yields compounding
-returns, so I aim to do that as much as possible. I'm a big believer
-in 1-1s, TDD, pairing, continuous delivery, and retrospectives. I have
-found great value working with cross-functional and distributed teams.
+returns. I'm a big believer in 1-1s, TDD, pairing, continuous
+delivery, and retrospectives. I have found great value working with
+cross-functional and distributed teams.
 
-
-## Skills
-
-- Python (Flask, SQLAlchemy, Alembic, NLTK, matplotlib, boto, MyPy)
-- Ruby (Rails, Sinatra, Resque, Sidekiq, JRuby)
-- JavaScript
-- Haskell (Hakyll, hledger, pandoc)
-- R (RStudio, tidyverse)
-- SQL (Oracle/MySQL/Postgres)
-- Kafka, ELK, Redis
-- Docker
-- Git (GitHub, GitLab)
-- Travis CI
-- Ansible, Puppet
-- Heroku, DigitalOcean
-- Twilio, AWS S3
-- Pingdom, PagerDuty, New Relic
-- Data analysis: Time series, speech processing, recommender systems
 
 ## Experience
 
@@ -41,9 +23,20 @@ found great value working with cross-functional and distributed teams.
 
 *Site Reliability Engineer*, 2017-Present
 
-Founding member of SRE team. Guided team toward engineering and agile best
-practices. Increased adoption of monitoring tools by streamlining change
-process.
+Founding member of SRE team. Helped define the team mission. Guided team toward
+engineering and agile best practices using informal scrum master approach.
+
+Introduced changes without being dogmatic. Focused on incremental and
+experimental changes. Coached team toward identifying full queues and
+bottlenecks in their process.
+
+Participated in on call rotation. Improved alert and incident management
+automation. Strived for improvement after every unplanned event, which improved
+our service levels. Increased adoption of monitoring tools by streamlining
+change process.
+
+Mentored team members to help balance skill gaps. Established cross-training
+culture. Connected the team with other parts of the organization.
 
 *Software Engineer*, 2014-2017
 
@@ -65,31 +58,47 @@ to classify client health.
 
 *Co-Founder*
 
-Consulted organizations on data science, development and maintenance of web and
-mobile applications, IT management, business practices, and organizational
-culture change.
+Consulted organizations on various topics:
+
+- data science: time series analysis, recommender systems
+- development and maintenance of web and mobile applications
+- IT management, business practices, organizational culture change
+
+Coached junior engineers while supporting contracts.
 
 
 **[University of Minnesota](http://www.umn.edu/) [College of Pharmacy](http://www.pharmacy.umn.edu/): [Speech Informatics Lab](http://rxinformatics.umn.edu/), 2012-2014**
 
 *Research Assistant*
 
-Speech and cognition research. Primary developer, REST server and web
-application for psychological examination, data collection, and analysis.
-Integrated server with Twilio, iOS, and Windows clients.
+Speech and cognition research developing speech processing to screen for
+neurocognitive diseases, e.g. Alzheimer's and Dementia. Lead developer, Python
+(Flask+SQLAlchemy) REST server and web application for psychological
+examination, data collection, speech transcription, and analysis. Integrated
+server with Twilio, iOS, and Windows clients.
 
 
 **University of Minnesota [Computer Science and Engineering](http://www.cs.umn.edu/index.php), 2012-2013**
 
 *Research Assistant*, [GroupLens](http://www.grouplens.org/): experimental research on propagation of information between language versions of Wikipedia, 2012-2013
 
+Developed software to collect articles from multiple Wikipedia
+language versions. Tracked information flow between languages with
+intent to seed a recommender for multilingual Wikipedia editors.
+
 *Teaching Assistant*, CSci 1001, Overview of Computer Science, Spring 2012
 
+Mentored students on history of computer science, software quality,
+security, and mathematics. Coached students toward pair programming to
+learn Python.
 
-**University of Minnesota [Undergraduate Research Opportunity Program](http://www.urop.umn.edu/) (UROP), 2011-2012**
 
-Propagation of language change through social networks, diffusion of lexical
-innovations in emergent social networks via social brokerage / weak ties.
+**University of Minnesota [UROP](http://www.urop.umn.edu/), 2011-2012**
+
+Developed software to collect and derive social networks from email
+discussion groups. Analyzed propagation of language change through
+social networks, diffusion of lexical innovations in emergent social
+networks via social brokerage / weak ties.
 
 
 **University of Minnesota [MobileApp Challenge](https://sites.google.com/a/umn.edu/university-of-minnesota-mobile-app-challenge/home), 2011-2012**
@@ -108,6 +117,12 @@ Led Python (web.py) REST server development, assisted iOS application developmen
 
 *Teaching Assistant*, AEM 1901, Weather Balloon Seminar, Fall 2010
 
+Developed software and hardware for atmospheric, physics, and
+biological experiments. Led integration of components into suborbital
+rocket payload, including planning, documentation, coordination,
+launch preparation, data analysis, and reporting. Mentored students on
+engineering practices.
+
 
 ## Publications, Presentations, and Posters
 
@@ -115,7 +130,7 @@ System for Automated Speech and Language Analysis (SALSA) (demonstration paper [
 
 Computerized Language and Speech Analysis to Measure Effects of Anti-Epileptic Drugs on Cognition (poster [[pdf](http://kyle.marek-spartz.org/publications/2014-epilepsy-poster.pdf)]). Serguei Pakhomov, **Kyle Marek-Spartz**, Robert Bill, Benjamin Knoll, Thomas Christie, [Angela Birnbaum](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/angela-birnbaum), [Ilo Leppik](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/ilo-leppik), [Susan Marino](http://www.pharmacy.umn.edu/bio/pharmacy-faculty-by-department/susan-marino). 3rd International Congress on Epilepsy, Brain and Mind, April 2014.
 
-Construction of the Gmane corpus for examining the diffusion of lexical innovations (workshop paper,  [[pdf](http://kyle.marek-spartz.org/publications/WON2012_Marek-Spartz_Chesley_Sande_Gmane.pdf)]). **Kyle Marek-Spartz**, Paula Chesley, [Hannah Sande](http://linguistics.berkeley.edu/~hsande/). Words and Networks: Language Use in Socio-Technical Networks (WON 2012) Workshop at 2012 ACM Web Science Conference, June 2012.
+Construction of the Gmane corpus for examining the diffusion of lexical innovations (workshop paper, [[pdf](http://kyle.marek-spartz.org/publications/WON2012_Marek-Spartz_Chesley_Sande_Gmane.pdf)]). **Kyle Marek-Spartz**, Paula Chesley, [Hannah Sande](http://linguistics.berkeley.edu/~hsande/). Words and Networks: Language Use in Socio-Technical Networks (WON 2012) Workshop at 2012 ACM Web Science Conference, June 2012.
 
 
 ## Education
@@ -142,3 +157,22 @@ Secretary, University of Minnesota: Society Of Undergraduate Linguists, 2011-201
 [National Merit Scholar](http://www.nationalmerit.org/), 2009-2013
 
 Amateur Radio: KDØGTK, general class license, [ARRL](http://www.arrl.org/) member
+
+
+## Skills
+
+- Python (Flask, SQLAlchemy, Alembic, NLTK, matplotlib, boto, MyPy)
+- Ruby (Rails, Sinatra, Resque, Sidekiq, JRuby)
+- JavaScript
+- Haskell (Hakyll, hledger, pandoc)
+- R (RStudio, tidyverse)
+- SQL (Oracle/MySQL/Postgres)
+- Kafka, ELK, Redis
+- Docker
+- Git (GitHub, GitLab)
+- Travis CI
+- Ansible, Puppet
+- Heroku, DigitalOcean
+- Twilio, AWS S3
+- Pingdom, PagerDuty, New Relic
+- Data analysis: Time series, speech processing, recommender systems
