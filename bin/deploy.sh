@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-./bin/check_only_changes.sh
+# ./bin/check_only_changes.sh
 
 ./bin/build_css.sh
 ./bin/build_presentations.sh
