@@ -25,6 +25,7 @@ addons:
     packages:
       - aspell-en
       - libgmp-dev
+      - texlive-xetex
 
 
 before_install:
