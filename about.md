@@ -21,7 +21,7 @@ cross-functional and distributed teams.
 
 **[Amazon](https://amazon.com), 2018-Present**
 
-*Systems Development Engineer*
+*Systems Development Engineer II*
 
 
 **[Celador](http://www.celador.mn), 2013-Present**
