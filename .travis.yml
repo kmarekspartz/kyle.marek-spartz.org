@@ -27,6 +27,7 @@ addons:
       - libgmp-dev
       - lmodern
       - texlive-xetex
+      - texlive-extras
 
 before_install:
 # Download and unpack the stack executable
