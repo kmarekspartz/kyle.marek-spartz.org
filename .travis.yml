@@ -23,7 +23,9 @@ cache:
 addons:
   apt:
     packages:
+      - aspell-en
       - libgmp-dev
+
 
 before_install:
 # Download and unpack the stack executable

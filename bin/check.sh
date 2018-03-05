@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-set -e
+set -Ceux -o pipefail
 
-ag "\bthe\W+the\b" || true
+grep -R "\bthe\W+the\b" . || true
 
 MARKDOWN_FILES=$(git ls-files | grep '.md$')
 
