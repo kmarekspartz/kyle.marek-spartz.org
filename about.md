@@ -19,9 +19,27 @@ cross-functional and distributed teams.
 
 ## Experience
 
-**[Granicus](https://granicus.com) (formerly known as GovDelivery), 2014-Present**
+**[Amazon](https://amazon.com), 2018-Present**
 
-*Site Reliability Engineer*, 2017-Present
+*Systems Development Engineer*
+
+
+**[Celador](http://www.celador.mn), 2013-Present**
+
+*Co-Founder*
+
+Consulted organizations on various topics:
+
+- data science: time series analysis, recommender systems
+- development and maintenance of web and mobile applications
+- IT management, business practices, organizational culture change
+
+Coached junior engineers while supporting contracts.
+
+
+**[Granicus](https://granicus.com) (formerly known as GovDelivery), 2014-2017**
+
+*Site Reliability Engineer*, 2017
 
 Founding member of SRE team. Helped define the team mission. Guided team toward
 engineering and agile best practices using informal scrum master approach.
@@ -33,7 +51,7 @@ bottlenecks in their process.
 Participated in on call rotation. Improved alert and incident management
 automation. Strived for improvement after every unplanned event, which improved
 our service levels. Increased adoption of monitoring tools by streamlining
-change process.
+change process. Templated frequent changes toward reducing change failure rate.
 
 Mentored team members to help balance skill gaps. Established cross-training
 culture. Connected the team with other parts of the organization.
@@ -52,19 +70,6 @@ Enabled customers to segment and engage citizens based on activity and outcomes
 using a streaming data architecture. Increased subscriber import reliability and
 performance to reach over 100 million subscribers. Prototyped account monitoring
 to classify client health.
-
-
-**[Celador](http://www.celador.mn), 2013-Present**
-
-*Co-Founder*
-
-Consulted organizations on various topics:
-
-- data science: time series analysis, recommender systems
-- development and maintenance of web and mobile applications
-- IT management, business practices, organizational culture change
-
-Coached junior engineers while supporting contracts.
 
 
 **[University of Minnesota](http://www.umn.edu/) [College of Pharmacy](http://www.pharmacy.umn.edu/): [Speech Informatics Lab](http://rxinformatics.umn.edu/), 2012-2014**
