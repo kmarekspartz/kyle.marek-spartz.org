@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 pandoc about.md \
-  --latex-engine=xelatex \
+  --pdf-engine=xelatex \
   -o Kyle_Marek-Spartz_CV.pdf \
   -Vmainfont="Palatino" \
   -Vtitle='' \
