@@ -15,3 +15,5 @@ dist
 css/combined.css
 .stack-work
 posts/*.draft
+.obsidian/
+presentations/2021-02-25-hamline-guest-lecture.md

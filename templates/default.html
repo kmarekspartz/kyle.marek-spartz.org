@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="$description$">
     <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inconsolata">
     <style>$partial("css/combined.css")$</style>
 </head>
 <body>
@@ -30,6 +31,7 @@ $else$
     <a href="/blog.html">Blog</a>
     <a href="/about.html">About</a>
     <a href="/README.html">Colophon</a>
+    <a rel="me" href="https://rls.social/@kms">Mastodon</a>
   </nav>
 </header>
 <article>$if(title)$<h2>$title$</h2>$endif$$if(prebody)$$prebody$$endif$
@@ -56,17 +58,7 @@ $if(mathjax)$<script type="text/x-mathjax-config">
   });
 </script>
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-$endif$$endif$<script>
-var cb = function() {
-  var l = document.createElement('link'); l.rel = 'stylesheet'; l.type = 'text/css';
-  l.href = 'http://fonts.googleapis.com/css?family=EB+Garamond|Inconsolata';
-  var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-};
-var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-    webkitRequestAnimationFrame || msRequestAnimationFrame;
-if (raf) raf(cb);
-else window.addEventListener('load', cb);
-</script>
+$endif$$endif$
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
