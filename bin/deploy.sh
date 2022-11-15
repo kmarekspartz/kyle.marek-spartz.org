@@ -14,5 +14,5 @@ set -e
 pushd _site
 aws s3 sync . s3://kyle.marek-spartz.org
 AWS_CF_DISTRIBUTION_ID=$(aws cloudfront list-distributions | jq -r '.DistributionList.Items[] | select(.Aliases.Items[0] == "kyle.marek-spartz.org") | .Id')
-aws cloudfront create-invalidation --distribution-id "$AWS_CF_DISTRIBUTION_ID" --paths "/"
+aws cloudfront create-invalidation --distribution-id "$AWS_CF_DISTRIBUTION_ID" --paths "/*"
 popd
